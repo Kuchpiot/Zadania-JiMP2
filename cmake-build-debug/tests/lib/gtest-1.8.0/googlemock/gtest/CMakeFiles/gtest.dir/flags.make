@@ -6,5 +6,5 @@ CXX_FLAGS = -g    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/piotr/Uczelnia/JiMP2/exercises/tests/lib/gtest-1.8.0/googletest/include -I/home/piotr/Uczelnia/JiMP2/exercises/tests/lib/gtest-1.8.0/googletest 
+CXX_INCLUDES = -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/include -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest 
 

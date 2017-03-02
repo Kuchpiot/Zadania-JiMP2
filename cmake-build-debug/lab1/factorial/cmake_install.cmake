@@ -1,4 +1,4 @@
-# Install script for directory: /home/piotr/Uczelnia/JiMP2/exercises/lab1/factorial
+# Install script for directory: /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

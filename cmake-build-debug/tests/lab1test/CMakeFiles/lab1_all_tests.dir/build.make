@@ -43,10 +43,10 @@ RM = /home/piotr/IDE/CLion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/exercises
+CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lab1test/CMakeFiles/lab1_all_tests.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lab1test/CMakeFiles/lab1_all_tests.dir/flags.make
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.o: tests/lab1test/CMakeFiles/lab1_all_tests.dir/flags.make
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.o: ../tests/lab1test/FactorialTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab1test/CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.o"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.o -c /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/FactorialTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab1test/CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/FactorialTest.cpp
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.i"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/FactorialTest.cpp > CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/FactorialTest.cpp > CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.i
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.s"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/FactorialTest.cpp -o CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/FactorialTest.cpp -o CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.s
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.o.requires:
 
@@ -83,16 +83,16 @@ tests/lab1test/CMakeFiles/lab1_all_tests.dir/FactorialTest.cpp.o.provides.build:
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.o: tests/lab1test/CMakeFiles/lab1_all_tests.dir/flags.make
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.o: ../tests/lab1test/ReverseStringTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/lab1test/CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.o"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.o -c /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/ReverseStringTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/lab1test/CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/ReverseStringTest.cpp
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.i"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/ReverseStringTest.cpp > CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/ReverseStringTest.cpp > CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.i
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.s"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/ReverseStringTest.cpp -o CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/ReverseStringTest.cpp -o CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.s
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.o.requires:
 
@@ -107,16 +107,16 @@ tests/lab1test/CMakeFiles/lab1_all_tests.dir/ReverseStringTest.cpp.o.provides.bu
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.o: tests/lab1test/CMakeFiles/lab1_all_tests.dir/flags.make
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.o: ../tests/lab1test/PalindromeTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/lab1test/CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.o"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.o -c /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/PalindromeTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/lab1test/CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/PalindromeTest.cpp
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.i"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/PalindromeTest.cpp > CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/PalindromeTest.cpp > CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.i
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.s"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/PalindromeTest.cpp -o CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/PalindromeTest.cpp -o CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.s
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.o.requires:
 
@@ -131,16 +131,16 @@ tests/lab1test/CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.o.provides.build
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.o: tests/lab1test/CMakeFiles/lab1_all_tests.dir/flags.make
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.o: ../tests/lab1test/MultiplicationTableTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/lab1test/CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.o"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.o -c /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/MultiplicationTableTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/lab1test/CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/MultiplicationTableTest.cpp
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.i"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/MultiplicationTableTest.cpp > CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/MultiplicationTableTest.cpp > CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.i
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.s"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/MultiplicationTableTest.cpp -o CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/MultiplicationTableTest.cpp -o CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.s
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.o.requires:
 
@@ -155,16 +155,16 @@ tests/lab1test/CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.o.provi
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.o: tests/lab1test/CMakeFiles/lab1_all_tests.dir/flags.make
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.o: ../tests/lab1test/DoubleBasePalindromeTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/lab1test/CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.o"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.o -c /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/DoubleBasePalindromeTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/lab1test/CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/DoubleBasePalindromeTest.cpp
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.i"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/DoubleBasePalindromeTest.cpp > CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/DoubleBasePalindromeTest.cpp > CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.i
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.s"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test/DoubleBasePalindromeTest.cpp -o CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/DoubleBasePalindromeTest.cpp -o CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.s
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.o.requires:
 
@@ -200,10 +200,13 @@ tests/lab1test/lab1_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab1test/lab1_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
 tests/lab1test/lab1_all_tests: lab1/factorial/liblibfactorial.a
 tests/lab1test/lab1_all_tests: lab1/reversestring/liblibreversestring.a
+tests/lab1test/lab1_all_tests: lab1/palindrome/liblibpalindrome.a
+tests/lab1test/lab1_all_tests: lab1/multiplicationtable/liblibmultiplicationtable.a
+tests/lab1test/lab1_all_tests: lab1/doublebasepalindromes/liblibdoublebasepalindromes.a
 tests/lab1test/lab1_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
 tests/lab1test/lab1_all_tests: tests/lab1test/CMakeFiles/lab1_all_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lab1_all_tests"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab1_all_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lab1_all_tests"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab1_all_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/build: tests/lab1test/lab1_all_tests
@@ -219,10 +222,10 @@ tests/lab1test/CMakeFiles/lab1_all_tests.dir/requires: tests/lab1test/CMakeFiles
 .PHONY : tests/lab1test/CMakeFiles/lab1_all_tests.dir/requires
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/clean:
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test && $(CMAKE_COMMAND) -P CMakeFiles/lab1_all_tests.dir/cmake_clean.cmake
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && $(CMAKE_COMMAND) -P CMakeFiles/lab1_all_tests.dir/cmake_clean.cmake
 .PHONY : tests/lab1test/CMakeFiles/lab1_all_tests.dir/clean
 
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/depend:
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Uczelnia/JiMP2/exercises /home/piotr/Uczelnia/JiMP2/exercises/tests/lab1test /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/tests/lab1test/CMakeFiles/lab1_all_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test/CMakeFiles/lab1_all_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lab1test/CMakeFiles/lab1_all_tests.dir/depend
 

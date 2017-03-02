@@ -43,10 +43,10 @@ RM = /home/piotr/IDE/CLion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/exercises
+CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab1/reversestring/CMakeFiles/libreversestring.dir/depend.make
@@ -59,16 +59,16 @@ include lab1/reversestring/CMakeFiles/libreversestring.dir/flags.make
 
 lab1/reversestring/CMakeFiles/libreversestring.dir/ReverseString.cpp.o: lab1/reversestring/CMakeFiles/libreversestring.dir/flags.make
 lab1/reversestring/CMakeFiles/libreversestring.dir/ReverseString.cpp.o: ../lab1/reversestring/ReverseString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/reversestring/CMakeFiles/libreversestring.dir/ReverseString.cpp.o"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/lab1/reversestring && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libreversestring.dir/ReverseString.cpp.o -c /home/piotr/Uczelnia/JiMP2/exercises/lab1/reversestring/ReverseString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/reversestring/CMakeFiles/libreversestring.dir/ReverseString.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libreversestring.dir/ReverseString.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/ReverseString.cpp
 
 lab1/reversestring/CMakeFiles/libreversestring.dir/ReverseString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libreversestring.dir/ReverseString.cpp.i"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/lab1/reversestring && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/exercises/lab1/reversestring/ReverseString.cpp > CMakeFiles/libreversestring.dir/ReverseString.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/ReverseString.cpp > CMakeFiles/libreversestring.dir/ReverseString.cpp.i
 
 lab1/reversestring/CMakeFiles/libreversestring.dir/ReverseString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libreversestring.dir/ReverseString.cpp.s"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/lab1/reversestring && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/exercises/lab1/reversestring/ReverseString.cpp -o CMakeFiles/libreversestring.dir/ReverseString.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/ReverseString.cpp -o CMakeFiles/libreversestring.dir/ReverseString.cpp.s
 
 lab1/reversestring/CMakeFiles/libreversestring.dir/ReverseString.cpp.o.requires:
 
@@ -91,9 +91,9 @@ libreversestring_EXTERNAL_OBJECTS =
 lab1/reversestring/liblibreversestring.a: lab1/reversestring/CMakeFiles/libreversestring.dir/ReverseString.cpp.o
 lab1/reversestring/liblibreversestring.a: lab1/reversestring/CMakeFiles/libreversestring.dir/build.make
 lab1/reversestring/liblibreversestring.a: lab1/reversestring/CMakeFiles/libreversestring.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibreversestring.a"
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/lab1/reversestring && $(CMAKE_COMMAND) -P CMakeFiles/libreversestring.dir/cmake_clean_target.cmake
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/lab1/reversestring && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libreversestring.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibreversestring.a"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring && $(CMAKE_COMMAND) -P CMakeFiles/libreversestring.dir/cmake_clean_target.cmake
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libreversestring.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab1/reversestring/CMakeFiles/libreversestring.dir/build: lab1/reversestring/liblibreversestring.a
@@ -105,10 +105,10 @@ lab1/reversestring/CMakeFiles/libreversestring.dir/requires: lab1/reversestring/
 .PHONY : lab1/reversestring/CMakeFiles/libreversestring.dir/requires
 
 lab1/reversestring/CMakeFiles/libreversestring.dir/clean:
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/lab1/reversestring && $(CMAKE_COMMAND) -P CMakeFiles/libreversestring.dir/cmake_clean.cmake
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring && $(CMAKE_COMMAND) -P CMakeFiles/libreversestring.dir/cmake_clean.cmake
 .PHONY : lab1/reversestring/CMakeFiles/libreversestring.dir/clean
 
 lab1/reversestring/CMakeFiles/libreversestring.dir/depend:
-	cd /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Uczelnia/JiMP2/exercises /home/piotr/Uczelnia/JiMP2/exercises/lab1/reversestring /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/lab1/reversestring /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/lab1/reversestring/CMakeFiles/libreversestring.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/CMakeFiles/libreversestring.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab1/reversestring/CMakeFiles/libreversestring.dir/depend
 

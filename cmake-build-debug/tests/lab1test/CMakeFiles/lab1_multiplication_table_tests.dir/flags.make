@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/piotr/Uczelnia/JiMP2/exercises/tests/lib/gtest-1.8.0/googletest/include -I/home/piotr/Uczelnia/JiMP2/exercises/tests/lib/gtest-1.8.0/googletest -I/home/piotr/Uczelnia/JiMP2/exercises/tests/lib/gtest-1.8.0/googlemock/include -I/home/piotr/Uczelnia/JiMP2/exercises/tests/lib/gtest-1.8.0/googlemock 
+CXX_INCLUDES = -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/include -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock/include -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/multiplicationtable/. 
 

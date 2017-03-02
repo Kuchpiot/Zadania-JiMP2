@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/students/k/kuchpiot/JiMP2/exercises/lab1/reversestring/ReverseString.cpp
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/ReverseString.cpp
 ReverseString.h
-/home/students/k/kuchpiot/JiMP2/exercises/lab1/reversestring/ReverseString.h
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/ReverseString.h
 string
 -
 iostream
 -
 
-/home/students/k/kuchpiot/JiMP2/exercises/lab1/reversestring/ReverseString.h
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/ReverseString.h
 string
 -
 
-/home/students/k/kuchpiot/JiMP2/exercises/lab1/reversestring/main.cpp
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/main.cpp
 ReverseString.h
-/home/students/k/kuchpiot/JiMP2/exercises/lab1/reversestring/ReverseString.h
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/ReverseString.h
 iostream
 -
 

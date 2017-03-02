@@ -1,4 +1,4 @@
-# Install script for directory: /home/piotr/Uczelnia/JiMP2/exercises/tests/lib/stringutility
+# Install script for directory: /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/stringutility
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

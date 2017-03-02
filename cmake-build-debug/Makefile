@@ -48,10 +48,10 @@ RM = /home/piotr/IDE/CLion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/exercises
+CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,9 +124,9 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/CMakeFiles /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/exercises/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -205,6 +205,84 @@ libreversestring: cmake_check_build_system
 libreversestring/fast:
 	$(MAKE) -f lab1/reversestring/CMakeFiles/libreversestring.dir/build.make lab1/reversestring/CMakeFiles/libreversestring.dir/build
 .PHONY : libreversestring/fast
+
+#=============================================================================
+# Target rules for targets named palindrome
+
+# Build rule for target.
+palindrome: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 palindrome
+.PHONY : palindrome
+
+# fast build rule for target.
+palindrome/fast:
+	$(MAKE) -f lab1/palindrome/CMakeFiles/palindrome.dir/build.make lab1/palindrome/CMakeFiles/palindrome.dir/build
+.PHONY : palindrome/fast
+
+#=============================================================================
+# Target rules for targets named libpalindrome
+
+# Build rule for target.
+libpalindrome: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libpalindrome
+.PHONY : libpalindrome
+
+# fast build rule for target.
+libpalindrome/fast:
+	$(MAKE) -f lab1/palindrome/CMakeFiles/libpalindrome.dir/build.make lab1/palindrome/CMakeFiles/libpalindrome.dir/build
+.PHONY : libpalindrome/fast
+
+#=============================================================================
+# Target rules for targets named multiplicationtable
+
+# Build rule for target.
+multiplicationtable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 multiplicationtable
+.PHONY : multiplicationtable
+
+# fast build rule for target.
+multiplicationtable/fast:
+	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build
+.PHONY : multiplicationtable/fast
+
+#=============================================================================
+# Target rules for targets named libmultiplicationtable
+
+# Build rule for target.
+libmultiplicationtable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libmultiplicationtable
+.PHONY : libmultiplicationtable
+
+# fast build rule for target.
+libmultiplicationtable/fast:
+	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build
+.PHONY : libmultiplicationtable/fast
+
+#=============================================================================
+# Target rules for targets named doublebasepalindromes
+
+# Build rule for target.
+doublebasepalindromes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 doublebasepalindromes
+.PHONY : doublebasepalindromes
+
+# fast build rule for target.
+doublebasepalindromes/fast:
+	$(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build
+.PHONY : doublebasepalindromes/fast
+
+#=============================================================================
+# Target rules for targets named libdoublebasepalindromes
+
+# Build rule for target.
+libdoublebasepalindromes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libdoublebasepalindromes
+.PHONY : libdoublebasepalindromes
+
+# fast build rule for target.
+libdoublebasepalindromes/fast:
+	$(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build
+.PHONY : libdoublebasepalindromes/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -482,6 +560,12 @@ help:
 	@echo "... libfactorial"
 	@echo "... reversestring"
 	@echo "... libreversestring"
+	@echo "... palindrome"
+	@echo "... libpalindrome"
+	@echo "... multiplicationtable"
+	@echo "... libmultiplicationtable"
+	@echo "... doublebasepalindromes"
+	@echo "... libdoublebasepalindromes"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
