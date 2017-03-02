@@ -7,6 +7,6 @@
 
 int main()
 {
-    reverse("wyraz");
+    std::cout << reverse("wyraz");
     return 0;
 }
