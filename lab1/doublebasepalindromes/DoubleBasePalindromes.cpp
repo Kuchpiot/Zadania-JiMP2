@@ -1,6 +1,4 @@
-//
-// Created by piotr on 02.03.17.
-//
+
 
 #include "DoubleBasePalindromes.h"
 #include <string>

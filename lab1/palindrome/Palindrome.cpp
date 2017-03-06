@@ -1,6 +1,4 @@
-//
-// Created by piotr on 01.03.17.
-//
+
 
 #include "Palindrome.h"
 

@@ -1,6 +1,4 @@
-//
-// Created by kuchpiot on 28.02.17.
-//
+
 
 #ifndef JIMP_EXERCISES_REVERSESTRING_H
 #define JIMP_EXERCISES_REVERSESTRING_H
