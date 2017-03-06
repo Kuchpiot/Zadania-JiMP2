@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../lab1/factorial/./Factorial.h
+../lab1/multiplicationtable/./MultiplicationTable.h
 
 ../tests/lib/gtest-1.8.0/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
@@ -280,13 +280,9 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/FactorialTest.cpp
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/MultiplicationTableTest.cpp
+MultiplicationTable.h
+-
 gtest/gtest.h
--
-Factorial.h
--
-utility
--
-vector
 -
 

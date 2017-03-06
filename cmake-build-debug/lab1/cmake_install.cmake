@@ -37,7 +37,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/cmake_install.cmake")
   include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/cmake_install.cmake")
   include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/multiplicationtable/cmake_install.cmake")
   include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/cmake_install.cmake")
 
 endif()

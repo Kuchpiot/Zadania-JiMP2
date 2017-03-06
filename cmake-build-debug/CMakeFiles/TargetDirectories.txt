@@ -34,14 +34,6 @@
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/CMakeFiles/palindrome.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/CMakeFiles/edit_cache.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/CMakeFiles/libpalindrome.dir
-/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/edit_cache.dir
-/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/rebuild_cache.dir
-/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/list_install_components.dir
-/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/install.dir
-/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir
-/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/install/local.dir
-/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/install/strip.dir
-/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/CMakeFiles/edit_cache.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/CMakeFiles/rebuild_cache.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/CMakeFiles/list_install_components.dir

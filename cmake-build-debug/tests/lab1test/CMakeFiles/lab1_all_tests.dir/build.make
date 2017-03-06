@@ -201,7 +201,6 @@ tests/lab1test/lab1_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
 tests/lab1test/lab1_all_tests: lab1/factorial/liblibfactorial.a
 tests/lab1test/lab1_all_tests: lab1/reversestring/liblibreversestring.a
 tests/lab1test/lab1_all_tests: lab1/palindrome/liblibpalindrome.a
-tests/lab1test/lab1_all_tests: lab1/multiplicationtable/liblibmultiplicationtable.a
 tests/lab1test/lab1_all_tests: lab1/doublebasepalindromes/liblibdoublebasepalindromes.a
 tests/lab1test/lab1_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
 tests/lab1test/lab1_all_tests: tests/lab1test/CMakeFiles/lab1_all_tests.dir/link.txt

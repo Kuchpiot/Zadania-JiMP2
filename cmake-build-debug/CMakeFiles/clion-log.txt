@@ -1,7 +1,6 @@
 /home/piotr/IDE/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1
 add_subdirectory_if_exists REVERSESTRING EXISTS!
 add_subdirectory_if_exists PALINDROME EXISTS!
-add_subdirectory_if_exists MULTIPLICATIONTABLE EXISTS!
 add_subdirectory_if_exists DOUBLEBASEPALINDROMES EXISTS!
 -- lab1test::HAVE_DIR_PALINDROME:  
 add_gtest_with_memleak target: lab2_array_2d_step1_tests

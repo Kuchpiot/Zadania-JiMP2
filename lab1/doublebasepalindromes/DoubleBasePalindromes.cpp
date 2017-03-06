@@ -6,7 +6,7 @@
 #include <string>
 
 // Z racji że CMakeLists nie ma w zasięgu Palindrome.h - skopiowana metoda z zadania poprzedniego
-bool is_palindrome(std::string str)
+bool DBPis_palindrome(std::string str)
 {
     const char *characters = str.c_str();
     size_t size = str.length();
@@ -28,7 +28,7 @@ bool is_palindrome(std::string str)
 
 
 // Tak samo....
-std::string reverse(std::string str)
+std::string DBPreverse(std::string str)
 {
     const char *characters = str.c_str(); //uzyskanie z obiektu string wskaźnika na poszczególne znaki
     size_t size = str.size(); //uzyskanie z obiektu string ilości znaków
@@ -55,7 +55,7 @@ std::string convert_to_bin(int number)
         number /= 2;
     }
 
-    return reverse(bin);
+    return DBPreverse(bin);
 }
 
 
@@ -66,9 +66,9 @@ uint64_t DoubleBasePalindromes(int max_vaule_exculsive)
 
     for(int i = 0; i <= max_vaule_exculsive; i++)
     {
-        if(is_palindrome(std::to_string(i)))
+        if(DBPis_palindrome(std::to_string(i)))
         {
-            if(is_palindrome(convert_to_bin(i)))
+            if(DBPis_palindrome(convert_to_bin(i)))
             {
                 sum += i;
             }

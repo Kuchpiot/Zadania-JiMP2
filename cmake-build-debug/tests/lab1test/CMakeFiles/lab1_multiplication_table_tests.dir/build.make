@@ -94,7 +94,6 @@ tests/lab1test/lab1_multiplication_table_tests: tests/lib/gtest-1.8.0/googlemock
 tests/lab1test/lab1_multiplication_table_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
 tests/lab1test/lab1_multiplication_table_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab1test/lab1_multiplication_table_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
-tests/lab1test/lab1_multiplication_table_tests: lab1/multiplicationtable/liblibmultiplicationtable.a
 tests/lab1test/lab1_multiplication_table_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
 tests/lab1test/lab1_multiplication_table_tests: tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab1_multiplication_table_tests"

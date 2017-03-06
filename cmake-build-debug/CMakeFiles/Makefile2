@@ -66,7 +66,6 @@ CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 lab1/all: lab1/factorial/all
 lab1/all: lab1/reversestring/all
 lab1/all: lab1/palindrome/all
-lab1/all: lab1/multiplicationtable/all
 lab1/all: lab1/doublebasepalindromes/all
 
 .PHONY : lab1/all
@@ -75,7 +74,6 @@ lab1/all: lab1/doublebasepalindromes/all
 lab1/clean: lab1/factorial/clean
 lab1/clean: lab1/reversestring/clean
 lab1/clean: lab1/palindrome/clean
-lab1/clean: lab1/multiplicationtable/clean
 lab1/clean: lab1/doublebasepalindromes/clean
 
 .PHONY : lab1/clean
@@ -84,7 +82,6 @@ lab1/clean: lab1/doublebasepalindromes/clean
 lab1/preinstall: lab1/factorial/preinstall
 lab1/preinstall: lab1/reversestring/preinstall
 lab1/preinstall: lab1/palindrome/preinstall
-lab1/preinstall: lab1/multiplicationtable/preinstall
 lab1/preinstall: lab1/doublebasepalindromes/preinstall
 
 .PHONY : lab1/preinstall
@@ -210,7 +207,7 @@ lab1/reversestring/preinstall:
 lab1/reversestring/CMakeFiles/reversestring.dir/all: lab1/reversestring/CMakeFiles/libreversestring.dir/all
 	$(MAKE) -f lab1/reversestring/CMakeFiles/reversestring.dir/build.make lab1/reversestring/CMakeFiles/reversestring.dir/depend
 	$(MAKE) -f lab1/reversestring/CMakeFiles/reversestring.dir/build.make lab1/reversestring/CMakeFiles/reversestring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=74,75,76 "Built target reversestring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=69,70,71 "Built target reversestring"
 .PHONY : lab1/reversestring/CMakeFiles/reversestring.dir/all
 
 # Include target in all.
@@ -247,7 +244,7 @@ clean: lab1/reversestring/CMakeFiles/reversestring.dir/clean
 lab1/reversestring/CMakeFiles/libreversestring.dir/all:
 	$(MAKE) -f lab1/reversestring/CMakeFiles/libreversestring.dir/build.make lab1/reversestring/CMakeFiles/libreversestring.dir/depend
 	$(MAKE) -f lab1/reversestring/CMakeFiles/libreversestring.dir/build.make lab1/reversestring/CMakeFiles/libreversestring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target libreversestring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target libreversestring"
 .PHONY : lab1/reversestring/CMakeFiles/libreversestring.dir/all
 
 # Include target in all.
@@ -304,7 +301,7 @@ lab1/palindrome/preinstall:
 lab1/palindrome/CMakeFiles/palindrome.dir/all: lab1/palindrome/CMakeFiles/libpalindrome.dir/all
 	$(MAKE) -f lab1/palindrome/CMakeFiles/palindrome.dir/build.make lab1/palindrome/CMakeFiles/palindrome.dir/depend
 	$(MAKE) -f lab1/palindrome/CMakeFiles/palindrome.dir/build.make lab1/palindrome/CMakeFiles/palindrome.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=71,72,73 "Built target palindrome"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=66,67,68 "Built target palindrome"
 .PHONY : lab1/palindrome/CMakeFiles/palindrome.dir/all
 
 # Include target in all.
@@ -341,7 +338,7 @@ clean: lab1/palindrome/CMakeFiles/palindrome.dir/clean
 lab1/palindrome/CMakeFiles/libpalindrome.dir/all:
 	$(MAKE) -f lab1/palindrome/CMakeFiles/libpalindrome.dir/build.make lab1/palindrome/CMakeFiles/libpalindrome.dir/depend
 	$(MAKE) -f lab1/palindrome/CMakeFiles/libpalindrome.dir/build.make lab1/palindrome/CMakeFiles/libpalindrome.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target libpalindrome"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target libpalindrome"
 .PHONY : lab1/palindrome/CMakeFiles/libpalindrome.dir/all
 
 # Include target in all.
@@ -368,100 +365,6 @@ lab1/palindrome/CMakeFiles/libpalindrome.dir/clean:
 
 # clean rule for target.
 clean: lab1/palindrome/CMakeFiles/libpalindrome.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory lab1/multiplicationtable
-
-# Convenience name for "all" pass in the directory.
-lab1/multiplicationtable/all: lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/all
-lab1/multiplicationtable/all: lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/all
-
-.PHONY : lab1/multiplicationtable/all
-
-# Convenience name for "clean" pass in the directory.
-lab1/multiplicationtable/clean: lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/clean
-lab1/multiplicationtable/clean: lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/clean
-
-.PHONY : lab1/multiplicationtable/clean
-
-# Convenience name for "preinstall" pass in the directory.
-lab1/multiplicationtable/preinstall:
-
-.PHONY : lab1/multiplicationtable/preinstall
-
-#=============================================================================
-# Target rules for target lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir
-
-# All Build rule for target.
-lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/all: lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/all
-	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/depend
-	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=68,69,70 "Built target multiplicationtable"
-.PHONY : lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/all
-
-# Include target in all.
-all: lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 0
-.PHONY : lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/rule
-
-# Convenience name for target.
-multiplicationtable: lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/rule
-
-.PHONY : multiplicationtable
-
-# clean rule for target.
-lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/clean:
-	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/clean
-.PHONY : lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/clean
-
-# clean rule for target.
-clean: lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir
-
-# All Build rule for target.
-lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/all:
-	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/depend
-	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target libmultiplicationtable"
-.PHONY : lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/all
-
-# Include target in all.
-all: lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 0
-.PHONY : lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/rule
-
-# Convenience name for target.
-libmultiplicationtable: lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/rule
-
-.PHONY : libmultiplicationtable
-
-# clean rule for target.
-lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/clean:
-	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/clean
-.PHONY : lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/clean
-
-# clean rule for target.
-clean: lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/clean
 
 .PHONY : clean
 
@@ -840,7 +743,7 @@ tests/lib/stringutility/preinstall:
 tests/lib/stringutility/CMakeFiles/stringutility.dir/all:
 	$(MAKE) -f tests/lib/stringutility/CMakeFiles/stringutility.dir/build.make tests/lib/stringutility/CMakeFiles/stringutility.dir/depend
 	$(MAKE) -f tests/lib/stringutility/CMakeFiles/stringutility.dir/build.make tests/lib/stringutility/CMakeFiles/stringutility.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target stringutility"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=72,73 "Built target stringutility"
 .PHONY : tests/lib/stringutility/CMakeFiles/stringutility.dir/all
 
 # Include target in all.
@@ -898,7 +801,7 @@ tests/lib/memleak/CMakeFiles/memleak.dir/all: tests/lib/gtest-1.8.0/googlemock/g
 tests/lib/memleak/CMakeFiles/memleak.dir/all: tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f tests/lib/memleak/CMakeFiles/memleak.dir/build.make tests/lib/memleak/CMakeFiles/memleak.dir/depend
 	$(MAKE) -f tests/lib/memleak/CMakeFiles/memleak.dir/build.make tests/lib/memleak/CMakeFiles/memleak.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=65,66,67 "Built target memleak"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=63,64,65 "Built target memleak"
 .PHONY : tests/lib/memleak/CMakeFiles/memleak.dir/all
 
 # Include target in all.
@@ -1124,7 +1027,6 @@ clean: tests/lab1test/CMakeFiles/lab1_palindrome_tests.dir/clean
 # Target rules for target tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir
 
 # All Build rule for target.
-tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/all: lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/all
 tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/all: tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/all
 tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/all: tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/all
 tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/all: tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/all
@@ -1141,7 +1043,7 @@ all: tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/all
 
 # Build rule for subdir invocation for target.
 tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/rule
@@ -1168,7 +1070,6 @@ clean: tests/lab1test/CMakeFiles/lab1_multiplication_table_tests.dir/clean
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/all: lab1/factorial/CMakeFiles/libfactorial.dir/all
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/all: lab1/reversestring/CMakeFiles/libreversestring.dir/all
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/all: lab1/palindrome/CMakeFiles/libpalindrome.dir/all
-tests/lab1test/CMakeFiles/lab1_all_tests.dir/all: lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/all
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/all: lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/all
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/all: tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/all
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/all: tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/all
@@ -1186,7 +1087,7 @@ all: tests/lab1test/CMakeFiles/lab1_all_tests.dir/all
 
 # Build rule for subdir invocation for target.
 tests/lab1test/CMakeFiles/lab1_all_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 tests/lab1test/CMakeFiles/lab1_all_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/lab1test/CMakeFiles/lab1_all_tests.dir/rule

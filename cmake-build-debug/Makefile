@@ -233,32 +233,6 @@ libpalindrome/fast:
 .PHONY : libpalindrome/fast
 
 #=============================================================================
-# Target rules for targets named multiplicationtable
-
-# Build rule for target.
-multiplicationtable: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 multiplicationtable
-.PHONY : multiplicationtable
-
-# fast build rule for target.
-multiplicationtable/fast:
-	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build
-.PHONY : multiplicationtable/fast
-
-#=============================================================================
-# Target rules for targets named libmultiplicationtable
-
-# Build rule for target.
-libmultiplicationtable: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libmultiplicationtable
-.PHONY : libmultiplicationtable
-
-# fast build rule for target.
-libmultiplicationtable/fast:
-	$(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build
-.PHONY : libmultiplicationtable/fast
-
-#=============================================================================
 # Target rules for targets named doublebasepalindromes
 
 # Build rule for target.
@@ -562,8 +536,6 @@ help:
 	@echo "... libreversestring"
 	@echo "... palindrome"
 	@echo "... libpalindrome"
-	@echo "... multiplicationtable"
-	@echo "... libmultiplicationtable"
 	@echo "... doublebasepalindromes"
 	@echo "... libdoublebasepalindromes"
 	@echo "... gmock_main"

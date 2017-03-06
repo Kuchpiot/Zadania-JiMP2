@@ -5,7 +5,7 @@
 		<Option title="palindrome"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\lab1\multiplicationtable\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\lab2\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\lab2\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome"/>
@@ -169,15 +169,6 @@
 		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\palindrome\"/>
-		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/multiplicationtable/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab1\multiplicationtable\"/>
-		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/multiplicationtable/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab1\multiplicationtable\"/>
-		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/multiplicationtable/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab1\multiplicationtable\"/>
 		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>
