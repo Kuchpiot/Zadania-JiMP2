@@ -3,6 +3,6 @@
 
 int main()
 {
-  std::cout << "factorial of 20 is: " << factorial(20) << std::endl;
+  std::cout << "GetFactorial of 20 is: " << GetFactorial(20) << std::endl;
   return 0;
 }

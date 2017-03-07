@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibpolybius.a  CMakeFiles/libpolybius.dir/Polybius.cpp.o
+/usr/bin/ranlib liblibpolybius.a

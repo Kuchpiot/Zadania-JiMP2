@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab2_greatest_product_step1_tests.dir/GreatestProduct.cpp.o"
+  "CMakeFiles/lab2_greatest_product_step1_tests.dir/GreatestProductStep1Test.cpp.o"
   "lab2_greatest_product_step1_tests.pdb"
   "lab2_greatest_product_step1_tests"
 )

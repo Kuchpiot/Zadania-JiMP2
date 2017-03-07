@@ -2,7 +2,7 @@
 
 #include "Palindrome.h"
 
-bool is_palindrome(std::string str)
+bool isPalindrome(std::string str)
 {
     const char *characters = str.c_str();
     size_t size = str.length();

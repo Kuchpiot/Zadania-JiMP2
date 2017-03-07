@@ -5,7 +5,7 @@
 		<Option title="googletest-distribution"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\lab2\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lib/gtest-1.8.0"/>
@@ -244,6 +244,30 @@
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab2\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab2\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/array2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab2\array2d\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/array2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab2\array2d\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/array2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab2\array2d\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab2\polybius\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab2\polybius\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab2\polybius\"/>
+		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\"/>
 		</Unit>
@@ -372,12 +396,6 @@
 		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab2test\"/>
-		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab2\"/>
-		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab2\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

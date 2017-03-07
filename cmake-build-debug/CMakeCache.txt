@@ -191,6 +191,12 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
 //Value Computed by CMake
+array2d_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/array2d
+
+//Value Computed by CMake
+array2d_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/array2d
+
+//Value Computed by CMake
 doublebasepalindromes_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes
 
 //Value Computed by CMake
@@ -276,6 +282,9 @@ lab2_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 lab2_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2
 
 //Dependencies for target
+libarray2d_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 libdoublebasepalindromes_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
@@ -286,6 +295,9 @@ libmultiplicationtable_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 libpalindrome_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+libpolybius_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 libreversestring_LIB_DEPENDS:STATIC=
@@ -310,6 +322,12 @@ palindrome_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build
 
 //Value Computed by CMake
 palindrome_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome
+
+//Value Computed by CMake
+polybius_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/polybius
+
+//Value Computed by CMake
+polybius_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius
 
 //Value Computed by CMake
 reversestring_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring
@@ -433,7 +451,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

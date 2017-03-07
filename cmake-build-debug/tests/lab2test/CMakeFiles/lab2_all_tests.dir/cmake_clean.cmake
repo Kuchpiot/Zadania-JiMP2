@@ -5,6 +5,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab2_all_tests.dir/Array2DStep4Test.cpp.o"
   "CMakeFiles/lab2_all_tests.dir/PolybiusStep1Test.cpp.o"
   "CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.o"
+  "CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o"
+  "CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o"
+  "CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o"
+  "CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o"
+  "CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o"
+  "CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o"
   "lab2_all_tests.pdb"
   "lab2_all_tests"
 )

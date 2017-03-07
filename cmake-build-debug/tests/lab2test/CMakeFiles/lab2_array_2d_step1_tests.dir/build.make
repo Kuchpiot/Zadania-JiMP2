@@ -94,6 +94,7 @@ tests/lab2test/lab2_array_2d_step1_tests: tests/lib/gtest-1.8.0/googlemock/gtest
 tests/lab2test/lab2_array_2d_step1_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
 tests/lab2test/lab2_array_2d_step1_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab2test/lab2_array_2d_step1_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
+tests/lab2test/lab2_array_2d_step1_tests: lab2/array2d/liblibarray2d.a
 tests/lab2test/lab2_array_2d_step1_tests: tests/lib/stringutility/libstringutility.a
 tests/lab2test/lab2_array_2d_step1_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
 tests/lab2test/lab2_array_2d_step1_tests: tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/link.txt

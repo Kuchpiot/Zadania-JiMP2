@@ -201,6 +201,150 @@ tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.o.provides: t
 tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.o.provides.build: tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.o
 
 
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o: tests/lab2test/CMakeFiles/lab2_all_tests.dir/flags.make
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o: ../tests/lab2test/GreatestProductStep1Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/GreatestProductStep1Test.cpp
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.i"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/GreatestProductStep1Test.cpp > CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.i
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.s"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/GreatestProductStep1Test.cpp -o CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.s
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o.requires:
+
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o.requires
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o.provides: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o.requires
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o.provides.build
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o.provides
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o.provides.build: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o
+
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o: tests/lab2test/CMakeFiles/lab2_all_tests.dir/flags.make
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o: ../tests/lab2test/GreatestProductStep2Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/GreatestProductStep2Test.cpp
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.i"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/GreatestProductStep2Test.cpp > CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.i
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.s"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/GreatestProductStep2Test.cpp -o CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.s
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o.requires:
+
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o.requires
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o.provides: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o.requires
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o.provides.build
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o.provides
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o.provides.build: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o
+
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o: tests/lab2test/CMakeFiles/lab2_all_tests.dir/flags.make
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o: ../tests/lab2test/GreatestProductStep3Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/GreatestProductStep3Test.cpp
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.i"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/GreatestProductStep3Test.cpp > CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.i
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.s"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/GreatestProductStep3Test.cpp -o CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.s
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o.requires:
+
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o.requires
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o.provides: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o.requires
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o.provides.build
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o.provides
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o.provides.build: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o
+
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o: tests/lab2test/CMakeFiles/lab2_all_tests.dir/flags.make
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o: ../tests/lab2test/SimpleForwardListStep1Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep1Test.cpp
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.i"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep1Test.cpp > CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.i
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.s"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep1Test.cpp -o CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.s
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o.requires:
+
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o.requires
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o.provides: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o.requires
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o.provides.build
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o.provides
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o.provides.build: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o
+
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o: tests/lab2test/CMakeFiles/lab2_all_tests.dir/flags.make
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o: ../tests/lab2test/SimpleForwardListStep2Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep2Test.cpp
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.i"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep2Test.cpp > CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.i
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.s"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep2Test.cpp -o CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.s
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o.requires:
+
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o.requires
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o.provides: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o.requires
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o.provides.build
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o.provides
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o.provides.build: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o
+
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o: tests/lab2test/CMakeFiles/lab2_all_tests.dir/flags.make
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o: ../tests/lab2test/SimpleForwardListStep3Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep3Test.cpp
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.i"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep3Test.cpp > CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.i
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.s"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep3Test.cpp -o CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.s
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o.requires:
+
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o.requires
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o.provides: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o.requires
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o.provides.build
+.PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o.provides
+
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o.provides.build: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o
+
+
 # Object files for target lab2_all_tests
 lab2_all_tests_OBJECTS = \
 "CMakeFiles/lab2_all_tests.dir/Array2DStep1Test.cpp.o" \
@@ -208,7 +352,13 @@ lab2_all_tests_OBJECTS = \
 "CMakeFiles/lab2_all_tests.dir/Array2DStep3Test.cpp.o" \
 "CMakeFiles/lab2_all_tests.dir/Array2DStep4Test.cpp.o" \
 "CMakeFiles/lab2_all_tests.dir/PolybiusStep1Test.cpp.o" \
-"CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.o"
+"CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.o" \
+"CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o" \
+"CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o" \
+"CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o" \
+"CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o" \
+"CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o" \
+"CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o"
 
 # External object files for target lab2_all_tests
 lab2_all_tests_EXTERNAL_OBJECTS =
@@ -219,18 +369,27 @@ tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/Arra
 tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep4Test.cpp.o
 tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep1Test.cpp.o
 tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.o
+tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o
+tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o
+tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o
+tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o
+tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o
+tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o
 tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
+tests/lab2test/lab2_all_tests: lab2/array2d/liblibarray2d.a
+tests/lab2test/lab2_all_tests: lab2/polybius/liblibpolybius.a
 tests/lab2test/lab2_all_tests: tests/lib/memleak/libmemleak.a
+tests/lab2test/lab2_all_tests: tests/lib/stringutility/libstringutility.a
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab2test/lab2_all_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
 tests/lab2test/lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable lab2_all_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable lab2_all_tests"
 	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab2_all_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -244,6 +403,12 @@ tests/lab2test/CMakeFiles/lab2_all_tests.dir/requires: tests/lab2test/CMakeFiles
 tests/lab2test/CMakeFiles/lab2_all_tests.dir/requires: tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep4Test.cpp.o.requires
 tests/lab2test/CMakeFiles/lab2_all_tests.dir/requires: tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep1Test.cpp.o.requires
 tests/lab2test/CMakeFiles/lab2_all_tests.dir/requires: tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.o.requires
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/requires: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o.requires
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/requires: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o.requires
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/requires: tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o.requires
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/requires: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o.requires
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/requires: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o.requires
+tests/lab2test/CMakeFiles/lab2_all_tests.dir/requires: tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o.requires
 
 .PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/requires
 

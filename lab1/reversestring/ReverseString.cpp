@@ -4,7 +4,7 @@
 #include <string>
 #include <iostream>
 
-std::string reverse(std::string str)
+std::string ReverseString(std::string str)
 {
     const char *characters = str.c_str(); //uzyskanie z obiektu string wskaźnika na poszczególne znaki
     size_t size = str.size(); //uzyskanie z obiektu string ilości znaków

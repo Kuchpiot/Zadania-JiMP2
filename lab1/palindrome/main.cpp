@@ -5,7 +5,7 @@
 
 int main()
 {
-    std::cout << is_palindrome("kajak") << std::endl;
-    std::cout << is_palindrome("mama");
+    std::cout << isPalindrome("kajak") << std::endl;
+    std::cout << isPalindrome("mama");
     return 0;
 }

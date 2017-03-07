@@ -259,6 +259,58 @@ libdoublebasepalindromes/fast:
 .PHONY : libdoublebasepalindromes/fast
 
 #=============================================================================
+# Target rules for targets named array2d
+
+# Build rule for target.
+array2d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array2d
+.PHONY : array2d
+
+# fast build rule for target.
+array2d/fast:
+	$(MAKE) -f lab2/array2d/CMakeFiles/array2d.dir/build.make lab2/array2d/CMakeFiles/array2d.dir/build
+.PHONY : array2d/fast
+
+#=============================================================================
+# Target rules for targets named libarray2d
+
+# Build rule for target.
+libarray2d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libarray2d
+.PHONY : libarray2d
+
+# fast build rule for target.
+libarray2d/fast:
+	$(MAKE) -f lab2/array2d/CMakeFiles/libarray2d.dir/build.make lab2/array2d/CMakeFiles/libarray2d.dir/build
+.PHONY : libarray2d/fast
+
+#=============================================================================
+# Target rules for targets named polybius
+
+# Build rule for target.
+polybius: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 polybius
+.PHONY : polybius
+
+# fast build rule for target.
+polybius/fast:
+	$(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/build
+.PHONY : polybius/fast
+
+#=============================================================================
+# Target rules for targets named libpolybius
+
+# Build rule for target.
+libpolybius: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libpolybius
+.PHONY : libpolybius
+
+# fast build rule for target.
+libpolybius/fast:
+	$(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/build
+.PHONY : libpolybius/fast
+
+#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -415,17 +467,69 @@ lab1_all_tests/fast:
 .PHONY : lab1_all_tests/fast
 
 #=============================================================================
-# Target rules for targets named lab2_polybius_step1_tests
+# Target rules for targets named lab2_all_tests
 
 # Build rule for target.
-lab2_polybius_step1_tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lab2_polybius_step1_tests
-.PHONY : lab2_polybius_step1_tests
+lab2_all_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab2_all_tests
+.PHONY : lab2_all_tests
 
 # fast build rule for target.
-lab2_polybius_step1_tests/fast:
-	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build
-.PHONY : lab2_polybius_step1_tests/fast
+lab2_all_tests/fast:
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/build
+.PHONY : lab2_all_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab2_simple_forward_list_step3_tests
+
+# Build rule for target.
+lab2_simple_forward_list_step3_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab2_simple_forward_list_step3_tests
+.PHONY : lab2_simple_forward_list_step3_tests
+
+# fast build rule for target.
+lab2_simple_forward_list_step3_tests/fast:
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build
+.PHONY : lab2_simple_forward_list_step3_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab2_xor_cypher_breaker_tests
+
+# Build rule for target.
+lab2_xor_cypher_breaker_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab2_xor_cypher_breaker_tests
+.PHONY : lab2_xor_cypher_breaker_tests
+
+# fast build rule for target.
+lab2_xor_cypher_breaker_tests/fast:
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build
+.PHONY : lab2_xor_cypher_breaker_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab2_simple_forward_list_step2_tests
+
+# Build rule for target.
+lab2_simple_forward_list_step2_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab2_simple_forward_list_step2_tests
+.PHONY : lab2_simple_forward_list_step2_tests
+
+# fast build rule for target.
+lab2_simple_forward_list_step2_tests/fast:
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build
+.PHONY : lab2_simple_forward_list_step2_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab2_array_2d_step1_tests
+
+# Build rule for target.
+lab2_array_2d_step1_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab2_array_2d_step1_tests
+.PHONY : lab2_array_2d_step1_tests
+
+# fast build rule for target.
+lab2_array_2d_step1_tests/fast:
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build
+.PHONY : lab2_array_2d_step1_tests/fast
 
 #=============================================================================
 # Target rules for targets named lab2_array_2d_step2_tests
@@ -480,17 +584,17 @@ lab2_array_2d_step3_tests/fast:
 .PHONY : lab2_array_2d_step3_tests/fast
 
 #=============================================================================
-# Target rules for targets named lab2_array_2d_step1_tests
+# Target rules for targets named lab2_greatest_product_step3_tests
 
 # Build rule for target.
-lab2_array_2d_step1_tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lab2_array_2d_step1_tests
-.PHONY : lab2_array_2d_step1_tests
+lab2_greatest_product_step3_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab2_greatest_product_step3_tests
+.PHONY : lab2_greatest_product_step3_tests
 
 # fast build rule for target.
-lab2_array_2d_step1_tests/fast:
-	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build
-.PHONY : lab2_array_2d_step1_tests/fast
+lab2_greatest_product_step3_tests/fast:
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build
+.PHONY : lab2_greatest_product_step3_tests/fast
 
 #=============================================================================
 # Target rules for targets named lab2_greatest_product_step1_tests
@@ -506,17 +610,43 @@ lab2_greatest_product_step1_tests/fast:
 .PHONY : lab2_greatest_product_step1_tests/fast
 
 #=============================================================================
-# Target rules for targets named lab2_all_tests
+# Target rules for targets named lab2_polybius_step1_tests
 
 # Build rule for target.
-lab2_all_tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lab2_all_tests
-.PHONY : lab2_all_tests
+lab2_polybius_step1_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab2_polybius_step1_tests
+.PHONY : lab2_polybius_step1_tests
 
 # fast build rule for target.
-lab2_all_tests/fast:
-	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/build
-.PHONY : lab2_all_tests/fast
+lab2_polybius_step1_tests/fast:
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build
+.PHONY : lab2_polybius_step1_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab2_simple_forward_list_step1_tests
+
+# Build rule for target.
+lab2_simple_forward_list_step1_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab2_simple_forward_list_step1_tests
+.PHONY : lab2_simple_forward_list_step1_tests
+
+# fast build rule for target.
+lab2_simple_forward_list_step1_tests/fast:
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build
+.PHONY : lab2_simple_forward_list_step1_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab2_greatest_product_step2_tests
+
+# Build rule for target.
+lab2_greatest_product_step2_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab2_greatest_product_step2_tests
+.PHONY : lab2_greatest_product_step2_tests
+
+# fast build rule for target.
+lab2_greatest_product_step2_tests/fast:
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build
+.PHONY : lab2_greatest_product_step2_tests/fast
 
 # Help Target
 help:
@@ -538,6 +668,10 @@ help:
 	@echo "... libpalindrome"
 	@echo "... doublebasepalindromes"
 	@echo "... libdoublebasepalindromes"
+	@echo "... array2d"
+	@echo "... libarray2d"
+	@echo "... polybius"
+	@echo "... libpolybius"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
@@ -550,14 +684,20 @@ help:
 	@echo "... lab1_palindrome_tests"
 	@echo "... lab1_multiplication_table_tests"
 	@echo "... lab1_all_tests"
-	@echo "... lab2_polybius_step1_tests"
+	@echo "... lab2_all_tests"
+	@echo "... lab2_simple_forward_list_step3_tests"
+	@echo "... lab2_xor_cypher_breaker_tests"
+	@echo "... lab2_simple_forward_list_step2_tests"
+	@echo "... lab2_array_2d_step1_tests"
 	@echo "... lab2_array_2d_step2_tests"
 	@echo "... lab2_array_2d_step4_tests"
 	@echo "... lab2_polybius_step2_tests"
 	@echo "... lab2_array_2d_step3_tests"
-	@echo "... lab2_array_2d_step1_tests"
+	@echo "... lab2_greatest_product_step3_tests"
 	@echo "... lab2_greatest_product_step1_tests"
-	@echo "... lab2_all_tests"
+	@echo "... lab2_polybius_step1_tests"
+	@echo "... lab2_simple_forward_list_step1_tests"
+	@echo "... lab2_greatest_product_step2_tests"
 .PHONY : help
 
 

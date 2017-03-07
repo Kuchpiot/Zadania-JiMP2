@@ -1,18 +1,13 @@
 
 #include "Factorial.h"
 
-int factorial(int value)
+int GetFactorial(int value)
 {
-    if(value < 0)
-    {
-        factorial( -value );
-    }
-    else if(value == 0)
-    {
+    if (value < 0) {
+        GetFactorial(-value);
+    } else if (value == 0) {
         return 1;
-    }
-    else
-    {
-        return factorial( value-1 ) * value;
+    } else {
+        return GetFactorial(value - 1) * value;
     }
 }

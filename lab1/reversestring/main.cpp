@@ -5,6 +5,6 @@
 
 int main()
 {
-    std::cout << reverse("wyraz");
+    std::cout << ReverseString("wyraz");
     return 0;
 }
