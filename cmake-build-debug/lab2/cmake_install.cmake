@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/array2d/cmake_install.cmake")
   include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/polybius/cmake_install.cmake")
+  include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/cmake_install.cmake")
 
 endif()
 

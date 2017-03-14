@@ -1,5 +1,5 @@
 //
-// Created by piotr on 07.03.17.
+// Created by Dominik Zabłotny on 11.03.2017.
 //
 
 #ifndef JIMP_EXERCISES_POLYBIUS_H
@@ -7,7 +7,9 @@
 
 #include <string>
 
-std::string PolybiusCrypt(std::string message);
-std::string PolybiusDecrypt(std::string crypted);
+using namespace std;
+
+string PolybiusCrypt(string message);
+string PolybiusDecrypt(string crypted);
 
 #endif //JIMP_EXERCISES_POLYBIUS_H

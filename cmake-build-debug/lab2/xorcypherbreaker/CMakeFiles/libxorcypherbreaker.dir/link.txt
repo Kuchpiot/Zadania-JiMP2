@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibxorcypherbreaker.a  CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.o
+/usr/bin/ranlib liblibxorcypherbreaker.a

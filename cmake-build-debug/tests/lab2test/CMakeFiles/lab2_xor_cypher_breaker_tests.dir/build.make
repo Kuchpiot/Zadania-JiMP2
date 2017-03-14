@@ -94,6 +94,7 @@ tests/lab2test/lab2_xor_cypher_breaker_tests: tests/lib/gtest-1.8.0/googlemock/g
 tests/lab2test/lab2_xor_cypher_breaker_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
 tests/lab2test/lab2_xor_cypher_breaker_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab2test/lab2_xor_cypher_breaker_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
+tests/lab2test/lab2_xor_cypher_breaker_tests: lab2/xorcypherbreaker/liblibxorcypherbreaker.a
 tests/lab2test/lab2_xor_cypher_breaker_tests: tests/lib/stringutility/libstringutility.a
 tests/lab2test/lab2_xor_cypher_breaker_tests: tests/lib/memleak/libmemleak.a
 tests/lab2test/lab2_xor_cypher_breaker_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a

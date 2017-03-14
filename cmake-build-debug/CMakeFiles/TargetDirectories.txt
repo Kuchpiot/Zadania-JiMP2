@@ -64,6 +64,14 @@
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/polybius/CMakeFiles/list_install_components.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/polybius/CMakeFiles/install.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/polybius/CMakeFiles/libpolybius.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/edit_cache.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/rebuild_cache.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/list_install_components.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/install.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/install/local.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/install/strip.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/xorcypherbreaker.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/CMakeFiles/edit_cache.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/CMakeFiles/rebuild_cache.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/CMakeFiles/list_install_components.dir

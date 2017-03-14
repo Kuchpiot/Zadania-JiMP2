@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/xorcypherbreaker.dir/XorCypherBreaker.cpp.o CMakeFiles/xorcypherbreaker.dir/main.cpp.o  -o xorcypherbreaker liblibxorcypherbreaker.a 

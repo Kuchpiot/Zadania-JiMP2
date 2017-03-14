@@ -4,6 +4,7 @@ add_subdirectory_if_exists PALINDROME EXISTS!
 add_subdirectory_if_exists DOUBLEBASEPALINDROMES EXISTS!
 add_subdirectory_if_exists ARRAY2D EXISTS!
 add_subdirectory_if_exists POLYBIUS EXISTS!
+add_subdirectory_if_exists XORCYPHERBREAKER EXISTS!
 -- lab1test::HAVE_DIR_PALINDROME:  
 add_gtest_with_memleak target: lab2_array_2d_step1_tests
 add_gtest_with_memleak src: Array2DStep1Test.cpp

@@ -302,6 +302,9 @@ libpolybius_LIB_DEPENDS:STATIC=
 //Dependencies for target
 libreversestring_LIB_DEPENDS:STATIC=
 
+//Dependencies for target
+libxorcypherbreaker_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 memleak_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lib/memleak
 
@@ -343,6 +346,12 @@ stringutility_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 stringutility_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/stringutility
+
+//Value Computed by CMake
+xorcypherbreaker_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker
+
+//Value Computed by CMake
+xorcypherbreaker_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker
 
 
 ########################
@@ -451,7 +460,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

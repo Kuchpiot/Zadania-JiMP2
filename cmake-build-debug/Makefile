@@ -311,6 +311,32 @@ libpolybius/fast:
 .PHONY : libpolybius/fast
 
 #=============================================================================
+# Target rules for targets named xorcypherbreaker
+
+# Build rule for target.
+xorcypherbreaker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 xorcypherbreaker
+.PHONY : xorcypherbreaker
+
+# fast build rule for target.
+xorcypherbreaker/fast:
+	$(MAKE) -f lab2/xorcypherbreaker/CMakeFiles/xorcypherbreaker.dir/build.make lab2/xorcypherbreaker/CMakeFiles/xorcypherbreaker.dir/build
+.PHONY : xorcypherbreaker/fast
+
+#=============================================================================
+# Target rules for targets named libxorcypherbreaker
+
+# Build rule for target.
+libxorcypherbreaker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libxorcypherbreaker
+.PHONY : libxorcypherbreaker
+
+# fast build rule for target.
+libxorcypherbreaker/fast:
+	$(MAKE) -f lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/build.make lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/build
+.PHONY : libxorcypherbreaker/fast
+
+#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -672,6 +698,8 @@ help:
 	@echo "... libarray2d"
 	@echo "... polybius"
 	@echo "... libpolybius"
+	@echo "... xorcypherbreaker"
+	@echo "... libxorcypherbreaker"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
