@@ -58,9 +58,12 @@ std::string XorCypherBreaker(const std::vector<char> &cryptogram,
                 auto last = std::unique(words.begin(), words.end());
                 words.erase(last, words.end());
 
+                int op = 0;
+
                 // Search for word in dictionary
                 for(auto s : words)
                 {
+                    op++;
                     if (std::find(dictionary.begin(), dictionary.end(), s) != dictionary.end())
                     {
                         amountOfWords++;
@@ -69,7 +72,7 @@ std::string XorCypherBreaker(const std::vector<char> &cryptogram,
                 }
 
                 // Check if the message was decrypted
-                if(amountOfWords >= 220)
+                if(amountOfWords >= op / 3)
                 {
                     return key;
                 }

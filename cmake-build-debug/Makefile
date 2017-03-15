@@ -337,6 +337,58 @@ libxorcypherbreaker/fast:
 .PHONY : libxorcypherbreaker/fast
 
 #=============================================================================
+# Target rules for targets named smarttree
+
+# Build rule for target.
+smarttree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 smarttree
+.PHONY : smarttree
+
+# fast build rule for target.
+smarttree/fast:
+	$(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/build
+.PHONY : smarttree/fast
+
+#=============================================================================
+# Target rules for targets named libsmarttree
+
+# Build rule for target.
+libsmarttree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libsmarttree
+.PHONY : libsmarttree
+
+# fast build rule for target.
+libsmarttree/fast:
+	$(MAKE) -f lab3/smarttree/CMakeFiles/libsmarttree.dir/build.make lab3/smarttree/CMakeFiles/libsmarttree.dir/build
+.PHONY : libsmarttree/fast
+
+#=============================================================================
+# Target rules for targets named ccounter
+
+# Build rule for target.
+ccounter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ccounter
+.PHONY : ccounter
+
+# fast build rule for target.
+ccounter/fast:
+	$(MAKE) -f lab3/ccounter/CMakeFiles/ccounter.dir/build.make lab3/ccounter/CMakeFiles/ccounter.dir/build
+.PHONY : ccounter/fast
+
+#=============================================================================
+# Target rules for targets named libccounter
+
+# Build rule for target.
+libccounter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libccounter
+.PHONY : libccounter
+
+# fast build rule for target.
+libccounter/fast:
+	$(MAKE) -f lab3/ccounter/CMakeFiles/libccounter.dir/build.make lab3/ccounter/CMakeFiles/libccounter.dir/build
+.PHONY : libccounter/fast
+
+#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -674,6 +726,136 @@ lab2_greatest_product_step2_tests/fast:
 	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build
 .PHONY : lab2_greatest_product_step2_tests/fast
 
+#=============================================================================
+# Target rules for targets named lab3_smart_tree_step1_tests
+
+# Build rule for target.
+lab3_smart_tree_step1_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab3_smart_tree_step1_tests
+.PHONY : lab3_smart_tree_step1_tests
+
+# fast build rule for target.
+lab3_smart_tree_step1_tests/fast:
+	$(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build
+.PHONY : lab3_smart_tree_step1_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab3_smart_tree_step2_tests
+
+# Build rule for target.
+lab3_smart_tree_step2_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab3_smart_tree_step2_tests
+.PHONY : lab3_smart_tree_step2_tests
+
+# fast build rule for target.
+lab3_smart_tree_step2_tests/fast:
+	$(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build
+.PHONY : lab3_smart_tree_step2_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab3_smart_tree_step3_tests
+
+# Build rule for target.
+lab3_smart_tree_step3_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab3_smart_tree_step3_tests
+.PHONY : lab3_smart_tree_step3_tests
+
+# fast build rule for target.
+lab3_smart_tree_step3_tests/fast:
+	$(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build
+.PHONY : lab3_smart_tree_step3_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab3_smart_tree_step4_tests
+
+# Build rule for target.
+lab3_smart_tree_step4_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab3_smart_tree_step4_tests
+.PHONY : lab3_smart_tree_step4_tests
+
+# fast build rule for target.
+lab3_smart_tree_step4_tests/fast:
+	$(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build
+.PHONY : lab3_smart_tree_step4_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab3_smart_tree_step5_tests
+
+# Build rule for target.
+lab3_smart_tree_step5_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab3_smart_tree_step5_tests
+.PHONY : lab3_smart_tree_step5_tests
+
+# fast build rule for target.
+lab3_smart_tree_step5_tests/fast:
+	$(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build
+.PHONY : lab3_smart_tree_step5_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab3_tiny_url_step1_tests
+
+# Build rule for target.
+lab3_tiny_url_step1_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab3_tiny_url_step1_tests
+.PHONY : lab3_tiny_url_step1_tests
+
+# fast build rule for target.
+lab3_tiny_url_step1_tests/fast:
+	$(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build
+.PHONY : lab3_tiny_url_step1_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab3_tiny_url_step2_tests
+
+# Build rule for target.
+lab3_tiny_url_step2_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab3_tiny_url_step2_tests
+.PHONY : lab3_tiny_url_step2_tests
+
+# fast build rule for target.
+lab3_tiny_url_step2_tests/fast:
+	$(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build
+.PHONY : lab3_tiny_url_step2_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab3_minimal_time_difference_tests
+
+# Build rule for target.
+lab3_minimal_time_difference_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab3_minimal_time_difference_tests
+.PHONY : lab3_minimal_time_difference_tests
+
+# fast build rule for target.
+lab3_minimal_time_difference_tests/fast:
+	$(MAKE) -f tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build
+.PHONY : lab3_minimal_time_difference_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab3_c_counter_tests
+
+# Build rule for target.
+lab3_c_counter_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab3_c_counter_tests
+.PHONY : lab3_c_counter_tests
+
+# fast build rule for target.
+lab3_c_counter_tests/fast:
+	$(MAKE) -f tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build
+.PHONY : lab3_c_counter_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab3_all_tests
+
+# Build rule for target.
+lab3_all_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab3_all_tests
+.PHONY : lab3_all_tests
+
+# fast build rule for target.
+lab3_all_tests/fast:
+	$(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/build
+.PHONY : lab3_all_tests/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -700,6 +882,10 @@ help:
 	@echo "... libpolybius"
 	@echo "... xorcypherbreaker"
 	@echo "... libxorcypherbreaker"
+	@echo "... smarttree"
+	@echo "... libsmarttree"
+	@echo "... ccounter"
+	@echo "... libccounter"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
@@ -726,6 +912,16 @@ help:
 	@echo "... lab2_polybius_step1_tests"
 	@echo "... lab2_simple_forward_list_step1_tests"
 	@echo "... lab2_greatest_product_step2_tests"
+	@echo "... lab3_smart_tree_step1_tests"
+	@echo "... lab3_smart_tree_step2_tests"
+	@echo "... lab3_smart_tree_step3_tests"
+	@echo "... lab3_smart_tree_step4_tests"
+	@echo "... lab3_smart_tree_step5_tests"
+	@echo "... lab3_tiny_url_step1_tests"
+	@echo "... lab3_tiny_url_step2_tests"
+	@echo "... lab3_minimal_time_difference_tests"
+	@echo "... lab3_c_counter_tests"
+	@echo "... lab3_all_tests"
 .PHONY : help
 
 
