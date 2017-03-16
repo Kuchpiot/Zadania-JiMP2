@@ -16,6 +16,13 @@ namespace datastructures
         int value;
         std::unique_ptr<SmartTree> left = nullptr;
         std::unique_ptr<SmartTree> right = nullptr;
+
+        SmartTree(int val, std::unique_ptr<SmartTree> l, std::unique_ptr<SmartTree> r)
+        {
+            value = val;
+            left = std::move(l);
+            right = std::move(r);
+        }
     };
 
     std::unique_ptr <SmartTree> CreateLeaf(int value);
