@@ -45,6 +45,6 @@ namespace datastructures
 
     std::unique_ptr <SmartTree> RestoreTree(const std::string &tree)
     {
-
+        auto newTree = std::make_unique<SmartTree>();
     }
 }
