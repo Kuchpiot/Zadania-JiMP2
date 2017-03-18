@@ -2,30 +2,62 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
-      <config projectName="jimp_exercises" targetName="lab1_factorial_tests" />
-      <config projectName="jimp_exercises" targetName="lab2_array_2d_step2_tests" />
       <config projectName="jimp_exercises" targetName="gmock_main" />
-      <config projectName="jimp_exercises" targetName="lab2_all_tests" />
-      <config projectName="jimp_exercises" targetName="lab1_multiplication_table_tests" />
-      <config projectName="jimp_exercises" targetName="lab2_greatest_product_step1_tests" />
-      <config projectName="jimp_exercises" targetName="libreversestring" />
-      <config projectName="jimp_exercises" targetName="memleak" />
-      <config projectName="jimp_exercises" targetName="lab1_double_base_palindrome_tests" />
-      <config projectName="jimp_exercises" targetName="factorial" />
-      <config projectName="jimp_exercises" targetName="libfactorial" />
-      <config projectName="jimp_exercises" targetName="lab2_array_2d_step1_tests" />
-      <config projectName="jimp_exercises" targetName="lab1_all_tests" />
-      <config projectName="jimp_exercises" targetName="lab2_polybius_step1_tests" />
-      <config projectName="jimp_exercises" targetName="gtest" />
-      <config projectName="jimp_exercises" targetName="lab2_array_2d_step4_tests" />
+      <config projectName="jimp_exercises" targetName="ccounter" />
+      <config projectName="jimp_exercises" targetName="libxorcypherbreaker" />
+      <config projectName="jimp_exercises" targetName="lab3_smart_tree_step2_tests" />
+      <config projectName="jimp_exercises" targetName="doublebasepalindromes" />
+      <config projectName="jimp_exercises" targetName="libdoublebasepalindromes" />
+      <config projectName="jimp_exercises" targetName="smarttree" />
       <config projectName="jimp_exercises" targetName="gmock" />
-      <config projectName="jimp_exercises" targetName="reversestring" />
-      <config projectName="jimp_exercises" targetName="lab1_palindrome_tests" />
-      <config projectName="jimp_exercises" targetName="lab2_array_2d_step3_tests" />
-      <config projectName="jimp_exercises" targetName="lab2_polybius_step2_tests" />
-      <config projectName="jimp_exercises" targetName="gtest_main" />
-      <config projectName="jimp_exercises" targetName="lab1_reverse_string_tests" />
+      <config projectName="jimp_exercises" targetName="lab3_c_counter_tests" />
+      <config projectName="jimp_exercises" targetName="libpolybius" />
+      <config projectName="jimp_exercises" targetName="lab2_array_2d_step2_tests" />
       <config projectName="jimp_exercises" targetName="stringutility" />
+      <config projectName="jimp_exercises" targetName="libarray2d" />
+      <config projectName="jimp_exercises" targetName="lab1_reverse_string_tests" />
+      <config projectName="jimp_exercises" targetName="lab2_array_2d_step4_tests" />
+      <config projectName="jimp_exercises" targetName="multiplicationtable" />
+      <config projectName="jimp_exercises" targetName="libreversestring" />
+      <config projectName="jimp_exercises" targetName="libccounter" />
+      <config projectName="jimp_exercises" targetName="lab2_simple_forward_list_step1_tests" />
+      <config projectName="jimp_exercises" targetName="lab1_factorial_tests" />
+      <config projectName="jimp_exercises" targetName="lab2_xor_cypher_breaker_tests" />
+      <config projectName="jimp_exercises" targetName="lab2_array_2d_step1_tests" />
+      <config projectName="jimp_exercises" targetName="gtest" />
+      <config projectName="jimp_exercises" targetName="lab2_all_tests" />
+      <config projectName="jimp_exercises" targetName="lab1_all_tests" />
+      <config projectName="jimp_exercises" targetName="polybius" />
+      <config projectName="jimp_exercises" targetName="libfactorial" />
+      <config projectName="jimp_exercises" targetName="lab3_smart_tree_step4_tests" />
+      <config projectName="jimp_exercises" targetName="lab2_greatest_product_step3_tests" />
+      <config projectName="jimp_exercises" targetName="memleak" />
+      <config projectName="jimp_exercises" targetName="palindrome" />
+      <config projectName="jimp_exercises" targetName="lab3_minimal_time_difference_tests" />
+      <config projectName="jimp_exercises" targetName="lab3_tiny_url_step1_tests" />
+      <config projectName="jimp_exercises" targetName="gtest_main" />
+      <config projectName="jimp_exercises" targetName="lab3_smart_tree_step3_tests" />
+      <config projectName="jimp_exercises" targetName="lab3_all_tests" />
+      <config projectName="jimp_exercises" targetName="lab2_simple_forward_list_step3_tests" />
+      <config projectName="jimp_exercises" targetName="array2d" />
+      <config projectName="jimp_exercises" targetName="lab1_palindrome_tests" />
+      <config projectName="jimp_exercises" targetName="xorcypherbreaker" />
+      <config projectName="jimp_exercises" targetName="lab2_array_2d_step3_tests" />
+      <config projectName="jimp_exercises" targetName="lab1_double_base_palindrome_tests" />
+      <config projectName="jimp_exercises" targetName="lab2_polybius_step1_tests" />
+      <config projectName="jimp_exercises" targetName="reversestring" />
+      <config projectName="jimp_exercises" targetName="lab3_tiny_url_step2_tests" />
+      <config projectName="jimp_exercises" targetName="libmultiplicationtable" />
+      <config projectName="jimp_exercises" targetName="lab2_greatest_product_step1_tests" />
+      <config projectName="jimp_exercises" targetName="lab1_multiplication_table_tests" />
+      <config projectName="jimp_exercises" targetName="libpalindrome" />
+      <config projectName="jimp_exercises" targetName="lab2_simple_forward_list_step2_tests" />
+      <config projectName="jimp_exercises" targetName="libsmarttree" />
+      <config projectName="jimp_exercises" targetName="lab2_greatest_product_step2_tests" />
+      <config projectName="jimp_exercises" targetName="lab3_smart_tree_step1_tests" />
+      <config projectName="jimp_exercises" targetName="lab2_polybius_step2_tests" />
+      <config projectName="jimp_exercises" targetName="factorial" />
+      <config projectName="jimp_exercises" targetName="lab3_smart_tree_step5_tests" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -34,7 +66,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b945b9fa-059f-44a4-bdb0-dfbe3758448b" name="Default" comment="" />
+    <list default="true" id="b945b9fa-059f-44a4-bdb0-dfbe3758448b" name="Default" comment="Adding new file (learning IDE's Git)">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab3/smarttree/SmartTree.cpp" afterPath="$PROJECT_DIR$/lab3/smarttree/SmartTree.cpp" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,19 +83,19 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Factorial.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab1/factorial/Factorial.cpp">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SmartTree.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab3/smarttree/SmartTree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab1/reversestring/main.cpp">
+      <file leaf-file-name="SmartTreeStep5Test.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/lab3test/SmartTreeStep5Test.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -69,22 +104,110 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseString.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab1/reversestring/ReverseString.cpp">
+      <file leaf-file-name="unique_ptr.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/5/bits/unique_ptr.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="11460">
+              <caret line="764" column="0" lean-forward="false" selection-start-line="764" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gtest.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/lib/gtest-1.8.0/googletest/include/gtest/gtest.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20865">
+              <caret line="1391" column="0" lean-forward="false" selection-start-line="1391" selection-start-column="0" selection-end-line="1391" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmartTreeStep4Test.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/lab3test/SmartTreeStep4Test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+              <folding>
+                <element signature="e#43#67#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMAKE" />
+        <option value="CMakeTemplate" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>god</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/lab1/doublebasepalindromes/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/lab1/multiplicationtable/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/lab1/multiplicationtable/MultiplicationTable.h" />
+        <option value="$PROJECT_DIR$/lab1/multiplicationtable/main.cpp" />
+        <option value="$PROJECT_DIR$/lab1/multiplicationtable/MultiplicationTable.cpp" />
+        <option value="$PROJECT_DIR$/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp" />
+        <option value="$PROJECT_DIR$/lab1/doublebasepalindromes/DoubleBasePalindromes.h" />
+        <option value="$PROJECT_DIR$/lab1/doublebasepalindromes/main.cpp" />
+        <option value="$PROJECT_DIR$/lab1/palindrome/main.cpp" />
+        <option value="$PROJECT_DIR$/lab1/palindrome/Palindrome.h" />
+        <option value="$PROJECT_DIR$/lab1/reversestring/main.cpp" />
+        <option value="$PROJECT_DIR$/lab1/reversestring/ReverseString.h" />
+        <option value="$PROJECT_DIR$/tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/lab1/factorial/Factorial.cpp" />
+        <option value="$PROJECT_DIR$/lab1/factorial/Factorial.h" />
+        <option value="$PROJECT_DIR$/lab1/factorial/main.cpp" />
+        <option value="$PROJECT_DIR$/tests/lab2test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/lab2/factorial/Factorial.cpp" />
+        <option value="$PROJECT_DIR$/lab2/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/lab1/reversestring/ReverseString.cpp" />
+        <option value="$PROJECT_DIR$/lab1/palindrome/Palindrome.cpp" />
+        <option value="$PROJECT_DIR$/lab2/array2d/Array2d.h" />
+        <option value="$PROJECT_DIR$/lab2/array2d/Array2d.cpp" />
+        <option value="$PROJECT_DIR$/tests/lab2test/Array2DStep1Test.cpp" />
+        <option value="$PROJECT_DIR$/tests/lib/memleak/MemLeak.cpp" />
+        <option value="$PROJECT_DIR$/tests/lib/memleak/MemLeak.h" />
+        <option value="$PROJECT_DIR$/lab2/polybius/Polybius.h" />
+        <option value="$PROJECT_DIR$/lab2/polybius/main.cpp" />
+        <option value="$PROJECT_DIR$/lab2/array2d/main.cpp" />
+        <option value="$PROJECT_DIR$/lab2/array2d/Array2D.cpp" />
+        <option value="$PROJECT_DIR$/lab2/xorcypherbreaker/main.cpp" />
+        <option value="$PROJECT_DIR$/tests/lab2test/PolybiusStep1Test.cpp" />
+        <option value="$PROJECT_DIR$/tests/lab2test/PolybiusStep2Test.cpp" />
+        <option value="$PROJECT_DIR$/lab2/xorcypherbreaker/XorCypherBreaker.h" />
+        <option value="$PROJECT_DIR$/lab2/polybius/Polybius.cpp" />
+        <option value="$PROJECT_DIR$/lab2/xorcypherbreaker/XorCypherBreaker.cpp" />
+        <option value="$PROJECT_DIR$/lab3/ccounter/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/lab3/ccounter/CCounter.h" />
+        <option value="$PROJECT_DIR$/lab3/ccounter/CCounter.cpp" />
+        <option value="$PROJECT_DIR$/lab3/ccounter/main.cpp" />
+        <option value="$PROJECT_DIR$/lab3/smarttree/SmartTree.h" />
+        <option value="$PROJECT_DIR$/tests/lab3test/SmartTreeStep4Test.cpp" />
+        <option value="$PROJECT_DIR$/lab3/smarttree/SmartTree.cpp" />
       </list>
     </option>
   </component>
@@ -95,8 +218,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1922" />
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
@@ -122,7 +245,7 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="exercises" />
+              <option name="myItemId" value="Lab1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -132,29 +255,11 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="exercises" />
+              <option name="myItemId" value="Lab1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jimp_exercises" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reversestring" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -164,15 +269,147 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="exercises" />
+              <option name="myItemId" value="Lab1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab1" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="factorial" />
+              <option name="myItemId" value="lab3test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jimp_exercises" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab2test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jimp_exercises" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab1test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jimp_exercises" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jimp_exercises" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jimp_exercises" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smarttree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jimp_exercises" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jimp_exercises" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jimp_exercises" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xorcypherbreaker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -182,14 +419,180 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Google Test.lab1_factorial_tests">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Google Test.lab3_smart_tree_step5_tests">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="factorial" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="factorial" CONFIG_NAME="Debug">
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="exercises" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="exercises" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="exercises" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="exercises" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="exercises" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="exercises" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="exercises" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
@@ -292,7 +695,135 @@
       <envs />
       <method />
     </configuration>
-    <list size="25">
+    <configuration default="false" name="libpalindrome" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="libpalindrome" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="palindrome" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="palindrome" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="palindrome">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="doublebasepalindromes" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="doublebasepalindromes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="doublebasepalindromes">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="libdoublebasepalindromes" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="libdoublebasepalindromes" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="libmultiplicationtable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="libmultiplicationtable" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="multiplicationtable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="multiplicationtable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="multiplicationtable">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab2_greatest_product_step2_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab2_greatest_product_step2_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab2_greatest_product_step2_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab2_greatest_product_step3_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab2_greatest_product_step3_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab2_greatest_product_step3_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab2_simple_forward_list_step1_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab2_simple_forward_list_step1_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab2_simple_forward_list_step1_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab2_simple_forward_list_step2_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab2_simple_forward_list_step2_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab2_simple_forward_list_step2_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab2_simple_forward_list_step3_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab2_simple_forward_list_step3_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab2_simple_forward_list_step3_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab2_xor_cypher_breaker_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab2_xor_cypher_breaker_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab2_xor_cypher_breaker_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="array2d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="array2d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="array2d">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="libarray2d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="libarray2d" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="libpolybius" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="libpolybius" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="polybius" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="polybius" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="polybius">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="libxorcypherbreaker" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="libxorcypherbreaker" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="xorcypherbreaker" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="xorcypherbreaker" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="xorcypherbreaker">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab3_all_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab3_all_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab3_all_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab3_c_counter_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab3_c_counter_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab3_c_counter_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab3_minimal_time_difference_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab3_minimal_time_difference_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab3_minimal_time_difference_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab3_smart_tree_step1_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab3_smart_tree_step1_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab3_smart_tree_step1_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab3_smart_tree_step2_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab3_smart_tree_step2_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab3_smart_tree_step2_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab3_smart_tree_step3_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab3_smart_tree_step3_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab3_smart_tree_step3_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab3_smart_tree_step4_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab3_smart_tree_step4_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab3_smart_tree_step4_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab3_smart_tree_step5_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab3_smart_tree_step5_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab3_smart_tree_step5_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab3_tiny_url_step1_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab3_tiny_url_step1_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab3_tiny_url_step1_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lab3_tiny_url_step2_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="lab3_tiny_url_step2_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="lab3_tiny_url_step2_tests" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ccounter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="ccounter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="ccounter">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="libccounter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="libccounter" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="libsmarttree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="libsmarttree" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="smarttree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jimp_exercises" TARGET_NAME="smarttree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jimp_exercises" RUN_TARGET_NAME="smarttree">
+      <envs />
+      <method />
+    </configuration>
+    <list size="57">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.factorial" />
       <item index="2" class="java.lang.String" itemvalue="Application.libfactorial" />
@@ -318,6 +849,38 @@
       <item index="22" class="java.lang.String" itemvalue="Application.gtest_main" />
       <item index="23" class="java.lang.String" itemvalue="Application.memleak" />
       <item index="24" class="java.lang.String" itemvalue="Application.stringutility" />
+      <item index="25" class="java.lang.String" itemvalue="Application.libpalindrome" />
+      <item index="26" class="java.lang.String" itemvalue="Application.palindrome" />
+      <item index="27" class="java.lang.String" itemvalue="Application.doublebasepalindromes" />
+      <item index="28" class="java.lang.String" itemvalue="Application.libdoublebasepalindromes" />
+      <item index="29" class="java.lang.String" itemvalue="Application.libmultiplicationtable" />
+      <item index="30" class="java.lang.String" itemvalue="Application.multiplicationtable" />
+      <item index="31" class="java.lang.String" itemvalue="Google Test.lab2_greatest_product_step2_tests" />
+      <item index="32" class="java.lang.String" itemvalue="Google Test.lab2_greatest_product_step3_tests" />
+      <item index="33" class="java.lang.String" itemvalue="Google Test.lab2_simple_forward_list_step1_tests" />
+      <item index="34" class="java.lang.String" itemvalue="Google Test.lab2_simple_forward_list_step2_tests" />
+      <item index="35" class="java.lang.String" itemvalue="Google Test.lab2_simple_forward_list_step3_tests" />
+      <item index="36" class="java.lang.String" itemvalue="Google Test.lab2_xor_cypher_breaker_tests" />
+      <item index="37" class="java.lang.String" itemvalue="Application.array2d" />
+      <item index="38" class="java.lang.String" itemvalue="Application.libarray2d" />
+      <item index="39" class="java.lang.String" itemvalue="Application.libpolybius" />
+      <item index="40" class="java.lang.String" itemvalue="Application.polybius" />
+      <item index="41" class="java.lang.String" itemvalue="Application.libxorcypherbreaker" />
+      <item index="42" class="java.lang.String" itemvalue="Application.xorcypherbreaker" />
+      <item index="43" class="java.lang.String" itemvalue="Google Test.lab3_all_tests" />
+      <item index="44" class="java.lang.String" itemvalue="Google Test.lab3_c_counter_tests" />
+      <item index="45" class="java.lang.String" itemvalue="Google Test.lab3_minimal_time_difference_tests" />
+      <item index="46" class="java.lang.String" itemvalue="Google Test.lab3_smart_tree_step1_tests" />
+      <item index="47" class="java.lang.String" itemvalue="Google Test.lab3_smart_tree_step2_tests" />
+      <item index="48" class="java.lang.String" itemvalue="Google Test.lab3_smart_tree_step3_tests" />
+      <item index="49" class="java.lang.String" itemvalue="Google Test.lab3_smart_tree_step4_tests" />
+      <item index="50" class="java.lang.String" itemvalue="Google Test.lab3_smart_tree_step5_tests" />
+      <item index="51" class="java.lang.String" itemvalue="Google Test.lab3_tiny_url_step1_tests" />
+      <item index="52" class="java.lang.String" itemvalue="Google Test.lab3_tiny_url_step2_tests" />
+      <item index="53" class="java.lang.String" itemvalue="Application.ccounter" />
+      <item index="54" class="java.lang.String" itemvalue="Application.libccounter" />
+      <item index="55" class="java.lang.String" itemvalue="Application.libsmarttree" />
+      <item index="56" class="java.lang.String" itemvalue="Application.smarttree" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -331,40 +894,111 @@
       <option name="presentableId" value="Default" />
       <updated>1488374661503</updated>
       <workItem from="1488374665925" duration="2155000" />
+      <workItem from="1488379226009" duration="2037000" />
+      <workItem from="1488444153171" duration="1504000" />
+      <workItem from="1488445676031" duration="3561000" />
+      <workItem from="1488817114488" duration="1143000" />
+      <workItem from="1488818492021" duration="220000" />
+      <workItem from="1488819060109" duration="58000" />
+      <workItem from="1488884764899" duration="5674000" />
+      <workItem from="1488981941555" duration="41000" />
+      <workItem from="1489055365246" duration="8753000" />
+      <workItem from="1489173762503" duration="1041000" />
+      <workItem from="1489181713948" duration="4230000" />
+      <workItem from="1489218954618" duration="1710000" />
+      <workItem from="1489420760380" duration="22612000" />
+      <workItem from="1489450789285" duration="7066000" />
+      <workItem from="1489458349127" duration="1272000" />
+      <workItem from="1489485598386" duration="5277000" />
+      <workItem from="1489508418579" duration="248000" />
+      <workItem from="1489518838809" duration="1444000" />
+      <workItem from="1489573429468" duration="1914000" />
+      <workItem from="1489571730702" duration="1170000" />
+      <workItem from="1489574364602" duration="1163000" />
+      <workItem from="1489692628885" duration="8278000" />
+      <workItem from="1489769117704" duration="1650000" />
+      <workItem from="1489796435267" duration="275000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="lab1_factorial_tests - 2017.03.01 at 14h 25m 50s.xml">
-      <configuration name="lab1_factorial_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="lab3_smart_tree_step4_tests - 2017.03.16 at 22h 29m 38s.xml">
+      <configuration name="lab3_smart_tree_step4_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lab3_smart_tree_step4_tests - 2017.03.16 at 22h 33m 20s.xml">
+      <configuration name="lab3_smart_tree_step4_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lab3_smart_tree_step4_tests - 2017.03.16 at 22h 33m 26s.xml">
+      <configuration name="lab3_smart_tree_step4_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lab3_smart_tree_step4_tests - 2017.03.16 at 22h 34m 33s.xml">
+      <configuration name="lab3_smart_tree_step4_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lab3_smart_tree_step4_tests - 2017.03.16 at 22h 35m 02s.xml">
+      <configuration name="lab3_smart_tree_step4_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lab3_smart_tree_step4_tests - 2017.03.16 at 22h 35m 24s.xml">
+      <configuration name="lab3_smart_tree_step4_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lab3_smart_tree_step4_tests - 2017.03.16 at 22h 40m 40s.xml">
+      <configuration name="lab3_smart_tree_step4_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lab3_smart_tree_step4_tests - 2017.03.16 at 22h 40m 58s.xml">
+      <configuration name="lab3_smart_tree_step4_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lab3_smart_tree_step4_tests - 2017.03.17 at 17h 48m 13s.xml">
+      <configuration name="lab3_smart_tree_step4_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="lab3_smart_tree_step5_tests - 2017.03.17 at 17h 48m 30s.xml">
+      <configuration name="lab3_smart_tree_step5_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2155000" />
+    <option name="totallyTimeSpent" value="84496000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31066945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34591195" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31132075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30398324" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34591195" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31132075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30398324" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -372,20 +1006,361 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding new file (learning IDE's Git)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new file (learning IDE's Git)" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lab1/multiplicationtable/MultiplicationTable.cpp</url>
+          <line>28</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lab1/palindrome/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/factorial/Factorial.cpp" />
+    <entry file="file://$PROJECT_DIR$/lab2/factorial/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/lab1/palindrome/Palindrome.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab1/factorial/Factorial.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1/factorial/Factorial.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1/factorial/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Library_CMakeLists_Add_Template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/array2d/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lib/memleak/MemLeak.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/array2d/Array2D.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/polybius/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab2test/Array2DStep2Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/array2d/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/array2d/Array2D.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/xorcypherbreaker/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab2test/Array2DStep1Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1/reversestring/ReverseString.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="47" column="25" lean-forward="false" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab2test/PolybiusStep2Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab2test/PolybiusStep3Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/xorcypherbreaker/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab2test/XorCypherBreakerTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="2" lean-forward="false" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/xorcypherbreaker/XorCypherBreaker.cpp.cpp" />
+    <entry file="file://$PROJECT_DIR$/lab2/polybius/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab2test/PolybiusStep1Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/polybius/Polybius.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/polybius/Polybius.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="11" lean-forward="false" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/xorcypherbreaker/XorCypherBreakerTEST.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/xorcypherbreaker/XorCypherBreaker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab3test/MinimalTimeDifferenceTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/ccounter/CCounter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab3test/CCounterTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/ccounter/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/xorcypherbreaker/XorCypherBreaker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="48" column="56" lean-forward="true" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/smarttree/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/smarttree/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/ccounter/CCounter.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/ccounter/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab3test/SmartTreeStep1Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab1/reversestring/main.cpp">
+    <entry file="file://$PROJECT_DIR$/tests/lib/memleak/MemLeak.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab3test/SmartTreeStep2Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab3test/SmartTreeStep3Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="4926" column="0" lean-forward="false" selection-start-line="4926" selection-start-column="0" selection-end-line="4926" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/smarttree/SmartTree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="e#111#129#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab3test/SmartTreeStep4Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+          <folding>
+            <element signature="e#43#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/unique_ptr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11460">
+          <caret line="764" column="0" lean-forward="false" selection-start-line="764" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lib/gtest-1.8.0/googletest/include/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20865">
+          <caret line="1391" column="0" lean-forward="false" selection-start-line="1391" selection-start-column="0" selection-end-line="1391" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/lab3test/SmartTreeStep5Test.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -393,10 +1368,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab1/reversestring/ReverseString.cpp">
+    <entry file="file://$PROJECT_DIR$/lab3/smarttree/SmartTree.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="480">
+          <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
           <folding />
         </state>
       </provider>
