@@ -2,7 +2,12 @@
 // Created by piotr on 14.03.17.
 //
 
+#include <sstream>
+#include <vector>
+#include <iterator>
+#include <iostream>
 #include "SmartTree.h"
+#include <regex>
 
 namespace datastructures
 {
@@ -45,6 +50,11 @@ namespace datastructures
 
     std::unique_ptr <SmartTree> RestoreTree(const std::string &tree)
     {
-        auto newTree = std::make_unique<SmartTree>();
+        // [99 [100 [1234 [none] [none]] [4321 [none] [none]]] [88 [897 [none] [none]] [761 [none] [none]]]]
+
+
+
     }
+
+
 }
