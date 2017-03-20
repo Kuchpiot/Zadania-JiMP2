@@ -52,8 +52,38 @@ namespace datastructures
     {
         // [99 [100 [1234 [none] [none]] [4321 [none] [none]]] [88 [897 [none] [none]] [761 [none] [none]]]]
 
+        std::istringstream iss(tree);
+        std::vector <std::string> values{std::istream_iterator<std::string>{iss},
+                                         std::istream_iterator<std::string>{}};
+        std::string left = "";
+        std::string right = "";
 
+        std::string *writer = &left;
 
+        std::string substring = values[0].substr(1, values[0].size());
+
+        if(substring[0] != 'n')
+        {
+            int value = std::stoi(values[0].substr(1, values[0].size()));
+
+            values.erase(values.begin());
+
+            for(auto s : values)
+            {
+                writer->append(s + " ");
+                if(s.find_last_of("]") - s.find_first_of("]") >= 3)
+                {
+                    writer = &right;
+                }
+            }
+
+            auto newTree = std::make_unique<SmartTree>(value, RestoreTree(left), RestoreTree(right));
+            return newTree;
+        }
+        else
+        {
+            return nullptr;
+        }
     }
 
 
