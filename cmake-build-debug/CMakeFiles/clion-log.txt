@@ -1,4 +1,18 @@
-/home/piotr/IDE/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1
+/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/students/z/zabldomi/JIMP2/lab1
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 add_subdirectory_if_exists REVERSESTRING EXISTS!
 add_subdirectory_if_exists PALINDROME EXISTS!
 add_subdirectory_if_exists DOUBLEBASEPALINDROMES EXISTS!
@@ -8,6 +22,16 @@ add_subdirectory_if_exists XORCYPHERBREAKER EXISTS!
 add_subdirectory_if_exists SMARTTREE EXISTS!
 add_subdirectory_if_exists TINYURL EXISTS!
 add_subdirectory_if_exists CCOUNTER EXISTS!
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
 -- lab1test::HAVE_DIR_PALINDROME:  
 add_gtest_with_memleak target: lab2_array_2d_step1_tests
 add_gtest_with_memleak src: Array2dStep1Test.cpp;
@@ -89,4 +113,4 @@ add_gtest_with_memleak src: SimpleJsonTest.cpp;
 add_gtest_with_memleak lib: libsimplejson
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
+-- Build files have been written to: /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug

@@ -1,4 +1,4 @@
-# Install script for directory: /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/array2d
+# Install script for directory: /home/students/z/zabldomi/JIMP2/lab1/lab2/array2d
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

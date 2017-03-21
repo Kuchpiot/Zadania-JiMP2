@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/piotr/IDE/CLion/bin/cmake/bin/cmake
+CMAKE_COMMAND = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/piotr/IDE/CLion/bin/cmake/bin/cmake -E remove -f
+RM = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1
+CMAKE_SOURCE_DIR = /home/students/z/zabldomi/JIMP2/lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/piotr/IDE/CLion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/piotr/IDE/CLion/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -81,7 +81,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/piotr/IDE/CLion/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
@@ -92,7 +92,7 @@ install/local/fast: install/local
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/piotr/IDE/CLion/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
@@ -113,25 +113,25 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/piotr/IDE/CLion/bin/cmake/bin/cmake -P cmake_install.cmake
+	/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/piotr/IDE/CLion/bin/cmake/bin/cmake -P cmake_install.cmake
+	/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/polybius/CMakeFiles/progress.marks
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles 0
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/polybius/CMakeFiles/progress.marks
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/clean
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/preinstall
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/preinstall
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2/polybius/CMakeFiles/polybius.dir/rule:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/CMakeFiles/polybius.dir/rule
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/CMakeFiles/polybius.dir/rule
 .PHONY : lab2/polybius/CMakeFiles/polybius.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ polybius: lab2/polybius/CMakeFiles/polybius.dir/rule
 
 # fast build rule for target.
 polybius/fast:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/build
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/build
 .PHONY : polybius/fast
 
 # Convenience name for target.
 lab2/polybius/CMakeFiles/libpolybius.dir/rule:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/CMakeFiles/libpolybius.dir/rule
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/CMakeFiles/libpolybius.dir/rule
 .PHONY : lab2/polybius/CMakeFiles/libpolybius.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ libpolybius: lab2/polybius/CMakeFiles/libpolybius.dir/rule
 
 # fast build rule for target.
 libpolybius/fast:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/build
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/build
 .PHONY : libpolybius/fast
 
 Polybius.o: Polybius.cpp.o
@@ -190,8 +190,8 @@ Polybius.o: Polybius.cpp.o
 
 # target to build an object file
 Polybius.cpp.o:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.o
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.o
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.o
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.o
 .PHONY : Polybius.cpp.o
 
 Polybius.i: Polybius.cpp.i
@@ -200,8 +200,8 @@ Polybius.i: Polybius.cpp.i
 
 # target to preprocess a source file
 Polybius.cpp.i:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.i
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.i
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.i
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.i
 .PHONY : Polybius.cpp.i
 
 Polybius.s: Polybius.cpp.s
@@ -210,8 +210,8 @@ Polybius.s: Polybius.cpp.s
 
 # target to generate assembly for a file
 Polybius.cpp.s:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.s
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.s
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.s
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.s
 .PHONY : Polybius.cpp.s
 
 main.o: main.cpp.o
@@ -220,7 +220,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.o
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -229,7 +229,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.i
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -238,7 +238,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.s
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -272,6 +272,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/piotr/IDE/CLion/bin/cmake/bin/cmake
+CMAKE_COMMAND = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/piotr/IDE/CLion/bin/cmake/bin/cmake -E remove -f
+RM = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1
+CMAKE_SOURCE_DIR = /home/students/z/zabldomi/JIMP2/lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/flags
 
 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.o: tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/flags.make
 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.o: ../tests/lab2test/SimpleForwardListStep2Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.o"
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep2Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.o"
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.o -c /home/students/z/zabldomi/JIMP2/lab1/tests/lab2test/SimpleForwardListStep2Test.cpp
 
 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.i"
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep2Test.cpp > CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.i
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/z/zabldomi/JIMP2/lab1/tests/lab2test/SimpleForwardListStep2Test.cpp > CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.i
 
 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.s"
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/SimpleForwardListStep2Test.cpp -o CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.s
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/z/zabldomi/JIMP2/lab1/tests/lab2test/SimpleForwardListStep2Test.cpp -o CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.s
 
 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.o.requires:
 
@@ -101,8 +101,8 @@ tests/lab2test/lab2_simple_forward_list_step2_tests: tests/lib/gtest-1.8.0/googl
 tests/lab2test/lab2_simple_forward_list_step2_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab2test/lab2_simple_forward_list_step2_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
 tests/lab2test/lab2_simple_forward_list_step2_tests: tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab2_simple_forward_list_step2_tests"
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab2_simple_forward_list_step2_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab2_simple_forward_list_step2_tests"
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab2_simple_forward_list_step2_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build: tests/lab2test/lab2_simple_forward_list_step2_tests
@@ -114,10 +114,10 @@ tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/requires: tes
 .PHONY : tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/requires
 
 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/clean:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -P CMakeFiles/lab2_simple_forward_list_step2_tests.dir/cmake_clean.cmake
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -P CMakeFiles/lab2_simple_forward_list_step2_tests.dir/cmake_clean.cmake
 .PHONY : tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/clean
 
 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/depend:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/z/zabldomi/JIMP2/lab1 /home/students/z/zabldomi/JIMP2/lab1/tests/lab2test /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/depend
 
