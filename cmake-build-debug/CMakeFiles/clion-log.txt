@@ -84,6 +84,9 @@ add_gtest_with_memleak lib: libsimpletemplateengine
 add_gtest_with_memleak target: lab4_simple_template_engine_injection_tests
 add_gtest_with_memleak src: SimpleTemplateEngineInjectionTest.cpp;
 add_gtest_with_memleak lib: libsimpletemplateengine
+add_gtest_with_memleak target: lab4_simple_json_tests
+add_gtest_with_memleak src: SimpleJsonTest.cpp;
+add_gtest_with_memleak lib: libsimplejson
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
