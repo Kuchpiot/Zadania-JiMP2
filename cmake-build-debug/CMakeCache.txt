@@ -293,6 +293,12 @@ lab3_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 //Value Computed by CMake
 lab3_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3
 
+//Value Computed by CMake
+lab4_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4
+
+//Value Computed by CMake
+lab4_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4
+
 //Dependencies for target
 libarray2d_LIB_DEPENDS:STATIC=
 
@@ -319,6 +325,9 @@ libreversestring_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 libsmarttree_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+libtinyurl_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 libxorcypherbreaker_LIB_DEPENDS:STATIC=
@@ -370,6 +379,12 @@ stringutility_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 stringutility_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/stringutility
+
+//Value Computed by CMake
+tinyurl_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab3/tinyurl
+
+//Value Computed by CMake
+tinyurl_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/tinyurl
 
 //Value Computed by CMake
 xorcypherbreaker_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker
@@ -484,7 +499,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=22
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

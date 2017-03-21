@@ -364,125 +364,125 @@ lab2_greatest_product_step2_tests/fast:
 	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build
 .PHONY : lab2_greatest_product_step2_tests/fast
 
-Array2DStep1Test.o: Array2DStep1Test.cpp.o
+Array2dStep1Test.o: Array2dStep1Test.cpp.o
 
-.PHONY : Array2DStep1Test.o
-
-# target to build an object file
-Array2DStep1Test.cpp.o:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep1Test.cpp.o
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2DStep1Test.cpp.o
-.PHONY : Array2DStep1Test.cpp.o
-
-Array2DStep1Test.i: Array2DStep1Test.cpp.i
-
-.PHONY : Array2DStep1Test.i
-
-# target to preprocess a source file
-Array2DStep1Test.cpp.i:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep1Test.cpp.i
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2DStep1Test.cpp.i
-.PHONY : Array2DStep1Test.cpp.i
-
-Array2DStep1Test.s: Array2DStep1Test.cpp.s
-
-.PHONY : Array2DStep1Test.s
-
-# target to generate assembly for a file
-Array2DStep1Test.cpp.s:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep1Test.cpp.s
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2DStep1Test.cpp.s
-.PHONY : Array2DStep1Test.cpp.s
-
-Array2DStep2Test.o: Array2DStep2Test.cpp.o
-
-.PHONY : Array2DStep2Test.o
+.PHONY : Array2dStep1Test.o
 
 # target to build an object file
-Array2DStep2Test.cpp.o:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep2Test.cpp.o
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2DStep2Test.cpp.o
-.PHONY : Array2DStep2Test.cpp.o
+Array2dStep1Test.cpp.o:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep1Test.cpp.o
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.o
+.PHONY : Array2dStep1Test.cpp.o
 
-Array2DStep2Test.i: Array2DStep2Test.cpp.i
+Array2dStep1Test.i: Array2dStep1Test.cpp.i
 
-.PHONY : Array2DStep2Test.i
+.PHONY : Array2dStep1Test.i
 
 # target to preprocess a source file
-Array2DStep2Test.cpp.i:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep2Test.cpp.i
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2DStep2Test.cpp.i
-.PHONY : Array2DStep2Test.cpp.i
+Array2dStep1Test.cpp.i:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep1Test.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.i
+.PHONY : Array2dStep1Test.cpp.i
 
-Array2DStep2Test.s: Array2DStep2Test.cpp.s
+Array2dStep1Test.s: Array2dStep1Test.cpp.s
 
-.PHONY : Array2DStep2Test.s
+.PHONY : Array2dStep1Test.s
 
 # target to generate assembly for a file
-Array2DStep2Test.cpp.s:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep2Test.cpp.s
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2DStep2Test.cpp.s
-.PHONY : Array2DStep2Test.cpp.s
+Array2dStep1Test.cpp.s:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep1Test.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.s
+.PHONY : Array2dStep1Test.cpp.s
 
-Array2DStep3Test.o: Array2DStep3Test.cpp.o
+Array2dStep2Test.o: Array2dStep2Test.cpp.o
 
-.PHONY : Array2DStep3Test.o
+.PHONY : Array2dStep2Test.o
 
 # target to build an object file
-Array2DStep3Test.cpp.o:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep3Test.cpp.o
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2DStep3Test.cpp.o
-.PHONY : Array2DStep3Test.cpp.o
+Array2dStep2Test.cpp.o:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep2Test.cpp.o
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2dStep2Test.cpp.o
+.PHONY : Array2dStep2Test.cpp.o
 
-Array2DStep3Test.i: Array2DStep3Test.cpp.i
+Array2dStep2Test.i: Array2dStep2Test.cpp.i
 
-.PHONY : Array2DStep3Test.i
+.PHONY : Array2dStep2Test.i
 
 # target to preprocess a source file
-Array2DStep3Test.cpp.i:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep3Test.cpp.i
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2DStep3Test.cpp.i
-.PHONY : Array2DStep3Test.cpp.i
+Array2dStep2Test.cpp.i:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep2Test.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2dStep2Test.cpp.i
+.PHONY : Array2dStep2Test.cpp.i
 
-Array2DStep3Test.s: Array2DStep3Test.cpp.s
+Array2dStep2Test.s: Array2dStep2Test.cpp.s
 
-.PHONY : Array2DStep3Test.s
+.PHONY : Array2dStep2Test.s
 
 # target to generate assembly for a file
-Array2DStep3Test.cpp.s:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep3Test.cpp.s
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2DStep3Test.cpp.s
-.PHONY : Array2DStep3Test.cpp.s
+Array2dStep2Test.cpp.s:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep2Test.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2dStep2Test.cpp.s
+.PHONY : Array2dStep2Test.cpp.s
 
-Array2DStep4Test.o: Array2DStep4Test.cpp.o
+Array2dStep3Test.o: Array2dStep3Test.cpp.o
 
-.PHONY : Array2DStep4Test.o
+.PHONY : Array2dStep3Test.o
 
 # target to build an object file
-Array2DStep4Test.cpp.o:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep4Test.cpp.o
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o
-.PHONY : Array2DStep4Test.cpp.o
+Array2dStep3Test.cpp.o:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep3Test.cpp.o
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2dStep3Test.cpp.o
+.PHONY : Array2dStep3Test.cpp.o
 
-Array2DStep4Test.i: Array2DStep4Test.cpp.i
+Array2dStep3Test.i: Array2dStep3Test.cpp.i
 
-.PHONY : Array2DStep4Test.i
+.PHONY : Array2dStep3Test.i
 
 # target to preprocess a source file
-Array2DStep4Test.cpp.i:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep4Test.cpp.i
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.i
-.PHONY : Array2DStep4Test.cpp.i
+Array2dStep3Test.cpp.i:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep3Test.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2dStep3Test.cpp.i
+.PHONY : Array2dStep3Test.cpp.i
 
-Array2DStep4Test.s: Array2DStep4Test.cpp.s
+Array2dStep3Test.s: Array2dStep3Test.cpp.s
 
-.PHONY : Array2DStep4Test.s
+.PHONY : Array2dStep3Test.s
 
 # target to generate assembly for a file
-Array2DStep4Test.cpp.s:
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2DStep4Test.cpp.s
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.s
-.PHONY : Array2DStep4Test.cpp.s
+Array2dStep3Test.cpp.s:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep3Test.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2dStep3Test.cpp.s
+.PHONY : Array2dStep3Test.cpp.s
+
+Array2dStep4Test.o: Array2dStep4Test.cpp.o
+
+.PHONY : Array2dStep4Test.o
+
+# target to build an object file
+Array2dStep4Test.cpp.o:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep4Test.cpp.o
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o
+.PHONY : Array2dStep4Test.cpp.o
+
+Array2dStep4Test.i: Array2dStep4Test.cpp.i
+
+.PHONY : Array2dStep4Test.i
+
+# target to preprocess a source file
+Array2dStep4Test.cpp.i:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep4Test.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.i
+.PHONY : Array2dStep4Test.cpp.i
+
+Array2dStep4Test.s: Array2dStep4Test.cpp.s
+
+.PHONY : Array2dStep4Test.s
+
+# target to generate assembly for a file
+Array2dStep4Test.cpp.s:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep4Test.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.s
+.PHONY : Array2dStep4Test.cpp.s
 
 GreatestProductStep1Test.o: GreatestProductStep1Test.cpp.o
 
@@ -730,6 +730,7 @@ XorCypherBreakerTest.o: XorCypherBreakerTest.cpp.o
 
 # target to build an object file
 XorCypherBreakerTest.cpp.o:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/XorCypherBreakerTest.cpp.o
 	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/XorCypherBreakerTest.cpp.o
 .PHONY : XorCypherBreakerTest.cpp.o
 
@@ -739,6 +740,7 @@ XorCypherBreakerTest.i: XorCypherBreakerTest.cpp.i
 
 # target to preprocess a source file
 XorCypherBreakerTest.cpp.i:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/XorCypherBreakerTest.cpp.i
 	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/XorCypherBreakerTest.cpp.i
 .PHONY : XorCypherBreakerTest.cpp.i
 
@@ -748,6 +750,7 @@ XorCypherBreakerTest.s: XorCypherBreakerTest.cpp.s
 
 # target to generate assembly for a file
 XorCypherBreakerTest.cpp.s:
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/XorCypherBreakerTest.cpp.s
 	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/XorCypherBreakerTest.cpp.s
 .PHONY : XorCypherBreakerTest.cpp.s
 
@@ -777,18 +780,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/strip"
 	@echo "... lab2_greatest_product_step2_tests"
-	@echo "... Array2DStep1Test.o"
-	@echo "... Array2DStep1Test.i"
-	@echo "... Array2DStep1Test.s"
-	@echo "... Array2DStep2Test.o"
-	@echo "... Array2DStep2Test.i"
-	@echo "... Array2DStep2Test.s"
-	@echo "... Array2DStep3Test.o"
-	@echo "... Array2DStep3Test.i"
-	@echo "... Array2DStep3Test.s"
-	@echo "... Array2DStep4Test.o"
-	@echo "... Array2DStep4Test.i"
-	@echo "... Array2DStep4Test.s"
+	@echo "... Array2dStep1Test.o"
+	@echo "... Array2dStep1Test.i"
+	@echo "... Array2dStep1Test.s"
+	@echo "... Array2dStep2Test.o"
+	@echo "... Array2dStep2Test.i"
+	@echo "... Array2dStep2Test.s"
+	@echo "... Array2dStep3Test.o"
+	@echo "... Array2dStep3Test.i"
+	@echo "... Array2dStep3Test.s"
+	@echo "... Array2dStep4Test.o"
+	@echo "... Array2dStep4Test.i"
+	@echo "... Array2dStep4Test.s"
 	@echo "... GreatestProductStep1Test.o"
 	@echo "... GreatestProductStep1Test.i"
 	@echo "... GreatestProductStep1Test.s"

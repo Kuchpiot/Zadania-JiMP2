@@ -40,6 +40,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test/cmake_install.cmake")
   include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test/cmake_install.cmake")
   include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab3test/cmake_install.cmake")
+  include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab4test/cmake_install.cmake")
 
 endif()
 

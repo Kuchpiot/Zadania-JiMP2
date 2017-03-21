@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o"
+  "CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o"
   "lab2_array_2d_step4_tests.pdb"
   "lab2_array_2d_step4_tests"
 )

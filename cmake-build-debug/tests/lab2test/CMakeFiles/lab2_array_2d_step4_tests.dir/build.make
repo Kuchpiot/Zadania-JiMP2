@@ -57,38 +57,38 @@ include tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/flags.make
 
-tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/flags.make
-tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o: ../tests/lab2test/Array2DStep4Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o"
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/Array2DStep4Test.cpp
+tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/flags.make
+tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o: ../tests/lab2test/Array2dStep4Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/Array2dStep4Test.cpp
 
-tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.i"
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/Array2DStep4Test.cpp > CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.i
+tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.i"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/Array2dStep4Test.cpp > CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.i
 
-tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.s"
-	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/Array2DStep4Test.cpp -o CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.s
+tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.s"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/Array2dStep4Test.cpp -o CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.s
 
-tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o.requires:
+tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o.requires:
 
-.PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o.requires
+.PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o.requires
 
-tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o.provides: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o.requires
-	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o.provides.build
-.PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o.provides
+tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o.provides: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o.requires
+	$(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o.provides.build
+.PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o.provides
 
-tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o.provides.build: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o
+tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o.provides.build: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o
 
 
 # Object files for target lab2_array_2d_step4_tests
 lab2_array_2d_step4_tests_OBJECTS = \
-"CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o"
+"CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o"
 
 # External object files for target lab2_array_2d_step4_tests
 lab2_array_2d_step4_tests_EXTERNAL_OBJECTS =
 
-tests/lab2test/lab2_array_2d_step4_tests: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o
+tests/lab2test/lab2_array_2d_step4_tests: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o
 tests/lab2test/lab2_array_2d_step4_tests: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make
 tests/lab2test/lab2_array_2d_step4_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
 tests/lab2test/lab2_array_2d_step4_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
@@ -110,7 +110,7 @@ tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build: tests/lab2test/la
 
 .PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build
 
-tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/requires: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2DStep4Test.cpp.o.requires
+tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/requires: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o.requires
 
 .PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/requires
 

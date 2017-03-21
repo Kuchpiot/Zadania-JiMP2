@@ -51,6 +51,7 @@ namespace datastructures
     std::unique_ptr <SmartTree> RestoreTree(const std::string &tree)
     {
         // [99 [100 [1234 [none] [none]] [4321 [none] [none]]] [88 [897 [none] [none]] [761 [none] [none]]]]
+        // I know it should be made on regex, i tried but it didnt work i know why
 
         std::istringstream iss(tree);
         std::vector <std::string> values{std::istream_iterator<std::string>{iss},
