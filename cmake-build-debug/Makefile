@@ -883,30 +883,17 @@ lab3_all_tests/fast:
 .PHONY : lab3_all_tests/fast
 
 #=============================================================================
-# Target rules for targets named lab4_all_tests
+# Target rules for targets named lab4_simple_url_tests
 
 # Build rule for target.
-lab4_all_tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lab4_all_tests
-.PHONY : lab4_all_tests
+lab4_simple_url_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab4_simple_url_tests
+.PHONY : lab4_simple_url_tests
 
 # fast build rule for target.
-lab4_all_tests/fast:
-	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/build
-.PHONY : lab4_all_tests/fast
-
-#=============================================================================
-# Target rules for targets named lab4_simple_template_engine_injection_tests
-
-# Build rule for target.
-lab4_simple_template_engine_injection_tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lab4_simple_template_engine_injection_tests
-.PHONY : lab4_simple_template_engine_injection_tests
-
-# fast build rule for target.
-lab4_simple_template_engine_injection_tests/fast:
-	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build
-.PHONY : lab4_simple_template_engine_injection_tests/fast
+lab4_simple_url_tests/fast:
+	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build
+.PHONY : lab4_simple_url_tests/fast
 
 #=============================================================================
 # Target rules for targets named lab4_simple_template_engine_tests
@@ -922,17 +909,43 @@ lab4_simple_template_engine_tests/fast:
 .PHONY : lab4_simple_template_engine_tests/fast
 
 #=============================================================================
-# Target rules for targets named lab4_simple_url_tests
+# Target rules for targets named lab4_simple_template_engine_injection_tests
 
 # Build rule for target.
-lab4_simple_url_tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lab4_simple_url_tests
-.PHONY : lab4_simple_url_tests
+lab4_simple_template_engine_injection_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab4_simple_template_engine_injection_tests
+.PHONY : lab4_simple_template_engine_injection_tests
 
 # fast build rule for target.
-lab4_simple_url_tests/fast:
-	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build
-.PHONY : lab4_simple_url_tests/fast
+lab4_simple_template_engine_injection_tests/fast:
+	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build
+.PHONY : lab4_simple_template_engine_injection_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab4_all_tests
+
+# Build rule for target.
+lab4_all_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab4_all_tests
+.PHONY : lab4_all_tests
+
+# fast build rule for target.
+lab4_all_tests/fast:
+	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/build
+.PHONY : lab4_all_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab4_simple_json_tests
+
+# Build rule for target.
+lab4_simple_json_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab4_simple_json_tests
+.PHONY : lab4_simple_json_tests
+
+# fast build rule for target.
+lab4_simple_json_tests/fast:
+	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build
+.PHONY : lab4_simple_json_tests/fast
 
 # Help Target
 help:
@@ -1002,10 +1015,11 @@ help:
 	@echo "... lab3_minimal_time_difference_tests"
 	@echo "... lab3_c_counter_tests"
 	@echo "... lab3_all_tests"
-	@echo "... lab4_all_tests"
-	@echo "... lab4_simple_template_engine_injection_tests"
-	@echo "... lab4_simple_template_engine_tests"
 	@echo "... lab4_simple_url_tests"
+	@echo "... lab4_simple_template_engine_tests"
+	@echo "... lab4_simple_template_engine_injection_tests"
+	@echo "... lab4_all_tests"
+	@echo "... lab4_simple_json_tests"
 .PHONY : help
 
 

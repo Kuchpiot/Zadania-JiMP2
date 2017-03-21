@@ -157,8 +157,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/DependInfo.cmake"
   "tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/DependInfo.cmake"
   "tests/lab3test/CMakeFiles/lab3_all_tests.dir/DependInfo.cmake"
-  "tests/lab4test/CMakeFiles/lab4_all_tests.dir/DependInfo.cmake"
-  "tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/DependInfo.cmake"
-  "tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/DependInfo.cmake"
   "tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/DependInfo.cmake"
+  "tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/DependInfo.cmake"
+  "tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/DependInfo.cmake"
+  "tests/lab4test/CMakeFiles/lab4_all_tests.dir/DependInfo.cmake"
+  "tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/DependInfo.cmake"
   )
