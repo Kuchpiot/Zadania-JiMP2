@@ -109,8 +109,8 @@ bool Name::IsBeforeBySurname(std::string x)
         {
             return false;
         }
-        return true;
     }
+    return true;
 }
 
 bool Name::IsBeforeByFirstName(std::string x)
@@ -123,6 +123,6 @@ bool Name::IsBeforeByFirstName(std::string x)
         {
             return false;
         }
-        return true;
     }
+    return true;
 }
