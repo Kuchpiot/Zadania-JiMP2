@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/piotr/IDE/CLion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/piotr/IDE/CLion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/z/zabldomi/JIMP2/lab1
+CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/depend.make
@@ -59,16 +59,16 @@ include lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/flags.make
 
 lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.o: lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/flags.make
 lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.o: ../lab2/xorcypherbreaker/XorCypherBreaker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.o"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/xorcypherbreaker && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.o -c /home/students/z/zabldomi/JIMP2/lab1/lab2/xorcypherbreaker/XorCypherBreaker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/XorCypherBreaker.cpp
 
 lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.i"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/xorcypherbreaker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/z/zabldomi/JIMP2/lab1/lab2/xorcypherbreaker/XorCypherBreaker.cpp > CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/XorCypherBreaker.cpp > CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.i
 
 lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.s"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/xorcypherbreaker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/z/zabldomi/JIMP2/lab1/lab2/xorcypherbreaker/XorCypherBreaker.cpp -o CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/XorCypherBreaker.cpp -o CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.s
 
 lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.o.requires:
 
@@ -91,9 +91,9 @@ libxorcypherbreaker_EXTERNAL_OBJECTS =
 lab2/xorcypherbreaker/liblibxorcypherbreaker.a: lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.o
 lab2/xorcypherbreaker/liblibxorcypherbreaker.a: lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/build.make
 lab2/xorcypherbreaker/liblibxorcypherbreaker.a: lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibxorcypherbreaker.a"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/xorcypherbreaker && $(CMAKE_COMMAND) -P CMakeFiles/libxorcypherbreaker.dir/cmake_clean_target.cmake
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/xorcypherbreaker && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libxorcypherbreaker.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibxorcypherbreaker.a"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker && $(CMAKE_COMMAND) -P CMakeFiles/libxorcypherbreaker.dir/cmake_clean_target.cmake
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libxorcypherbreaker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/build: lab2/xorcypherbreaker/liblibxorcypherbreaker.a
@@ -105,10 +105,10 @@ lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/requires: lab2/xorcyphe
 .PHONY : lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/requires
 
 lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/clean:
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/xorcypherbreaker && $(CMAKE_COMMAND) -P CMakeFiles/libxorcypherbreaker.dir/cmake_clean.cmake
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker && $(CMAKE_COMMAND) -P CMakeFiles/libxorcypherbreaker.dir/cmake_clean.cmake
 .PHONY : lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/clean
 
 lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/depend:
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/z/zabldomi/JIMP2/lab1 /home/students/z/zabldomi/JIMP2/lab1/lab2/xorcypherbreaker /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/xorcypherbreaker /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/depend
 

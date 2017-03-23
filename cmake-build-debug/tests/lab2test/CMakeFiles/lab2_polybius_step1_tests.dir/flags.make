@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest/include -I/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest -I/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googlemock/include -I/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googlemock -I/home/students/z/zabldomi/JIMP2/lab1/lab2/polybius/. -I/home/students/z/zabldomi/JIMP2/lab1/tests/lib/stringutility/. -I/home/students/z/zabldomi/JIMP2/lab1/tests/lib/memleak/. 
+CXX_INCLUDES = -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/include -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock/include -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius/. -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/stringutility/. -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/memleak/. 
 
