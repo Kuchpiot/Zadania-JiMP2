@@ -25,8 +25,6 @@ namespace nets
 
         bool can_rewrite = true;
 
-        std::cout << std::endl << inside_pattern << std::endl;
-
         // Change any word from model
         for(auto sample : model)
         {
@@ -34,21 +32,19 @@ namespace nets
 
             while (inside_pattern.find( replacement_to_find ) != std::string::npos)
             {
-                // Check if
+                // Check if that word was changed (no double changing)
                 if(std::find( anti_injection.begin(), anti_injection.end(), inside_pattern.find( replacement_to_find ) ) == anti_injection.end())
                 {
                     anti_injection.emplace_back( inside_pattern.find( replacement_to_find ) );
                     inside_pattern.replace( inside_pattern.find( replacement_to_find ), replacement_to_find.length(), sample.second );
                 }
-                else
-                {
-
-                }
             }
         }
 
+        // Just to come back if we stopped writing at bracket like this: {{lelele lelel} lelel {lelel}}
         int a = 0;
 
+        // Remove any unchanged words
         for(int i = 0; i < inside_pattern.length(); i++)
         {
             if(inside_pattern[i] == '{' && inside_pattern[i + 1] == '{' && inside_pattern[i + 2] != '{' &&
@@ -74,8 +70,6 @@ namespace nets
                 result += inside_pattern[i];
             }
         }
-
-        std::cout << result << std::endl;
 
         return result;
     }
