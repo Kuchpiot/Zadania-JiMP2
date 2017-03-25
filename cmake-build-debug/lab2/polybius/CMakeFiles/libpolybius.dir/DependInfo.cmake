@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/students/z/zabldomi/JIMP2/lab1/lab2/polybius/Polybius.cpp" "/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.o"
+  "/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius/Polybius.cpp" "/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

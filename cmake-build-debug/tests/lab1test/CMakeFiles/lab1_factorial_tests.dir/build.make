@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/piotr/IDE/CLion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/piotr/IDE/CLion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/z/zabldomi/JIMP2/lab1
+CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/flags.make
 
 tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.o: tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/flags.make
 tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.o: ../tests/lab1test/FactorialTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.o"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.o -c /home/students/z/zabldomi/JIMP2/lab1/tests/lab1test/FactorialTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/FactorialTest.cpp
 
 tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.i"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/z/zabldomi/JIMP2/lab1/tests/lab1test/FactorialTest.cpp > CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/FactorialTest.cpp > CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.i
 
 tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.s"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/z/zabldomi/JIMP2/lab1/tests/lab1test/FactorialTest.cpp -o CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/FactorialTest.cpp -o CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.s
 
 tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/FactorialTest.cpp.o.requires:
 
@@ -97,8 +97,8 @@ tests/lab1test/lab1_factorial_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_m
 tests/lab1test/lab1_factorial_tests: lab1/factorial/liblibfactorial.a
 tests/lab1test/lab1_factorial_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
 tests/lab1test/lab1_factorial_tests: tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab1_factorial_tests"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab1test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab1_factorial_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab1_factorial_tests"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab1_factorial_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/build: tests/lab1test/lab1_factorial_tests
@@ -110,10 +110,10 @@ tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/requires: tests/lab1test/CMak
 .PHONY : tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/requires
 
 tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/clean:
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab1test && $(CMAKE_COMMAND) -P CMakeFiles/lab1_factorial_tests.dir/cmake_clean.cmake
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test && $(CMAKE_COMMAND) -P CMakeFiles/lab1_factorial_tests.dir/cmake_clean.cmake
 .PHONY : tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/clean
 
 tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/depend:
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/z/zabldomi/JIMP2/lab1 /home/students/z/zabldomi/JIMP2/lab1/tests/lab1test /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab1test /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lab1test/CMakeFiles/lab1_factorial_tests.dir/depend
 

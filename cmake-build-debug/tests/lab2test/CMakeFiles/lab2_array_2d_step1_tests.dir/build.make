@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/piotr/IDE/CLion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/piotr/IDE/CLion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/z/zabldomi/JIMP2/lab1
+CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/flags.make
 
 tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.o: tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/flags.make
 tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.o: ../tests/lab2test/Array2dStep1Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.o"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.o -c /home/students/z/zabldomi/JIMP2/lab1/tests/lab2test/Array2dStep1Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/Array2dStep1Test.cpp
 
 tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.i"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/z/zabldomi/JIMP2/lab1/tests/lab2test/Array2dStep1Test.cpp > CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/Array2dStep1Test.cpp > CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.i
 
 tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.s"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/z/zabldomi/JIMP2/lab1/tests/lab2test/Array2dStep1Test.cpp -o CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/Array2dStep1Test.cpp -o CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.s
 
 tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.o.requires:
 
@@ -98,8 +98,8 @@ tests/lab2test/lab2_array_2d_step1_tests: lab2/array2d/liblibarray2d.a
 tests/lab2test/lab2_array_2d_step1_tests: tests/lib/stringutility/libstringutility.a
 tests/lab2test/lab2_array_2d_step1_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
 tests/lab2test/lab2_array_2d_step1_tests: tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab2_array_2d_step1_tests"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab2_array_2d_step1_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab2_array_2d_step1_tests"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab2_array_2d_step1_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build: tests/lab2test/lab2_array_2d_step1_tests
@@ -111,10 +111,10 @@ tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/requires: tests/lab2test
 .PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/requires
 
 tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/clean:
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -P CMakeFiles/lab2_array_2d_step1_tests.dir/cmake_clean.cmake
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test && $(CMAKE_COMMAND) -P CMakeFiles/lab2_array_2d_step1_tests.dir/cmake_clean.cmake
 .PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/clean
 
 tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/depend:
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/z/zabldomi/JIMP2/lab1 /home/students/z/zabldomi/JIMP2/lab1/tests/lab2test /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/depend
 
