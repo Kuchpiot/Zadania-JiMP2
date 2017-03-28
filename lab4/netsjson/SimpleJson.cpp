@@ -88,15 +88,10 @@ namespace nets
             {
                 std::string result2 = "";
 
-                std::cout << "Im on the case" << std::endl;
-
                 for (auto s : my_value_->map_value)
                 {
-                    std::cout << s.first << std::endl;
                     result2.append("\"" + s.first + "\": " + s.second.ToString() + " ");
                 }
-
-                std::cout << "lel" << result2 << std::endl;
 
                 return result2;
             }
