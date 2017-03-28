@@ -9,6 +9,7 @@ add_subdirectory_if_exists SMARTTREE EXISTS!
 add_subdirectory_if_exists TINYURL EXISTS!
 add_subdirectory_if_exists CCOUNTER EXISTS!
 add_subdirectory_if_exists SIMPLETEMPLATEENGINE EXISTS!
+add_subdirectory_if_exists NETSJSON EXISTS!
 -- lab1test::HAVE_DIR_PALINDROME:  
 add_gtest_with_memleak target: lab2_array_2d_step1_tests
 add_gtest_with_memleak src: Array2dStep1Test.cpp;

@@ -324,6 +324,9 @@ libpolybius_LIB_DEPENDS:STATIC=
 libreversestring_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
+libsimplejson_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 libsimpletemplateengine_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
@@ -367,6 +370,12 @@ reversestring_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-bu
 
 //Value Computed by CMake
 reversestring_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring
+
+//Value Computed by CMake
+simplejson_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/netsjson
+
+//Value Computed by CMake
+simplejson_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/netsjson
 
 //Value Computed by CMake
 simpletemplateengine_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/simpletemplateengine
@@ -508,7 +517,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=26
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=27
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
