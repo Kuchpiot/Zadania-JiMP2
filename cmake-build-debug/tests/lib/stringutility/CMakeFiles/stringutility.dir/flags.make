@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/students/z/zabldomi/JIMP2/lab1/tests/lib/stringutility/. 
+CXX_INCLUDES = -I/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/stringutility/. 
 

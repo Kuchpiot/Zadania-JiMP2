@@ -7,6 +7,32 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CMakeCInformation.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CMakeCXXInformation.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CMakeFindCodeBlocks.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CMakeGenericSystem.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CMakeParseArguments.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CheckIncludeFile.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CheckLibraryExists.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/CheckSymbolExists.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-C.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-CXX.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/FindPackageMessage.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/FindPythonInterp.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/FindThreads.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/Platform/Linux-GNU-C.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/Platform/Linux-GNU-CXX.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/Platform/Linux-GNU.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/Platform/Linux.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/Platform/UnixPaths.cmake"
+  "/home/piotr/IDE/CLion/bin/cmake/share/cmake-3.6/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.6.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.6.3/CMakeCXXCompiler.cmake"
@@ -25,7 +51,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../lab3/smarttree/CMakeLists.txt"
   "../lab3/tinyurl/CMakeLists.txt"
   "../lab4/CMakeLists.txt"
+<<<<<<< HEAD
   "../lab5/CMakeLists.txt"
+=======
+  "../lab4/netsjson/CMakeLists.txt"
+  "../lab4/simpletemplateengine/CMakeLists.txt"
+>>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
   "../tests/CMakeLists.txt"
   "../tests/lab1test/CMakeLists.txt"
   "../tests/lab2test/CMakeLists.txt"
@@ -38,6 +69,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake"
   "../tests/lib/memleak/CMakeLists.txt"
   "../tests/lib/stringutility/CMakeLists.txt"
+<<<<<<< HEAD
   "/usr/local/clion-2016.3.3/bin/cmake/share/cmake-3.6/Modules/CMakeCInformation.cmake"
   "/usr/local/clion-2016.3.3/bin/cmake/share/cmake-3.6/Modules/CMakeCXXInformation.cmake"
   "/usr/local/clion-2016.3.3/bin/cmake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake"
@@ -64,6 +96,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/clion-2016.3.3/bin/cmake/share/cmake-3.6/Modules/Platform/Linux.cmake"
   "/usr/local/clion-2016.3.3/bin/cmake/share/cmake-3.6/Modules/Platform/UnixPaths.cmake"
   "/usr/local/clion-2016.3.3/bin/cmake/share/cmake-3.6/Modules/ProcessorCount.cmake"
+=======
+>>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
   )
 
 # The corresponding makefile is:
@@ -89,7 +123,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "lab3/tinyurl/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab3/ccounter/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab4/CMakeFiles/CMakeDirectoryInformation.cmake"
+<<<<<<< HEAD
   "lab5/CMakeFiles/CMakeDirectoryInformation.cmake"
+=======
+  "lab4/simpletemplateengine/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab4/netsjson/CMakeFiles/CMakeDirectoryInformation.cmake"
+>>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
   "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tests/lib/gtest-1.8.0/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tests/lib/gtest-1.8.0/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -125,6 +164,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "lab3/tinyurl/CMakeFiles/libtinyurl.dir/DependInfo.cmake"
   "lab3/ccounter/CMakeFiles/ccounter.dir/DependInfo.cmake"
   "lab3/ccounter/CMakeFiles/libccounter.dir/DependInfo.cmake"
+  "lab4/simpletemplateengine/CMakeFiles/simpletemplateengine.dir/DependInfo.cmake"
+  "lab4/simpletemplateengine/CMakeFiles/libsimpletemplateengine.dir/DependInfo.cmake"
+  "lab4/netsjson/CMakeFiles/simplejson.dir/DependInfo.cmake"
+  "lab4/netsjson/CMakeFiles/libsimplejson.dir/DependInfo.cmake"
   "tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"

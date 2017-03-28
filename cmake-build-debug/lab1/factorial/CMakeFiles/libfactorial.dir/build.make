@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/piotr/IDE/CLion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/piotr/IDE/CLion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/z/zabldomi/JIMP2/lab1
+CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab1/factorial/CMakeFiles/libfactorial.dir/depend.make
@@ -59,16 +59,16 @@ include lab1/factorial/CMakeFiles/libfactorial.dir/flags.make
 
 lab1/factorial/CMakeFiles/libfactorial.dir/Factorial.cpp.o: lab1/factorial/CMakeFiles/libfactorial.dir/flags.make
 lab1/factorial/CMakeFiles/libfactorial.dir/Factorial.cpp.o: ../lab1/factorial/Factorial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/factorial/CMakeFiles/libfactorial.dir/Factorial.cpp.o"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libfactorial.dir/Factorial.cpp.o -c /home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/Factorial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/factorial/CMakeFiles/libfactorial.dir/Factorial.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libfactorial.dir/Factorial.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/Factorial.cpp
 
 lab1/factorial/CMakeFiles/libfactorial.dir/Factorial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libfactorial.dir/Factorial.cpp.i"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/Factorial.cpp > CMakeFiles/libfactorial.dir/Factorial.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/Factorial.cpp > CMakeFiles/libfactorial.dir/Factorial.cpp.i
 
 lab1/factorial/CMakeFiles/libfactorial.dir/Factorial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libfactorial.dir/Factorial.cpp.s"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/Factorial.cpp -o CMakeFiles/libfactorial.dir/Factorial.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/Factorial.cpp -o CMakeFiles/libfactorial.dir/Factorial.cpp.s
 
 lab1/factorial/CMakeFiles/libfactorial.dir/Factorial.cpp.o.requires:
 
@@ -91,9 +91,9 @@ libfactorial_EXTERNAL_OBJECTS =
 lab1/factorial/liblibfactorial.a: lab1/factorial/CMakeFiles/libfactorial.dir/Factorial.cpp.o
 lab1/factorial/liblibfactorial.a: lab1/factorial/CMakeFiles/libfactorial.dir/build.make
 lab1/factorial/liblibfactorial.a: lab1/factorial/CMakeFiles/libfactorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibfactorial.a"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial && $(CMAKE_COMMAND) -P CMakeFiles/libfactorial.dir/cmake_clean_target.cmake
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libfactorial.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibfactorial.a"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial && $(CMAKE_COMMAND) -P CMakeFiles/libfactorial.dir/cmake_clean_target.cmake
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libfactorial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab1/factorial/CMakeFiles/libfactorial.dir/build: lab1/factorial/liblibfactorial.a
@@ -105,10 +105,10 @@ lab1/factorial/CMakeFiles/libfactorial.dir/requires: lab1/factorial/CMakeFiles/l
 .PHONY : lab1/factorial/CMakeFiles/libfactorial.dir/requires
 
 lab1/factorial/CMakeFiles/libfactorial.dir/clean:
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial && $(CMAKE_COMMAND) -P CMakeFiles/libfactorial.dir/cmake_clean.cmake
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial && $(CMAKE_COMMAND) -P CMakeFiles/libfactorial.dir/cmake_clean.cmake
 .PHONY : lab1/factorial/CMakeFiles/libfactorial.dir/clean
 
 lab1/factorial/CMakeFiles/libfactorial.dir/depend:
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/z/zabldomi/JIMP2/lab1 /home/students/z/zabldomi/JIMP2/lab1/lab1/factorial /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/CMakeFiles/libfactorial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/CMakeFiles/libfactorial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab1/factorial/CMakeFiles/libfactorial.dir/depend
 

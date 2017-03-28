@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/piotr/IDE/CLion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2016.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/piotr/IDE/CLion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/z/zabldomi/JIMP2/lab1
+CMAKE_SOURCE_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab1/palindrome/CMakeFiles/palindrome.dir/depend.make
@@ -59,16 +59,16 @@ include lab1/palindrome/CMakeFiles/palindrome.dir/flags.make
 
 lab1/palindrome/CMakeFiles/palindrome.dir/Palindrome.cpp.o: lab1/palindrome/CMakeFiles/palindrome.dir/flags.make
 lab1/palindrome/CMakeFiles/palindrome.dir/Palindrome.cpp.o: ../lab1/palindrome/Palindrome.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/palindrome/CMakeFiles/palindrome.dir/Palindrome.cpp.o"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/palindrome.dir/Palindrome.cpp.o -c /home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/Palindrome.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/palindrome/CMakeFiles/palindrome.dir/Palindrome.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/palindrome.dir/Palindrome.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/Palindrome.cpp
 
 lab1/palindrome/CMakeFiles/palindrome.dir/Palindrome.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/palindrome.dir/Palindrome.cpp.i"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/Palindrome.cpp > CMakeFiles/palindrome.dir/Palindrome.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/Palindrome.cpp > CMakeFiles/palindrome.dir/Palindrome.cpp.i
 
 lab1/palindrome/CMakeFiles/palindrome.dir/Palindrome.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/palindrome.dir/Palindrome.cpp.s"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/Palindrome.cpp -o CMakeFiles/palindrome.dir/Palindrome.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/Palindrome.cpp -o CMakeFiles/palindrome.dir/Palindrome.cpp.s
 
 lab1/palindrome/CMakeFiles/palindrome.dir/Palindrome.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lab1/palindrome/CMakeFiles/palindrome.dir/Palindrome.cpp.o.provides.build: lab1/
 
 lab1/palindrome/CMakeFiles/palindrome.dir/main.cpp.o: lab1/palindrome/CMakeFiles/palindrome.dir/flags.make
 lab1/palindrome/CMakeFiles/palindrome.dir/main.cpp.o: ../lab1/palindrome/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab1/palindrome/CMakeFiles/palindrome.dir/main.cpp.o"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/palindrome.dir/main.cpp.o -c /home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab1/palindrome/CMakeFiles/palindrome.dir/main.cpp.o"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/palindrome.dir/main.cpp.o -c /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/main.cpp
 
 lab1/palindrome/CMakeFiles/palindrome.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/palindrome.dir/main.cpp.i"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/main.cpp > CMakeFiles/palindrome.dir/main.cpp.i
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/main.cpp > CMakeFiles/palindrome.dir/main.cpp.i
 
 lab1/palindrome/CMakeFiles/palindrome.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/palindrome.dir/main.cpp.s"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/main.cpp -o CMakeFiles/palindrome.dir/main.cpp.s
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/main.cpp -o CMakeFiles/palindrome.dir/main.cpp.s
 
 lab1/palindrome/CMakeFiles/palindrome.dir/main.cpp.o.requires:
 
@@ -118,8 +118,8 @@ lab1/palindrome/palindrome: lab1/palindrome/CMakeFiles/palindrome.dir/main.cpp.o
 lab1/palindrome/palindrome: lab1/palindrome/CMakeFiles/palindrome.dir/build.make
 lab1/palindrome/palindrome: lab1/palindrome/liblibpalindrome.a
 lab1/palindrome/palindrome: lab1/palindrome/CMakeFiles/palindrome.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable palindrome"
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/palindrome.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable palindrome"
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/palindrome.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab1/palindrome/CMakeFiles/palindrome.dir/build: lab1/palindrome/palindrome
@@ -132,10 +132,10 @@ lab1/palindrome/CMakeFiles/palindrome.dir/requires: lab1/palindrome/CMakeFiles/p
 .PHONY : lab1/palindrome/CMakeFiles/palindrome.dir/requires
 
 lab1/palindrome/CMakeFiles/palindrome.dir/clean:
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome && $(CMAKE_COMMAND) -P CMakeFiles/palindrome.dir/cmake_clean.cmake
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome && $(CMAKE_COMMAND) -P CMakeFiles/palindrome.dir/cmake_clean.cmake
 .PHONY : lab1/palindrome/CMakeFiles/palindrome.dir/clean
 
 lab1/palindrome/CMakeFiles/palindrome.dir/depend:
-	cd /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/z/zabldomi/JIMP2/lab1 /home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/CMakeFiles/palindrome.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/CMakeFiles/palindrome.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab1/palindrome/CMakeFiles/palindrome.dir/depend
 

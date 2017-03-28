@@ -5,26 +5,30 @@
 		<Option title="lab1"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
+<<<<<<< HEAD
 		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab2\xorcypherbreaker\;CMake Files\lab3\;CMake Files\lab3\ccounter\;CMake Files\lab3\smarttree\;CMake Files\lab3\tinyurl\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\tests\lab5test\;CMake Files\lab4\;CMake Files\lab5\;"/>
+=======
+		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab2\xorcypherbreaker\;CMake Files\lab3\;CMake Files\lab3\ccounter\;CMake Files\lab3\smarttree\;CMake Files\lab3\tinyurl\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\lab4\;CMake Files\lab4\simpletemplateengine\;CMake Files\lab4\netsjson\;"/>
+>>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="factorial">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/factorial" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/factorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -35,20 +39,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 factorial"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 factorial"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="factorial/fast">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/factorial" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/factorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -59,20 +63,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 factorial/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 factorial/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libfactorial">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/liblibfactorial.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/liblibfactorial.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -83,20 +87,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 libfactorial"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 libfactorial"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libfactorial/fast">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/liblibfactorial.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/liblibfactorial.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -107,20 +111,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 libfactorial/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 libfactorial/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/factorial/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="reversestring">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/reversestring" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/reversestring" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/reversestring/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -131,20 +135,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 reversestring"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 reversestring"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="reversestring/fast">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/reversestring" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/reversestring" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/reversestring/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -155,20 +159,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 reversestring/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 reversestring/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libreversestring">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/liblibreversestring.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/liblibreversestring.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/reversestring/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -179,20 +183,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 libreversestring"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 libreversestring"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libreversestring/fast">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/liblibreversestring.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/liblibreversestring.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/reversestring/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -203,20 +207,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 libreversestring/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 libreversestring/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/reversestring/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="palindrome">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/palindrome" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/palindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -227,20 +231,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 palindrome"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 palindrome"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="palindrome/fast">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/palindrome" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/palindrome" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -251,20 +255,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 palindrome/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 palindrome/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libpalindrome">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/liblibpalindrome.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/liblibpalindrome.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -275,20 +279,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 libpalindrome"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 libpalindrome"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libpalindrome/fast">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/liblibpalindrome.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/liblibpalindrome.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -299,20 +303,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 libpalindrome/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 libpalindrome/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/palindrome/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="doublebasepalindromes">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/doublebasepalindromes" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/doublebasepalindromes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/doublebasepalindromes/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -323,20 +327,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 doublebasepalindromes"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 doublebasepalindromes"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="doublebasepalindromes/fast">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/doublebasepalindromes" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/doublebasepalindromes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/doublebasepalindromes/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -347,20 +351,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 doublebasepalindromes/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 doublebasepalindromes/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libdoublebasepalindromes">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/liblibdoublebasepalindromes.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/liblibdoublebasepalindromes.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/doublebasepalindromes/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -371,20 +375,20 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 libdoublebasepalindromes"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 libdoublebasepalindromes"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libdoublebasepalindromes/fast">
-				<Option output="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/liblibdoublebasepalindromes.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/liblibdoublebasepalindromes.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/students/z/zabldomi/JIMP2/lab1/lab1/doublebasepalindromes/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/."/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -395,267 +399,268 @@
 					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 libdoublebasepalindromes/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 libdoublebasepalindromes/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab1/doublebasepalindromes/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp">
 			<Option target="doublebasepalindromes"/>
 			<Option target="libdoublebasepalindromes"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/doublebasepalindromes/DoubleBasePalindromes.h">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/DoubleBasePalindromes.h">
 			<Option target="doublebasepalindromes"/>
 			<Option target="libdoublebasepalindromes"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/doublebasepalindromes/main.cpp">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/main.cpp">
 			<Option target="doublebasepalindromes"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/Factorial.cpp">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/Factorial.cpp">
 			<Option target="factorial"/>
 			<Option target="libfactorial"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/Factorial.h">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/Factorial.h">
 			<Option target="factorial"/>
 			<Option target="libfactorial"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/main.cpp">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/main.cpp">
 			<Option target="factorial"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/Palindrome.cpp">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/Palindrome.cpp">
 			<Option target="palindrome"/>
 			<Option target="libpalindrome"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/Palindrome.h">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/Palindrome.h">
 			<Option target="palindrome"/>
 			<Option target="libpalindrome"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/main.cpp">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/main.cpp">
 			<Option target="palindrome"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/reversestring/ReverseString.cpp">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/ReverseString.cpp">
 			<Option target="reversestring"/>
 			<Option target="libreversestring"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/reversestring/ReverseString.h">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/ReverseString.h">
 			<Option target="reversestring"/>
 			<Option target="libreversestring"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/reversestring/main.cpp">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/main.cpp">
 			<Option target="reversestring"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab2/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab2/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab2/array2d/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/array2d/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\array2d\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab2/array2d/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/array2d/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\array2d\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab2/array2d/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/array2d/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\array2d\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab2/polybius/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\polybius\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab2/polybius/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\polybius\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab2/polybius/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\polybius\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab2/xorcypherbreaker/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\xorcypherbreaker\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab2/xorcypherbreaker/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\xorcypherbreaker\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab2/xorcypherbreaker/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\xorcypherbreaker\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab3/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab3/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab3/ccounter/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/ccounter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\ccounter\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab3/ccounter/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/ccounter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\ccounter\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab3/ccounter/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/ccounter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\ccounter\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab3/smarttree/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/smarttree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\smarttree\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab3/smarttree/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/smarttree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\smarttree\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab3/smarttree/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/smarttree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\smarttree\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab3/tinyurl/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/tinyurl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\tinyurl\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab3/tinyurl/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/tinyurl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\tinyurl\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab3/tinyurl/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/tinyurl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\tinyurl\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/doublebasepalindromes/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\doublebasepalindromes\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/doublebasepalindromes/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\doublebasepalindromes\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/doublebasepalindromes/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\doublebasepalindromes\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\factorial\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\factorial\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/factorial/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\factorial\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/reversestring/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\reversestring\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/reversestring/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\reversestring\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/reversestring/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\reversestring\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\palindrome\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\palindrome\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab1/palindrome/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\palindrome\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/stringutility/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/stringutility/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\stringutility\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/stringutility/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/stringutility/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\stringutility\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/stringutility/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/stringutility/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\stringutility\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/memleak/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/memleak/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\memleak\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/memleak/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/memleak/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\memleak\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lib/memleak/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/memleak/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\memleak\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lab1test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab1test\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lab1test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab1test\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lab2test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab2test\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lab2test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab2test\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lab3test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab3test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab3test\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lab3test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab3test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab3test\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lab4test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab4test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab4test\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lab4test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab4test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab4test\"/>
 		</Unit>
+<<<<<<< HEAD
 		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lab5test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab5test\"/>
 		</Unit>
@@ -663,16 +668,39 @@
 			<Option virtualFolder="CMake Files\tests\lab5test\"/>
 		</Unit>
 		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab4/CMakeLists.txt">
+=======
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/CMakeLists.txt">
+>>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
 			<Option virtualFolder="CMake Files\lab4\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab4/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab4\"/>
 		</Unit>
+<<<<<<< HEAD
 		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab5\"/>
 		</Unit>
 		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab5\"/>
+=======
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/simpletemplateengine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\simpletemplateengine\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/simpletemplateengine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\simpletemplateengine\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/simpletemplateengine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\simpletemplateengine\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/netsjson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\netsjson\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/netsjson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\netsjson\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/netsjson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\netsjson\"/>
+>>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
