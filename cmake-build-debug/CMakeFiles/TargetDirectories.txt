@@ -116,6 +116,14 @@
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/simpletemplateengine/CMakeFiles/install/strip.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/simpletemplateengine/CMakeFiles/simpletemplateengine.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/simpletemplateengine/CMakeFiles/libsimpletemplateengine.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/netsjson/CMakeFiles/edit_cache.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/netsjson/CMakeFiles/rebuild_cache.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/netsjson/CMakeFiles/list_install_components.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/netsjson/CMakeFiles/install.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/netsjson/CMakeFiles/install/local.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/netsjson/CMakeFiles/install/strip.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/netsjson/CMakeFiles/simplejson.dir
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab4/netsjson/CMakeFiles/libsimplejson.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/CMakeFiles/edit_cache.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/CMakeFiles/rebuild_cache.dir
 /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/tests/CMakeFiles/list_install_components.dir

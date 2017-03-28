@@ -441,6 +441,32 @@ libsimpletemplateengine/fast:
 .PHONY : libsimpletemplateengine/fast
 
 #=============================================================================
+# Target rules for targets named simplejson
+
+# Build rule for target.
+simplejson: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simplejson
+.PHONY : simplejson
+
+# fast build rule for target.
+simplejson/fast:
+	$(MAKE) -f lab4/netsjson/CMakeFiles/simplejson.dir/build.make lab4/netsjson/CMakeFiles/simplejson.dir/build
+.PHONY : simplejson/fast
+
+#=============================================================================
+# Target rules for targets named libsimplejson
+
+# Build rule for target.
+libsimplejson: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libsimplejson
+.PHONY : libsimplejson
+
+# fast build rule for target.
+libsimplejson/fast:
+	$(MAKE) -f lab4/netsjson/CMakeFiles/libsimplejson.dir/build.make lab4/netsjson/CMakeFiles/libsimplejson.dir/build
+.PHONY : libsimplejson/fast
+
+#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -1007,6 +1033,8 @@ help:
 	@echo "... libccounter"
 	@echo "... simpletemplateengine"
 	@echo "... libsimpletemplateengine"
+	@echo "... simplejson"
+	@echo "... libsimplejson"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
