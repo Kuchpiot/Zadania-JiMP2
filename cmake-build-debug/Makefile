@@ -896,19 +896,6 @@ lab4_simple_url_tests/fast:
 .PHONY : lab4_simple_url_tests/fast
 
 #=============================================================================
-# Target rules for targets named lab4_simple_template_engine_tests
-
-# Build rule for target.
-lab4_simple_template_engine_tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lab4_simple_template_engine_tests
-.PHONY : lab4_simple_template_engine_tests
-
-# fast build rule for target.
-lab4_simple_template_engine_tests/fast:
-	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build
-.PHONY : lab4_simple_template_engine_tests/fast
-
-#=============================================================================
 # Target rules for targets named lab4_simple_template_engine_injection_tests
 
 # Build rule for target.
@@ -946,6 +933,84 @@ lab4_simple_json_tests: cmake_check_build_system
 lab4_simple_json_tests/fast:
 	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build
 .PHONY : lab4_simple_json_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab4_square_tests
+
+# Build rule for target.
+lab4_square_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab4_square_tests
+.PHONY : lab4_square_tests
+
+# fast build rule for target.
+lab4_square_tests/fast:
+	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_square_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_square_tests.dir/build
+.PHONY : lab4_square_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab4_simple_template_engine_tests
+
+# Build rule for target.
+lab4_simple_template_engine_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab4_simple_template_engine_tests
+.PHONY : lab4_simple_template_engine_tests
+
+# fast build rule for target.
+lab4_simple_template_engine_tests/fast:
+	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build
+.PHONY : lab4_simple_template_engine_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab4_name_tests
+
+# Build rule for target.
+lab4_name_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab4_name_tests
+.PHONY : lab4_name_tests
+
+# fast build rule for target.
+lab4_name_tests/fast:
+	$(MAKE) -f tests/lab4test/CMakeFiles/lab4_name_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_name_tests.dir/build
+.PHONY : lab4_name_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab5_all_tests
+
+# Build rule for target.
+lab5_all_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab5_all_tests
+.PHONY : lab5_all_tests
+
+# fast build rule for target.
+lab5_all_tests/fast:
+	$(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/build
+.PHONY : lab5_all_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab5_text_pool_tests
+
+# Build rule for target.
+lab5_text_pool_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab5_text_pool_tests
+.PHONY : lab5_text_pool_tests
+
+# fast build rule for target.
+lab5_text_pool_tests/fast:
+	$(MAKE) -f tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build
+.PHONY : lab5_text_pool_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab5_memory_chunk_tests
+
+# Build rule for target.
+lab5_memory_chunk_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab5_memory_chunk_tests
+.PHONY : lab5_memory_chunk_tests
+
+# fast build rule for target.
+lab5_memory_chunk_tests/fast:
+	$(MAKE) -f tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build
+.PHONY : lab5_memory_chunk_tests/fast
 
 # Help Target
 help:
@@ -1016,10 +1081,15 @@ help:
 	@echo "... lab3_c_counter_tests"
 	@echo "... lab3_all_tests"
 	@echo "... lab4_simple_url_tests"
-	@echo "... lab4_simple_template_engine_tests"
 	@echo "... lab4_simple_template_engine_injection_tests"
 	@echo "... lab4_all_tests"
 	@echo "... lab4_simple_json_tests"
+	@echo "... lab4_square_tests"
+	@echo "... lab4_simple_template_engine_tests"
+	@echo "... lab4_name_tests"
+	@echo "... lab5_all_tests"
+	@echo "... lab5_text_pool_tests"
+	@echo "... lab5_memory_chunk_tests"
 .PHONY : help
 
 

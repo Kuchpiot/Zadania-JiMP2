@@ -38,6 +38,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/cmake_install.cmake")
   include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab3/cmake_install.cmake")
   include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab4/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab5/cmake_install.cmake")
   include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/cmake_install.cmake")
 
 endif()
