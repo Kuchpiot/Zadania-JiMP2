@@ -1,0 +1,113 @@
+<<<<<<< HEAD
+/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/students/z/zabldomi/JIMP2/lab1
+=======
+/home/piotr/IDE/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1
+>>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
+add_subdirectory_if_exists REVERSESTRING EXISTS!
+add_subdirectory_if_exists PALINDROME EXISTS!
+add_subdirectory_if_exists DOUBLEBASEPALINDROMES EXISTS!
+add_subdirectory_if_exists ARRAY2D EXISTS!
+add_subdirectory_if_exists POLYBIUS EXISTS!
+add_subdirectory_if_exists XORCYPHERBREAKER EXISTS!
+add_subdirectory_if_exists SMARTTREE EXISTS!
+add_subdirectory_if_exists TINYURL EXISTS!
+add_subdirectory_if_exists CCOUNTER EXISTS!
+<<<<<<< HEAD
+=======
+add_subdirectory_if_exists SIMPLETEMPLATEENGINE EXISTS!
+add_subdirectory_if_exists NETSJSON EXISTS!
+>>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
+-- lab1test::HAVE_DIR_PALINDROME:  
+add_gtest_with_memleak target: lab2_array_2d_step1_tests
+add_gtest_with_memleak src: Array2dStep1Test.cpp;
+add_gtest_with_memleak lib: libarray2d
+add_gtest_with_memleak target: lab2_array_2d_step2_tests
+add_gtest_with_memleak src: Array2dStep2Test.cpp;
+add_gtest_with_memleak lib: libarray2d
+add_gtest_with_memleak target: lab2_array_2d_step3_tests
+add_gtest_with_memleak src: Array2dStep3Test.cpp;
+add_gtest_with_memleak lib: libarray2d
+add_gtest_with_memleak target: lab2_array_2d_step4_tests
+add_gtest_with_memleak src: Array2dStep4Test.cpp;
+add_gtest_with_memleak lib: libarray2d
+add_gtest_with_memleak target: lab2_polybius_step1_tests
+add_gtest_with_memleak src: PolybiusStep1Test.cpp;
+add_gtest_with_memleak lib: libpolybius
+add_gtest_with_memleak target: lab2_polybius_step2_tests
+add_gtest_with_memleak src: PolybiusStep2Test.cpp;
+add_gtest_with_memleak lib: libpolybius
+add_gtest_with_memleak target: lab2_greatest_product_step1_tests
+add_gtest_with_memleak src: GreatestProductStep1Test.cpp;
+add_gtest_with_memleak lib: libgreatestproduct
+add_gtest_with_memleak target: lab2_greatest_product_step2_tests
+add_gtest_with_memleak src: GreatestProductStep2Test.cpp;
+add_gtest_with_memleak lib: libgreatestproduct
+add_gtest_with_memleak target: lab2_greatest_product_step3_tests
+add_gtest_with_memleak src: GreatestProductStep3Test.cpp;
+add_gtest_with_memleak lib: libgreatestproduct
+add_gtest_with_memleak target: lab2_simple_forward_list_step1_tests
+add_gtest_with_memleak src: SimpleForwardListStep1Test.cpp;
+add_gtest_with_memleak lib: libsimpleforwardlist
+add_gtest_with_memleak target: lab2_simple_forward_list_step2_tests
+add_gtest_with_memleak src: SimpleForwardListStep2Test.cpp;
+add_gtest_with_memleak lib: libsimpleforwardlist
+add_gtest_with_memleak target: lab2_simple_forward_list_step3_tests
+add_gtest_with_memleak src: SimpleForwardListStep3Test.cpp;
+add_gtest_with_memleak lib: libsimpleforwardlist
+add_gtest_with_memleak target: lab2_xor_cypher_breaker_tests
+add_gtest_with_memleak src: XorCypherBreakerTest.cpp;
+add_gtest_with_memleak lib: libxorcypherbreaker
+add_gtest_with_memleak target: lab3_smart_tree_step1_tests
+add_gtest_with_memleak src: SmartTreeStep1Test.cpp;
+add_gtest_with_memleak lib: libsmarttree
+add_gtest_with_memleak target: lab3_smart_tree_step2_tests
+add_gtest_with_memleak src: SmartTreeStep2Test.cpp;
+add_gtest_with_memleak lib: libsmarttree
+add_gtest_with_memleak target: lab3_smart_tree_step3_tests
+add_gtest_with_memleak src: SmartTreeStep3Test.cpp;
+add_gtest_with_memleak lib: libsmarttree
+add_gtest_with_memleak target: lab3_smart_tree_step4_tests
+add_gtest_with_memleak src: SmartTreeStep4Test.cpp;
+add_gtest_with_memleak lib: libsmarttree
+add_gtest_with_memleak target: lab3_smart_tree_step5_tests
+add_gtest_with_memleak src: SmartTreeStep5Test.cpp;
+add_gtest_with_memleak lib: libsmarttree
+add_gtest_with_memleak target: lab3_tiny_url_step1_tests
+add_gtest_with_memleak src: TinyUrlStep1Test.cpp;
+add_gtest_with_memleak lib: libtinyurl
+add_gtest_with_memleak target: lab3_tiny_url_step2_tests
+add_gtest_with_memleak src: TinyUrlStep2Test.cpp;
+add_gtest_with_memleak lib: libtinyurl
+add_gtest_with_memleak target: lab3_c_counter_tests
+add_gtest_with_memleak src: CCounterTest.cpp;
+add_gtest_with_memleak lib: libccounter
+add_gtest_with_memleak target: lab3_minimal_time_difference_tests
+add_gtest_with_memleak src: MinimalTimeDifferenceTest.cpp;
+add_gtest_with_memleak lib: libminimaltimedifference
+add_gtest_with_memleak target: lab4_simple_url_tests
+add_gtest_with_memleak src: SimpleUrlTest.cpp;
+add_gtest_with_memleak lib: libsimpleurl
+add_gtest_with_memleak target: lab4_simple_template_engine_tests
+add_gtest_with_memleak src: SimpleTemplateEngineTest.cpp;
+add_gtest_with_memleak lib: libsimpletemplateengine
+add_gtest_with_memleak target: lab4_simple_template_engine_injection_tests
+add_gtest_with_memleak src: SimpleTemplateEngineInjectionTest.cpp;
+add_gtest_with_memleak lib: libsimpletemplateengine
+add_gtest_with_memleak target: lab4_simple_json_tests
+add_gtest_with_memleak src: SimpleJsonTest.cpp;
+add_gtest_with_memleak lib: libsimplejson
+add_gtest_with_memleak target: lab4_square_tests
+add_gtest_with_memleak src: SquareTest.cpp;
+add_gtest_with_memleak lib: libsquare
+add_gtest_with_memleak target: lab4_name_tests
+add_gtest_with_memleak src: NameTest.cpp;
+add_gtest_with_memleak lib: libname
+add_gtest_with_memleak target: lab5_memory_chunk_tests
+add_gtest_with_memleak src: MemoryChunkTest.cpp;
+add_gtest_with_memleak lib: libmemorychunk
+add_gtest_with_memleak target: lab5_text_pool_tests
+add_gtest_with_memleak src: TextPoolTest.cpp;
+add_gtest_with_memleak lib: libtextpool
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug

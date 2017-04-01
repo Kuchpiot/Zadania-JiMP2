@@ -40,17 +40,13 @@ namespace nets
     {
         if(my_value_->type == MAP_TYPE)
         {
-            std::experimental::optional<JsonValue> o;
-
             for (auto s : my_value_->map_value)
             {
-                if(s.first == name)
+                if (s.first == name)
                 {
-                    o = std::experimental::make_optional <JsonValue> (&s.second);
+                    return std::experimental::optional<JsonValue>();
                 }
             }
-
-            return o;
         }
     }
 
@@ -94,18 +90,11 @@ namespace nets
 
                 for (auto s : my_value_->map_value)
                 {
-                    result2.append(s.first);
+                    result2.append("\"" + s.first + "\": " + s.second.ToString() + " ");
                 }
-
-                result2 = result2.substr(0, result2.length() - 1);
 
                 return result2;
             }
         }
-    }
-
-    JsonValue::~JsonValue()
-    {
-        delete my_value_;
     }
 }

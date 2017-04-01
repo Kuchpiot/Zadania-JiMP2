@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/Factorial.cpp
+Factorial.h
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/Factorial.h
+
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/Factorial.h
+
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/main.cpp
+iostream
+-
+Factorial.h
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/Factorial.h
+

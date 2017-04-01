@@ -35,8 +35,6 @@ namespace nets
         std::experimental::optional<JsonValue> ValueByName(const std::string &name) const;
         std::string ToString() const;
 
-        ~JsonValue();
-
     private:
         struct DataType
         {
@@ -80,11 +78,6 @@ namespace nets
             {
                 type = MAP_TYPE;
                 map_value = x;
-            }
-
-            ~DataType()
-            {
-
             }
         };
 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/polybius.dir/Polybius.cpp.o CMakeFiles/polybius.dir/main.cpp.o  -o polybius liblibpolybius.a 

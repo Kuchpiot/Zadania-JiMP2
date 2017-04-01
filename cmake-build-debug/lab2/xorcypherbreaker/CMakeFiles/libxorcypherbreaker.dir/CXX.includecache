@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/XorCypherBreaker.cpp
+XorCypherBreaker.h
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/XorCypherBreaker.h
+iostream
+-
+algorithm
+-
+sstream
+-
+iterator
+-
+
+/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/XorCypherBreaker.h
+vector
+-
+string
+-
+
