@@ -7,10 +7,12 @@
 namespace pool
 {
     // Rule of Five (z usuniętą możliwością kopiowania)
+
     // konstruktor przenoszący
-    TextPool::TextPool(TextPool &&tp) : stored_words()
+    TextPool::TextPool(TextPool &&tp)
     {
-        std::swap(stored_words, tp.stored_words);
+        //std::swap(stored_words, tp.stored_words);
+        stored_words = std::move(tp.stored_words);
     }
 
     // operator przypisania przenoszący
@@ -21,32 +23,21 @@ namespace pool
             return tp;
         }
 
-        stored_words = {};
-        std::vector <std::string> temp;
+        stored_words = std::set <std::string> ();
 
-        std::swap(temp, tp.stored_words);
-
-        for(auto &s : temp)
-        {
-            if(std::find(stored_words.begin(), stored_words.end(), s) == stored_words.end())
-            {
-                stored_words.insert(stored_words.end(), s);
-            }
-        }
-
-        temp.clear();
+        std::swap(stored_words, tp.stored_words);
     }
 
     // destruktor
     TextPool::~TextPool()
     {
-
+        stored_words.clear();
     }
 
     // domyślny konstruktor
     TextPool::TextPool()
     {
-        stored_words = std::vector <std::string>();
+        stored_words = std::set <std::string> ();
     }
 
     // konstruktor z listą inicjalizacyjną
@@ -54,27 +45,18 @@ namespace pool
     {
         for (auto &element : text)
         {
-            if (std::find(stored_words.begin(), stored_words.end(), element) == stored_words.end())
-            {
-                stored_words.insert(stored_words.end(), element);
-            }
+            stored_words.insert(element);
         }
     }
 
-
-
     std::experimental::string_view TextPool::Intern(const std::string &str)
     {
-        if(stored_words.size() == 0 || std::find(stored_words.begin(), stored_words.end(), str) == stored_words.end())
+        if(stored_words.find(str) == stored_words.end())
         {
-            stored_words.insert(stored_words.end(), str);
-            return stored_words.at(stored_words.size());
-        }
-        else
-        {
-            return *std::find(stored_words.begin(), stored_words.end(), str);
+            stored_words.insert(str);
         }
 
+        return *stored_words.find(str);
     }
 
     size_t TextPool::StoredStringCount() const

@@ -9,9 +9,6 @@
 #include <string>
 #include <experimental/string_view>
 #include <set>
-#include <vector>
-#include <iostream>
-#include <algorithm>
 
 namespace pool
 {
@@ -19,6 +16,7 @@ namespace pool
     {
     public:
         // Rule of Five (z usuniętą możliwością kopiowania)
+
         // konstruktor przenoszący
         TextPool(TextPool &&tp);
 
@@ -38,7 +36,7 @@ namespace pool
         size_t StoredStringCount() const;
 
     private:
-        std::vector <std::string> stored_words;
+        std::set <std::string> stored_words;
     };
 }
 
