@@ -1,4 +1,4 @@
-# Install script for directory: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1
+# Install script for directory: /home/students/z/zabldomi/JIMP2/lab1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab1/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab3/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab4/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab5/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab6/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab2/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab3/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab4/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab5/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab6/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0
+# Install script for directory: /home/students/z/zabldomi/JIMP2/lab1/tests/lib/gtest-1.8.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/polybius
+# Install script for directory: /home/students/z/zabldomi/JIMP2/lab1/lab2/polybius
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
