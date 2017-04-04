@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/students/z/zabldomi/JIMP2/lab1
-=======
-/home/piotr/IDE/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/Lab1
->>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
+/home/piotr/IDE/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1
 add_subdirectory_if_exists REVERSESTRING EXISTS!
 add_subdirectory_if_exists PALINDROME EXISTS!
 add_subdirectory_if_exists DOUBLEBASEPALINDROMES EXISTS!
@@ -12,11 +8,10 @@ add_subdirectory_if_exists XORCYPHERBREAKER EXISTS!
 add_subdirectory_if_exists SMARTTREE EXISTS!
 add_subdirectory_if_exists TINYURL EXISTS!
 add_subdirectory_if_exists CCOUNTER EXISTS!
-<<<<<<< HEAD
-=======
 add_subdirectory_if_exists SIMPLETEMPLATEENGINE EXISTS!
 add_subdirectory_if_exists NETSJSON EXISTS!
->>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
+add_subdirectory_if_exists MEMORYCHUNK EXISTS!
+add_subdirectory_if_exists TEXTPOOL EXISTS!
 -- lab1test::HAVE_DIR_PALINDROME:  
 add_gtest_with_memleak target: lab2_array_2d_step1_tests
 add_gtest_with_memleak src: Array2dStep1Test.cpp;
@@ -108,6 +103,24 @@ add_gtest_with_memleak lib: libmemorychunk
 add_gtest_with_memleak target: lab5_text_pool_tests
 add_gtest_with_memleak src: TextPoolTest.cpp;
 add_gtest_with_memleak lib: libtextpool
+add_gtest_with_memleak target: lab5_matrix_tests
+add_gtest_with_memleak src: MatrixTest.cpp;
+add_gtest_with_memleak lib: libmatrix
+add_gtest_with_memleak target: lab6_student_repository_tests
+add_gtest_with_memleak src: StudentRepositoryTest.cpp;
+add_gtest_with_memleak lib: libstudentrepository
+add_gtest_with_memleak target: lab6_student_repository_study_year_tests
+add_gtest_with_memleak src: StudentRepositoryStudyYearTest.cpp;
+add_gtest_with_memleak lib: libstudentrepository
+add_gtest_with_memleak target: lab6_student_repository_student_tests
+add_gtest_with_memleak src: StudentRepositoryStudentTest.cpp;
+add_gtest_with_memleak lib: libstudentrepository
+add_gtest_with_memleak target: lab6_word_counter_tests
+add_gtest_with_memleak src: WordCounterTest.cpp;
+add_gtest_with_memleak lib: libwordcounter
+add_gtest_with_memleak target: lab6_zipper_tests
+add_gtest_with_memleak src: ZipperTest.cpp;
+add_gtest_with_memleak lib: libzipper
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug
+-- Build files have been written to: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug

@@ -1,4 +1,4 @@
-# Install script for directory: /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2
+# Install script for directory: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/array2d/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/polybius/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/cmake_install.cmake")
+  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/array2d/cmake_install.cmake")
+  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/polybius/cmake_install.cmake")
+  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/cmake_install.cmake")
 
 endif()
 

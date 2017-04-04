@@ -1,4 +1,4 @@
-# Install script for directory: /home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes
+# Install script for directory: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/doublebasepalindromes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

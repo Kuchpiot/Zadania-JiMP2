@@ -5,381 +5,401 @@
 		<Option title="xorcypherbreaker"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-<<<<<<< HEAD
-		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab2\xorcypherbreaker\;CMake Files\lab3\;CMake Files\lab3\ccounter\;CMake Files\lab3\smarttree\;CMake Files\lab3\tinyurl\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\tests\lab5test\;CMake Files\lab4\;CMake Files\lab5\;"/>
-=======
-		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab2\xorcypherbreaker\;CMake Files\lab3\;CMake Files\lab3\ccounter\;CMake Files\lab3\smarttree\;CMake Files\lab3\tinyurl\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\lab4\;CMake Files\lab4\simpletemplateengine\;CMake Files\lab4\netsjson\;"/>
->>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
+		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab2\xorcypherbreaker\;CMake Files\lab3\;CMake Files\lab3\ccounter\;CMake Files\lab3\smarttree\;CMake Files\lab3\tinyurl\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\tests\lab5test\;CMake Files\tests\lab6test\;CMake Files\lab4\;CMake Files\lab4\simpletemplateengine\;CMake Files\lab4\netsjson\;CMake Files\lab5\;CMake Files\lab5\memorychunk\;CMake Files\lab5\textpool\;CMake Files\lab6\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="xorcypherbreaker">
-				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/xorcypherbreaker" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/xorcypherbreaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 xorcypherbreaker"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 xorcypherbreaker"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="xorcypherbreaker/fast">
-				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/xorcypherbreaker" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/xorcypherbreaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 xorcypherbreaker/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 xorcypherbreaker/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libxorcypherbreaker">
-				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/liblibxorcypherbreaker.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/liblibxorcypherbreaker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 libxorcypherbreaker"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 libxorcypherbreaker"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libxorcypherbreaker/fast">
-				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/liblibxorcypherbreaker.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker"/>
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/liblibxorcypherbreaker.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 libxorcypherbreaker/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 libxorcypherbreaker/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/XorCypherBreaker.cpp">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/XorCypherBreaker.cpp">
 			<Option target="xorcypherbreaker"/>
 			<Option target="libxorcypherbreaker"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/XorCypherBreaker.h">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/XorCypherBreaker.h">
 			<Option target="xorcypherbreaker"/>
 			<Option target="libxorcypherbreaker"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/main.cpp">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/main.cpp">
 			<Option target="xorcypherbreaker"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/array2d/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/array2d/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\array2d\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/array2d/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/array2d/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\array2d\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/array2d/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/array2d/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\array2d\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/polybius/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\polybius\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/polybius/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\polybius\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/polybius/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/polybius/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\polybius\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\xorcypherbreaker\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\xorcypherbreaker\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab2/xorcypherbreaker/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\xorcypherbreaker\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/ccounter/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/ccounter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\ccounter\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/ccounter/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/ccounter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\ccounter\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/ccounter/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/ccounter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\ccounter\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/smarttree/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/smarttree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\smarttree\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/smarttree/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/smarttree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\smarttree\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/smarttree/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/smarttree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\smarttree\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/tinyurl/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/tinyurl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\tinyurl\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/tinyurl/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/tinyurl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\tinyurl\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab3/tinyurl/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/tinyurl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\tinyurl\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/doublebasepalindromes/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\doublebasepalindromes\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/doublebasepalindromes/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\doublebasepalindromes\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/doublebasepalindromes/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/doublebasepalindromes/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\doublebasepalindromes\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/factorial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\factorial\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/factorial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\factorial\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/factorial/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/factorial/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\factorial\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/reversestring/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\reversestring\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/reversestring/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\reversestring\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/reversestring/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/reversestring/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\reversestring\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/palindrome/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\palindrome\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/palindrome/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\palindrome\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab1/palindrome/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/palindrome/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab1\palindrome\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/stringutility/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\stringutility\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/stringutility/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\stringutility\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/stringutility/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\stringutility\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/memleak/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\memleak\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/memleak/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\memleak\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lib/memleak/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lib\memleak\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab1test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab1test\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab1test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab1test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab1test\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab2test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab2test\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab2test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab2test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab2test\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab3test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab3test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab3test\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab3test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab3test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab3test\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab4test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab4test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab4test\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/tests/lab4test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab4test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab4test\"/>
 		</Unit>
-<<<<<<< HEAD
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lab5test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab5test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab5test\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/tests/lab5test/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab5test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab5test\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab4/CMakeLists.txt">
-=======
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/CMakeLists.txt">
->>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab6test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab6test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab6test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab6test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab4\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab4\"/>
 		</Unit>
-<<<<<<< HEAD
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab5/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab4/simpletemplateengine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\simpletemplateengine\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab4/simpletemplateengine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\simpletemplateengine\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab4/simpletemplateengine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\simpletemplateengine\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab4/netsjson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\netsjson\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab4/netsjson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\netsjson\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab4/netsjson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\netsjson\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab5\"/>
 		</Unit>
-		<Unit filename="/home/students/z/zabldomi/JIMP2/lab1/lab5/CMakeLists.txt">
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab5\"/>
-=======
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/simpletemplateengine/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab4\simpletemplateengine\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/simpletemplateengine/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab4\simpletemplateengine\"/>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab5/memorychunk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab5\memorychunk\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/simpletemplateengine/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab4\simpletemplateengine\"/>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab5/memorychunk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab5\memorychunk\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/netsjson/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab4\netsjson\"/>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab5/memorychunk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab5\memorychunk\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/netsjson/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab4\netsjson\"/>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab5/textpool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab5\textpool\"/>
 		</Unit>
-		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/Lab1/lab4/netsjson/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab4\netsjson\"/>
->>>>>>> 72e3563bfc4c380442a80776a7a8ce97435705c0
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab5/textpool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab5\textpool\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab5/textpool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab5\textpool\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab6\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab6\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
