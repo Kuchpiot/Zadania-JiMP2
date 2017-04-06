@@ -1,5 +1,5 @@
 //
-// Created by piotr on 30.03.17.
+// Created by Piotr Kucharski & Dominik Zabłotny on 30.03.17.
 //
 
 #ifndef JIMP_EXERCISES_TEXTPOOL_H
