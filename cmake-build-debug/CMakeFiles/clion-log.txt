@@ -1,4 +1,4 @@
-/home/piotr/IDE/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1
+/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/students/z/zabldomi/JIMP2/lab1
 add_subdirectory_if_exists REVERSESTRING EXISTS!
 add_subdirectory_if_exists PALINDROME EXISTS!
 add_subdirectory_if_exists DOUBLEBASEPALINDROMES EXISTS!
@@ -123,4 +123,4 @@ add_gtest_with_memleak src: ZipperTest.cpp;
 add_gtest_with_memleak lib: libzipper
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug
+-- Build files have been written to: /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug

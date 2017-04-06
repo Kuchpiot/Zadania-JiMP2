@@ -1,2 +1,1 @@
-Options: 
-CMake: 3.7.1@/home/piotr/IDE/CLion/bin/cmake/bin/cmake
+CMake: 3.6.3@/usr/local/clion-2016.3.3/bin/cmake/bin/cmake

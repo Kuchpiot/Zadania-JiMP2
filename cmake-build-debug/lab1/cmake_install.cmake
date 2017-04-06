@@ -1,4 +1,4 @@
-# Install script for directory: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1
+# Install script for directory: /home/students/z/zabldomi/JIMP2/lab1/lab1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab1/factorial/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab1/reversestring/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab1/palindrome/cmake_install.cmake")
-  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab1/doublebasepalindromes/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/factorial/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/palindrome/cmake_install.cmake")
+  include("/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/doublebasepalindromes/cmake_install.cmake")
 
 endif()
 
