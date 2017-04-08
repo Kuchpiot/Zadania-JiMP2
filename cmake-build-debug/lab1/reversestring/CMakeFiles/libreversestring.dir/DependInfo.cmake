@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/students/z/zabldomi/JIMP2/lab1/lab1/reversestring/ReverseString.cpp" "/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/lab1/reversestring/CMakeFiles/libreversestring.dir/ReverseString.cpp.o"
+  "/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/reversestring/ReverseString.cpp" "/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab1/reversestring/CMakeFiles/libreversestring.dir/ReverseString.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

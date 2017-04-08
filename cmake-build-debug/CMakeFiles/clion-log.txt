@@ -1,4 +1,4 @@
-/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/students/z/zabldomi/JIMP2/lab1
+/home/piotr/IDE/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1
 add_subdirectory_if_exists REVERSESTRING EXISTS!
 add_subdirectory_if_exists PALINDROME EXISTS!
 add_subdirectory_if_exists DOUBLEBASEPALINDROMES EXISTS!
@@ -10,8 +10,11 @@ add_subdirectory_if_exists TINYURL EXISTS!
 add_subdirectory_if_exists CCOUNTER EXISTS!
 add_subdirectory_if_exists SIMPLETEMPLATEENGINE EXISTS!
 add_subdirectory_if_exists NETSJSON EXISTS!
+add_subdirectory_if_exists MATRIX EXISTS!
 add_subdirectory_if_exists MEMORYCHUNK EXISTS!
 add_subdirectory_if_exists TEXTPOOL EXISTS!
+add_subdirectory_if_exists WORDCOUNTER EXISTS!
+add_subdirectory_if_exists ZIPPER EXISTS!
 -- lab1test::HAVE_DIR_PALINDROME:  
 add_gtest_with_memleak target: lab2_array_2d_step1_tests
 add_gtest_with_memleak src: Array2dStep1Test.cpp;
@@ -123,4 +126,4 @@ add_gtest_with_memleak src: ZipperTest.cpp;
 add_gtest_with_memleak lib: libzipper
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug
+-- Build files have been written to: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug

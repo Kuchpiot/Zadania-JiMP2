@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_848ae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_848ae.dir/build.make CMakeFiles/cmTC_848ae.dir/build
-make[1]: Wejście do katalogu '/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_848ae.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_848ae.dir/CheckSymbolExists.c.o   -c /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_848ae
-/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_848ae.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_848ae.dir/CheckSymbolExists.c.o  -o cmTC_848ae -rdynamic 
-CMakeFiles/cmTC_848ae.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_a7dcb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7dcb.dir/build.make CMakeFiles/cmTC_a7dcb.dir/build
+make[1]: Wejście do katalogu '/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7dcb.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a7dcb.dir/CheckSymbolExists.c.o   -c /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a7dcb
+/home/piotr/IDE/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7dcb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a7dcb.dir/CheckSymbolExists.c.o  -o cmTC_a7dcb -rdynamic 
+CMakeFiles/cmTC_a7dcb.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_848ae.dir/build.make:97: polecenia dla obiektu 'cmTC_848ae' nie powiodły się
-make[1]: *** [cmTC_848ae] Błąd 1
-make[1]: Opuszczenie katalogu '/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: polecenia dla obiektu 'cmTC_848ae/fast' nie powiodły się
-make: *** [cmTC_848ae/fast] Błąd 2
+CMakeFiles/cmTC_a7dcb.dir/build.make:97: polecenia dla obiektu 'cmTC_a7dcb' nie powiodły się
+make[1]: *** [cmTC_a7dcb] Błąd 1
+make[1]: Opuszczenie katalogu '/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: polecenia dla obiektu 'cmTC_a7dcb/fast' nie powiodły się
+make: *** [cmTC_a7dcb/fast] Błąd 2
 
-File /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f9fb0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f9fb0.dir/build.make CMakeFiles/cmTC_f9fb0.dir/build
-make[1]: Wejście do katalogu '/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f9fb0.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f9fb0.dir/CheckFunctionExists.c.o   -c /usr/local/clion-2016.3.3/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f9fb0
-/usr/local/clion-2016.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9fb0.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f9fb0.dir/CheckFunctionExists.c.o  -o cmTC_f9fb0 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_95a31/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95a31.dir/build.make CMakeFiles/cmTC_95a31.dir/build
+make[1]: Wejście do katalogu '/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95a31.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_95a31.dir/CheckFunctionExists.c.o   -c /home/piotr/IDE/CLion/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95a31
+/home/piotr/IDE/CLion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95a31.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_95a31.dir/CheckFunctionExists.c.o  -o cmTC_95a31 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_f9fb0.dir/build.make:97: polecenia dla obiektu 'cmTC_f9fb0' nie powiodły się
-make[1]: *** [cmTC_f9fb0] Błąd 1
-make[1]: Opuszczenie katalogu '/home/students/z/zabldomi/JIMP2/lab1/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: polecenia dla obiektu 'cmTC_f9fb0/fast' nie powiodły się
-make: *** [cmTC_f9fb0/fast] Błąd 2
+CMakeFiles/cmTC_95a31.dir/build.make:97: polecenia dla obiektu 'cmTC_95a31' nie powiodły się
+make[1]: *** [cmTC_95a31] Błąd 1
+make[1]: Opuszczenie katalogu '/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: polecenia dla obiektu 'cmTC_95a31/fast' nie powiodły się
+make: *** [cmTC_95a31/fast] Błąd 2
 
 
