@@ -38,6 +38,7 @@ namespace datastructures
         int GetAmount();
         void SetAmount(int a);
         void Increment();
+        void Decrement();
 
         bool operator==(const Counts &c2) const;
         operator int() const;

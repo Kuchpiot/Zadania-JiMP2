@@ -4,6 +4,7 @@
 
 #include <algorithm>
 #include "WordCounter.h"
+#include <fstream>
 
 namespace datastructures
 {
@@ -72,6 +73,11 @@ namespace datastructures
         return _amount;
     }
 
+    void Counts::Decrement()
+    {
+        _amount--;
+    }
+
     // WORD COUNTER
 
     WordCounter::WordCounter()
@@ -81,7 +87,47 @@ namespace datastructures
 
     WordCounter::WordCounter(std::string FileName)
     {
+        std::fstream input_file(FileName, std::ios::in);
 
+        if(!input_file.is_open())
+        {
+            return;
+        }
+
+        std::string tmp;
+
+        while(!input_file.eof())
+        {
+            input_file >> tmp;
+            for(int i = 0 ; i < tmp.length(); i++)
+            {
+                if(!isalnum(tmp[i]))
+                {
+                    tmp = tmp.substr(0, i);
+                }
+            }
+
+            bool has_word = false;
+
+            for (auto &&pai : _wordCounterPairs)
+            {
+                if(pai.first.GetWord() == tmp)
+                {
+                    has_word = true;
+                    pai.second.Increment();
+                    break;
+                }
+            }
+
+            if(!has_word)
+            {
+                _wordCounterPairs.emplace_back(Word(tmp), Counts(1));
+            }
+
+        }
+        input_file.close();
+
+        _wordCounterPairs.at(_wordCounterPairs.size() - 1).second.Decrement();
     }
 
     WordCounter::WordCounter(const std::initializer_list <Word> &words)
@@ -102,7 +148,7 @@ namespace datastructures
 
             if(!has_word)
             {
-                _wordCounterPairs.insert(_wordCounterPairs.end(), std::pair <Word, Counts> (item, Counts(1)));
+                _wordCounterPairs.emplace_back(item, Counts(1));
             }
 
         }
