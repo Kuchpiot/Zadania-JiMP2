@@ -9,14 +9,34 @@ namespace datastructures
 {
     // WORD
 
-    std::string Word::GetWord()
+    std::string Word::GetWord() const
     {
         return _word;
     }
 
     bool Word::operator ==(const Word &w2) const
     {
-        return (this->_word == _word) ? true : false;
+        return this->_word == _word;
+    }
+
+    Word& Word::operator=(Word&& w2)
+    {
+        _word = w2._word;
+    }
+
+    Word::Word(const Word &w2)
+    {
+        _word = w2._word;
+    }
+
+    bool Word::operator<(const Word &w2) const
+    {
+        return this->_word < w2._word;
+    }
+
+    bool Word::operator>(const Word &w2) const
+    {
+        return this->_word > w2._word;
     }
 
 
@@ -25,6 +45,11 @@ namespace datastructures
     int Counts::GetAmount()
     {
         return _amount;
+    }
+
+    Counts::Counts(const Counts& c2)
+    {
+        this->_amount = c2._amount;
     }
 
     void Counts::SetAmount(int a)
@@ -37,6 +62,15 @@ namespace datastructures
         _amount++;
     }
 
+    bool Counts::operator==(const Counts &c2) const
+    {
+        return this->_amount == c2._amount;
+    }
+
+    Counts::operator int() const
+    {
+        return _amount;
+    }
 
     // WORD COUNTER
 
@@ -50,44 +84,45 @@ namespace datastructures
 
     }
 
-    WordCounter::WordCounter(std::initializer_list <Word> words)
+    WordCounter::WordCounter(const std::initializer_list <Word> &words)
     {
-        _distinctWords = words.size();
         for (auto &&item : words)
         {
-//            if(std::find(_wordCounterPairs.begin(), _wordCounterPairs.end(), item) != _wordCounterPairs.end())
-//            {
-//
-//            }
-
             bool has_word = false;
 
-            for (auto &&pair : _wordCounterPairs)
+            for (auto &&pai : _wordCounterPairs)
             {
-                if(pair.first == item)
+                if(pai.first.GetWord() == item.GetWord())
                 {
                     has_word = true;
-                    pair.second.Increment();
+                    pai.second.Increment();
                     break;
                 }
             }
 
             if(!has_word)
             {
-                std::pair <Word, Counts> newElement = std::pair <Word, Counts> (item, 1);
-                _wordCounterPairs.insert(_wordCounterPairs.end(), newElement);
+                _wordCounterPairs.insert(_wordCounterPairs.end(), std::pair <Word, Counts> (item, Counts(1)));
             }
+
         }
     }
 
     unsigned long WordCounter::DistinctWords()
     {
-        return _distinctWords;
+        return _wordCounterPairs.size();
+
     }
 
     unsigned long WordCounter::TotalWords()
     {
-        return _wordCounterPairs.size();
+        int i = 0;
+        for (auto &&item : _wordCounterPairs)
+        {
+            i += item.second;
+        }
+
+        return i;
     }
 
     std::set <Word> WordCounter::Words()
@@ -102,5 +137,16 @@ namespace datastructures
         return words_stored;
     }
 
+    Counts WordCounter::operator[](std::string pos)
+    {
+        for (auto &&item : _wordCounterPairs)
+        {
+            if(item.first.GetWord() == pos)
+            {
+                return item.second;
+            }
+        }
 
+        return 0;
+    }
 }
