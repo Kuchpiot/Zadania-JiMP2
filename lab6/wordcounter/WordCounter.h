@@ -8,7 +8,7 @@
 #include <string>
 #include <utility>
 #include <set>
-#include <vector>
+#include <list>
 
 namespace datastructures
 {
@@ -42,6 +42,10 @@ namespace datastructures
 
         bool operator==(const Counts &c2) const;
         operator int() const;
+        Counts &operator++();
+        Counts &operator++(int);
+        bool operator<(const Counts &c2) const;
+        bool operator>(const Counts &c2) const;
 
     private:
         int _amount;
@@ -61,9 +65,10 @@ namespace datastructures
         std::set <Word> Words();
 
         Counts operator[](std::string pos);
+        friend std::ostream &operator<<(std::ostream &os, WordCounter &wc);
 
     private:
-        std::vector < std::pair <Word, Counts> > _wordCounterPairs;
+        std::list < std::pair <Word, Counts> > _wordCounterPairs;
     };
 
 }

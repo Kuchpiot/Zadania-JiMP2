@@ -11,5 +11,7 @@ int main()
 {
     WordCounter wc("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab6/wordcounter/file.txt");
 
+    std::cout << wc;
+
     return 0;
 }

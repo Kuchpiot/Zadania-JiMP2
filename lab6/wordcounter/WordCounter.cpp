@@ -8,7 +8,7 @@
 
 namespace datastructures
 {
-    // WORD
+    //------------------------------------------------------------------------------------------------------------- WORD
 
     std::string Word::GetWord() const
     {
@@ -41,7 +41,7 @@ namespace datastructures
     }
 
 
-    // COUNTS
+    //----------------------------------------------------------------------------------------------------------- COUNTS
 
     int Counts::GetAmount()
     {
@@ -78,11 +78,33 @@ namespace datastructures
         _amount--;
     }
 
-    // WORD COUNTER
+    Counts &Counts::operator++()
+    {
+        ++_amount;
+        return *this;
+    }
+
+    bool Counts::operator<(const Counts &c2) const
+    {
+        return this->_amount < c2._amount;
+    }
+
+    bool Counts::operator>(const Counts &c2) const
+    {
+        return this->_amount > c2._amount;
+    }
+
+    Counts &Counts::operator++(int)
+    {
+        ++_amount;
+        return *this;
+    }
+
+    //----------------------------------------------------------------------------------------------------- WORD COUNTER
 
     WordCounter::WordCounter()
     {
-        _wordCounterPairs = std::vector < std::pair <Word, Counts> > ();
+        _wordCounterPairs = std::list < std::pair <Word, Counts> > ();
     }
 
     WordCounter::WordCounter(std::string FileName)
@@ -127,7 +149,7 @@ namespace datastructures
         }
         input_file.close();
 
-        _wordCounterPairs.at(_wordCounterPairs.size() - 1).second.Decrement();
+        (*_wordCounterPairs.end()).second.Decrement();
     }
 
     WordCounter::WordCounter(const std::initializer_list <Word> &words)
@@ -193,5 +215,26 @@ namespace datastructures
         }
 
         return 0;
+    }
+
+    bool compare(const std::pair<Word, Counts>& p1, const std::pair<Word, Counts> &p2)
+    {
+        return p1.second > p2.second;
+    }
+
+    std::ostream &operator<<(std::ostream &os, WordCounter &wc)
+    {
+        wc._wordCounterPairs.sort(compare);
+
+        //Distinct, Total, lista
+        os << wc.DistinctWords() << std::endl;
+        os << wc.TotalWords() << std::endl;
+
+        for (auto &&item : wc._wordCounterPairs)
+        {
+            os << item.first.GetWord() << " " << item.second << std::endl;
+        }
+
+        return os;
     }
 }
