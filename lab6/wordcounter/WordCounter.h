@@ -56,7 +56,7 @@ namespace datastructures
         WordCounter(const std::initializer_list <Word> &words);
 
         unsigned long DistinctWords();
-        unsigned long TotalWords();
+        int TotalWords();
         std::set <Word> Words();
 
         Counts operator[](std::string pos);

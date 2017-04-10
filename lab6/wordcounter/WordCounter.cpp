@@ -111,10 +111,9 @@ namespace datastructures
     unsigned long WordCounter::DistinctWords()
     {
         return _wordCounterPairs.size();
-
     }
 
-    unsigned long WordCounter::TotalWords()
+    int WordCounter::TotalWords()
     {
         int i = 0;
         for (auto &&item : _wordCounterPairs)
