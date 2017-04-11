@@ -8,7 +8,7 @@
 #include <string>
 #include <utility>
 #include <set>
-#include <vector>
+#include <list>
 
 namespace datastructures
 {
@@ -17,11 +17,16 @@ namespace datastructures
     {
     public:
         Word(std::string word) : _word(word) {}
-        std::string GetWord();
+        Word(const Word& w2);
+        std::string GetWord() const;
         bool operator ==(const Word &w2) const;
+        Word &operator=(Word&& w2);
+        bool operator <(const Word &w2) const;
+        bool operator >(const Word &w2) const;
+
 
     private:
-        const std::string _word;
+        std::string _word;
     };
 
 
@@ -29,9 +34,18 @@ namespace datastructures
     {
     public:
         Counts(int a) : _amount(a) {}
+        Counts(const Counts& c2);
         int GetAmount();
         void SetAmount(int a);
         void Increment();
+        void Decrement();
+
+        bool operator==(const Counts &c2) const;
+        operator int() const;
+        Counts &operator++();
+        Counts &operator++(int);
+        bool operator<(const Counts &c2) const;
+        bool operator>(const Counts &c2) const;
 
     private:
         int _amount;
@@ -44,15 +58,17 @@ namespace datastructures
     public:
         WordCounter();
         WordCounter(std::string FileName);
-        WordCounter(std::initializer_list <Word> words);
+        WordCounter(const std::initializer_list <Word> &words);
 
         unsigned long DistinctWords();
-        unsigned long TotalWords();
+        int TotalWords();
         std::set <Word> Words();
 
+        Counts operator[](std::string pos);
+        friend std::ostream &operator<<(std::ostream &os, WordCounter &wc);
+
     private:
-        std::vector < std::pair <Word, Counts> > _wordCounterPairs;
-        unsigned long _distinctWords;
+        std::list < std::pair <Word, Counts> > _wordCounterPairs;
     };
 
 }
