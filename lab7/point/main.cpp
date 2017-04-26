@@ -11,10 +11,14 @@ int main()
     Point3D *a = new Point3D();
     Point3D *b = new Point3D(1, 2, 3);
 
+    Point3D p3d(1,2,3);
+    std::cout << p3d << std::endl;
+
     std::cout << x->Distance(*a) << std::endl;
 
     delete a;
     delete b;
+    delete x;
 
     return 0;
 }
@@ -28,3 +32,7 @@ int main()
 // Mieliśmy tutaj do czynienia ze zjawiskiem polimorfizmu - w związku z tym, że klasa Point3D dziedziczy
 // po klasie Point, jest ona też obiektem klasy Point, co pozwoliło na wykonanie metody Point::Distance(...)
 // gdzie Point3D został potraktowany jako obiekt Point (policzono ze współrzędnych x y)
+
+// Zadanie 7:
+// Nastepuje błąd kompilacji - operatory nie sa dziedziczone przez klasy potomne, dlatego niemożliwe jest
+// wypisanie obiektu Point3D za pomocą operatora z klasy Point

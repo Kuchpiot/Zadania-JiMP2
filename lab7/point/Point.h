@@ -31,6 +31,12 @@ public:
     //po jego zainicjalizowaniu
     void SetX(double x) { x_ = x; }
     void SetY(double y) { y_ = y; }
+
+    //operator którego nie było
+    std::ostream& operator<< (std::ostream &out)
+    {
+        return out << "(" << this->GetX() << ";" << this->GetY() << ")";
+    }
 private:
     //w przeciwienstwie do pythona C++ wymaga jawnej deklaracji składowych pól klasy:
     double x_, y_;
