@@ -19,7 +19,15 @@ namespace moviesubs
 
     class SubtitleEndBeforeStart : public std::exception
     {
+    public:
+        SubtitleEndBeforeStart(int line_no, std::string line) : line_(line), lineNo_(line_no) {}
+        int LineAt() const;
 
+        const char *what() const throw() override;
+
+    private:
+        int lineNo_;
+        std::string line_;
     };
 
     class InvalidSubtitleLineFormat : public std::exception
@@ -32,9 +40,9 @@ namespace moviesubs
 
     };
 
-    class OutOfOrderFrames : public std::exception
+    class OutOfOrderFrames : public std::exception, public std::invalid_argument
     {
-
+        OutOfOrderFrames() : std::invalid_argument("Invalid argument") {}
     };
 
     // MAIN CLASS
