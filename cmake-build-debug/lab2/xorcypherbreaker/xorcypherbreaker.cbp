@@ -5,7 +5,7 @@
 		<Option title="xorcypherbreaker"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab2\xorcypherbreaker\;CMake Files\lab3\;CMake Files\lab3\ccounter\;CMake Files\lab3\smarttree\;CMake Files\lab3\tinyurl\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\tests\lab5test\;CMake Files\tests\lab6test\;CMake Files\lab4\;CMake Files\lab4\simpletemplateengine\;CMake Files\lab4\netsjson\;CMake Files\lab5\;CMake Files\lab5\matrix\;CMake Files\lab5\memorychunk\;CMake Files\lab5\textpool\;CMake Files\lab6\;CMake Files\lab6\wordcounter\;CMake Files\lab6\zipper\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab2\xorcypherbreaker\;CMake Files\lab7\;CMake Files\lab7\arrayfill\;CMake Files\lab3\;CMake Files\lab3\ccounter\;CMake Files\lab3\smarttree\;CMake Files\lab3\tinyurl\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\tests\lab5test\;CMake Files\tests\lab6test\;CMake Files\tests\lab7test\;CMake Files\tests\lab8test\;CMake Files\tests\lab9test\;CMake Files\tests\lab10test\;CMake Files\tests\lab11test\;CMake Files\lab4\;CMake Files\lab4\simpletemplateengine\;CMake Files\lab4\netsjson\;CMake Files\lab5\;CMake Files\lab5\matrix\;CMake Files\lab5\memorychunk\;CMake Files\lab5\textpool\;CMake Files\lab6\;CMake Files\lab6\wordcounter\;CMake Files\lab6\zipper\;CMake Files\lab8\;CMake Files\lab8\student\;CMake Files\lab8\moviesubtitles\;CMake Files\lab9\;CMake Files\lab9\academiaserializer\;CMake Files\lab10\;CMake Files\lab10\academiascheduler\;CMake Files\lab11\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/xorcypherbreaker"/>
@@ -161,6 +161,21 @@
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\xorcypherbreaker\"/>
 		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\arrayfill\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\arrayfill\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\arrayfill\"/>
+		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\"/>
 		</Unit>
@@ -347,6 +362,36 @@
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab6test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab6test\"/>
 		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab7test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab7test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab8test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab8test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab8test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab8test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab9test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab9test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab9test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab9test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab10test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab10test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab10test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab10test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab11test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab11test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab11test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab11test\"/>
+		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab4\"/>
 		</Unit>
@@ -427,6 +472,66 @@
 		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab6/zipper/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab6\zipper\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/student/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\student\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/student/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\student\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/student/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\student\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\moviesubtitles\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\moviesubtitles\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\moviesubtitles\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\academiaserializer\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\academiaserializer\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\academiaserializer\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\academiascheduler\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\academiascheduler\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\academiascheduler\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab11\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab11\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

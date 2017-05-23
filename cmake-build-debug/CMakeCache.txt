@@ -31,7 +31,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 CMAKE_BUILD_TYPE:STRING=Debug
 
 //The CodeBlocks executable
-CMAKE_CODEBLOCKS_EXECUTABLE:FILEPATH=CMAKE_CODEBLOCKS_EXECUTABLE-NOTFOUND
+CMAKE_CODEBLOCKS_EXECUTABLE:FILEPATH=/usr/bin/codeblocks
 
 //Additional command line arguments when CodeBlocks invokes make.
 // Enter e.g. -j<some_number> to get parallel builds
@@ -197,6 +197,12 @@ array2d_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-
 array2d_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/array2d
 
 //Value Computed by CMake
+arrayfill_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab7/arrayfill
+
+//Value Computed by CMake
+arrayfill_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill
+
+//Value Computed by CMake
 ccounter_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab3/ccounter
 
 //Value Computed by CMake
@@ -276,6 +282,18 @@ jimp_exercises_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1
 jimp_exercises_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1
 
 //Value Computed by CMake
+lab10_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab10
+
+//Value Computed by CMake
+lab10_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10
+
+//Value Computed by CMake
+lab11_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab11
+
+//Value Computed by CMake
+lab11_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab11
+
+//Value Computed by CMake
 lab1_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab1
 
 //Value Computed by CMake
@@ -311,8 +329,29 @@ lab6_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-bui
 //Value Computed by CMake
 lab6_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab6
 
+//Value Computed by CMake
+lab7_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab7
+
+//Value Computed by CMake
+lab7_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7
+
+//Value Computed by CMake
+lab8_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab8
+
+//Value Computed by CMake
+lab8_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8
+
+//Value Computed by CMake
+lab9_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab9
+
+//Value Computed by CMake
+lab9_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9
+
 //Dependencies for target
 libarray2d_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+libarrayfill_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 libccounter_LIB_DEPENDS:STATIC=
@@ -330,6 +369,9 @@ libmatrix_LIB_DEPENDS:STATIC=
 libmemorychunk_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
+libmoviesubtitles_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 libpalindrome_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
@@ -339,6 +381,12 @@ libpolybius_LIB_DEPENDS:STATIC=
 libreversestring_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
+libscheduler_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+libserialization_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 libsimplejson_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
@@ -346,6 +394,9 @@ libsimpletemplateengine_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 libsmarttree_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+libstudent_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 libtextpool_LIB_DEPENDS:STATIC=
@@ -384,6 +435,12 @@ memorychunk_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cm
 memorychunk_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab5/memorychunk
 
 //Value Computed by CMake
+moviesubtitles_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab8/moviesubtitles
+
+//Value Computed by CMake
+moviesubtitles_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles
+
+//Value Computed by CMake
 palindrome_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab1/palindrome
 
 //Value Computed by CMake
@@ -400,6 +457,18 @@ reversestring_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/
 
 //Value Computed by CMake
 reversestring_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab1/reversestring
+
+//Value Computed by CMake
+scheduler_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab10/academiascheduler
+
+//Value Computed by CMake
+scheduler_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler
+
+//Value Computed by CMake
+serialization_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab9/academiaserializer
+
+//Value Computed by CMake
+serialization_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer
 
 //Value Computed by CMake
 simplejson_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab4/netsjson
@@ -427,6 +496,12 @@ stringutility_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 stringutility_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility
+
+//Value Computed by CMake
+student_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab8/student
+
+//Value Computed by CMake
+student_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/student
 
 //Value Computed by CMake
 textpool_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab5/textpool
@@ -565,7 +640,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=36
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=51
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
