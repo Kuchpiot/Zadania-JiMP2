@@ -5,7 +5,7 @@
 		<Option title="jimp_excercises_tests"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab2\xorcypherbreaker\;CMake Files\lab3\;CMake Files\lab3\ccounter\;CMake Files\lab3\smarttree\;CMake Files\lab3\tinyurl\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\tests\lab5test\;CMake Files\tests\lab6test\;CMake Files\lab4\;CMake Files\lab4\simpletemplateengine\;CMake Files\lab4\netsjson\;CMake Files\lab5\;CMake Files\lab5\matrix\;CMake Files\lab5\memorychunk\;CMake Files\lab5\textpool\;CMake Files\lab6\;CMake Files\lab6\wordcounter\;CMake Files\lab6\zipper\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab2\xorcypherbreaker\;CMake Files\lab7\;CMake Files\lab7\arrayfill\;CMake Files\lab3\;CMake Files\lab3\ccounter\;CMake Files\lab3\smarttree\;CMake Files\lab3\tinyurl\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\reversestring\;CMake Files\lab1\palindrome\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\tests\lab5test\;CMake Files\tests\lab6test\;CMake Files\tests\lab7test\;CMake Files\tests\lab8test\;CMake Files\tests\lab9test\;CMake Files\tests\lab10test\;CMake Files\tests\lab11test\;CMake Files\lab4\;CMake Files\lab4\simpletemplateengine\;CMake Files\lab4\netsjson\;CMake Files\lab5\;CMake Files\lab5\matrix\;CMake Files\lab5\memorychunk\;CMake Files\lab5\textpool\;CMake Files\lab6\;CMake Files\lab6\wordcounter\;CMake Files\lab6\zipper\;CMake Files\lab8\;CMake Files\lab8\student\;CMake Files\lab8\moviesubtitles\;CMake Files\lab9\;CMake Files\lab9\academiaserializer\;CMake Files\lab10\;CMake Files\lab10\academiascheduler\;CMake Files\lab11\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests"/>
@@ -3117,7 +3117,2045 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab6test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lab7_all_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_all_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_all_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_all_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_all_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_all_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_student_repository_query_by_first_name_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_student_repository_query_by_first_name_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_student_repository_query_by_first_name_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_student_repository_query_by_first_name_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_student_repository_query_by_first_name_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_student_repository_query_by_first_name_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_array_fill_incremental_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_array_fill_incremental_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_array_fill_incremental_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_array_fill_incremental_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_array_fill_incremental_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_array_fill_incremental_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_comparable_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_comparable_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_comparable_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_comparable_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_comparable_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_comparable_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_array_fill_squared_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_array_fill_squared_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_array_fill_squared_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_array_fill_squared_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_array_fill_squared_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_array_fill_squared_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_array_fill_uniform_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_array_fill_uniform_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_array_fill_uniform_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_array_fill_uniform_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_array_fill_uniform_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_array_fill_uniform_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_iterable_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_iterable_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_iterable_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_iterable_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_iterable_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_iterable_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_iterable_enumeration_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_iterable_enumeration_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_iterable_enumeration_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_iterable_enumeration_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_iterable_enumeration_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_iterable_enumeration_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_array_fill_random_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_array_fill_random_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_array_fill_random_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_array_fill_random_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_array_fill_random_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_array_fill_random_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_iterable_zipper_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_iterable_zipper_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_iterable_zipper_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_iterable_zipper_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_iterable_zipper_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_iterable_zipper_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_iterable_product_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_iterable_product_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_iterable_product_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_iterable_product_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_iterable_product_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_iterable_product_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_student_repository_query_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_student_repository_query_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_student_repository_query_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7_student_repository_query_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/lab7_student_repository_query_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 lab7_student_repository_query_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab7test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_pesel_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_pesel_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_pesel_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_pesel_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_pesel_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_pesel_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_all_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_all_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_all_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_all_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_all_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_all_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_movie_subtitles_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_movie_subtitles_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_movie_subtitles_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_movie_subtitles_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_movie_subtitles_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_movie_subtitles_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_micro_dvd_correct_cases_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_micro_dvd_correct_cases_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_micro_dvd_correct_cases_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_micro_dvd_correct_cases_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_micro_dvd_correct_cases_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_micro_dvd_correct_cases_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_sub_rip_error_cases_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_sub_rip_error_cases_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_sub_rip_error_cases_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_sub_rip_error_cases_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_sub_rip_error_cases_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_sub_rip_error_cases_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_micro_dvd_error_cases_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_micro_dvd_error_cases_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_micro_dvd_error_cases_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_micro_dvd_error_cases_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_micro_dvd_error_cases_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_micro_dvd_error_cases_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_sub_rip_correct_cases_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_sub_rip_correct_cases_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_sub_rip_correct_cases_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8_sub_rip_correct_cases_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/lab8_sub_rip_correct_cases_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 lab8_sub_rip_correct_cases_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab8test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab9_base_serializer_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/lab9_base_serializer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 lab9_base_serializer_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab9_base_serializer_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/lab9_base_serializer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 lab9_base_serializer_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab9_xml_serializer_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/lab9_xml_serializer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 lab9_xml_serializer_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab9_xml_serializer_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/lab9_xml_serializer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 lab9_xml_serializer_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab9_json_serializer_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/lab9_json_serializer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 lab9_json_serializer_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab9_json_serializer_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/lab9_json_serializer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 lab9_json_serializer_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab9_building_repository_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/lab9_building_repository_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 lab9_building_repository_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab9_building_repository_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/lab9_building_repository_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 lab9_building_repository_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab9_all_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/lab9_all_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 lab9_all_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab9_all_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/lab9_all_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 lab9_all_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_all_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_all_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_all_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_all_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_all_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_all_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_schedule_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_schedule_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_schedule_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_schedule_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_schedule_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_schedule_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_scheduler_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_scheduler_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_scheduler_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_scheduler_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_scheduler_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_scheduler_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_algo_step1_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_algo_step1_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_algo_step1_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_algo_step1_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_algo_step1_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_algo_step1_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_algo_step2_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_algo_step2_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_algo_step2_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_algo_step2_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_algo_step2_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_algo_step2_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_algo_step3_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_algo_step3_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_algo_step3_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_algo_step3_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_algo_step3_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_algo_step3_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_algo_step4_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_algo_step4_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_algo_step4_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_algo_step4_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_algo_step4_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_algo_step4_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_algo_step5_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_algo_step5_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_algo_step5_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10_algo_step5_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/lab10_algo_step5_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 lab10_algo_step5_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab11_all_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/lab11_all_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 lab11_all_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab11_all_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/lab11_all_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 lab11_all_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab11_factory_method_tests">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/lab11_factory_method_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 lab11_factory_method_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab11_factory_method_tests/fast">
+				<Option output="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/lab11_factory_method_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googletest"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/include"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock"/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/."/>
+					<Add directory="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/memleak/."/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 lab11_factory_method_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab10test/AlgoStep1Test.cpp">
+			<Option target="lab10_all_tests"/>
+			<Option target="lab10_algo_step1_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab10test/AlgoStep2Test.cpp">
+			<Option target="lab10_all_tests"/>
+			<Option target="lab10_algo_step2_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab10test/AlgoStep3Test.cpp">
+			<Option target="lab10_all_tests"/>
+			<Option target="lab10_algo_step3_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab10test/AlgoStep4Test.cpp">
+			<Option target="lab10_all_tests"/>
+			<Option target="lab10_algo_step4_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab10test/AlgoStep5Test.cpp">
+			<Option target="lab10_all_tests"/>
+			<Option target="lab10_algo_step5_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab10test/ScheduleTest.cpp">
+			<Option target="lab10_all_tests"/>
+			<Option target="lab10_schedule_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab10test/SchedulerTest.cpp">
+			<Option target="lab10_all_tests"/>
+			<Option target="lab10_scheduler_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab11test/FactoryMethodTest.cpp">
+			<Option target="lab11_all_tests"/>
+			<Option target="lab11_factory_method_tests"/>
+		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab1test/DoubleBasePalindromeTest.cpp">
 			<Option target="lab1_double_base_palindrome_tests"/>
 			<Option target="lab1_all_tests"/>
@@ -3282,6 +5320,90 @@
 			<Option target="lab6_zipper_tests"/>
 			<Option target="lab6_all_tests"/>
 		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/ArrayFillIncrementalTest.cpp">
+			<Option target="lab7_all_tests"/>
+			<Option target="lab7_array_fill_incremental_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/ArrayFillRandomTest.cpp">
+			<Option target="lab7_all_tests"/>
+			<Option target="lab7_array_fill_random_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/ArrayFillSquaredTest.cpp">
+			<Option target="lab7_all_tests"/>
+			<Option target="lab7_array_fill_squared_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/ArrayFillUniformTest.cpp">
+			<Option target="lab7_all_tests"/>
+			<Option target="lab7_array_fill_uniform_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/ComparableTest.cpp">
+			<Option target="lab7_all_tests"/>
+			<Option target="lab7_comparable_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/IterableEnumerationTest.cpp">
+			<Option target="lab7_all_tests"/>
+			<Option target="lab7_iterable_enumeration_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/IterableProductTest.cpp">
+			<Option target="lab7_all_tests"/>
+			<Option target="lab7_iterable_product_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/IterableTest.cpp">
+			<Option target="lab7_all_tests"/>
+			<Option target="lab7_iterable_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/IterableZipperTest.cpp">
+			<Option target="lab7_all_tests"/>
+			<Option target="lab7_iterable_zipper_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/StudentRepositoryQueryByFirstNameTest.cpp">
+			<Option target="lab7_all_tests"/>
+			<Option target="lab7_student_repository_query_by_first_name_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/StudentRepositoryQueryTest.cpp">
+			<Option target="lab7_all_tests"/>
+			<Option target="lab7_student_repository_query_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab8test/MicroDvdCorrectCasesTest.cpp">
+			<Option target="lab8_all_tests"/>
+			<Option target="lab8_micro_dvd_correct_cases_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab8test/MicroDvdErrorCasesTest.cpp">
+			<Option target="lab8_all_tests"/>
+			<Option target="lab8_micro_dvd_error_cases_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab8test/MovieSubtitlesTest.cpp">
+			<Option target="lab8_all_tests"/>
+			<Option target="lab8_movie_subtitles_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab8test/PeselTest.cpp">
+			<Option target="lab8_pesel_tests"/>
+			<Option target="lab8_all_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab8test/SubRipCorrectCasesTest.cpp">
+			<Option target="lab8_all_tests"/>
+			<Option target="lab8_sub_rip_correct_cases_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab8test/SubRipErrorCasesTest.cpp">
+			<Option target="lab8_all_tests"/>
+			<Option target="lab8_sub_rip_error_cases_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab9test/BaseSerializerTest.cpp">
+			<Option target="lab9_base_serializer_tests"/>
+			<Option target="lab9_all_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab9test/BuildingRepositoryTest.cpp">
+			<Option target="lab9_building_repository_tests"/>
+			<Option target="lab9_all_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab9test/JsonSerializerTest.cpp">
+			<Option target="lab9_json_serializer_tests"/>
+			<Option target="lab9_all_tests"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab9test/XmlSerializerTest.cpp">
+			<Option target="lab9_xml_serializer_tests"/>
+			<Option target="lab9_all_tests"/>
+		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/gtest-1.8.0/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
@@ -3351,6 +5473,21 @@
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab2/xorcypherbreaker/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab2\xorcypherbreaker\"/>
 		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\arrayfill\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\arrayfill\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab7/arrayfill/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\arrayfill\"/>
+		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab3\"/>
 		</Unit>
@@ -3537,6 +5674,36 @@
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab6test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\lab6test\"/>
 		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab7test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab7test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab7test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab8test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab8test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab8test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab8test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab9test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab9test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab9test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab9test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab10test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab10test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab10test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab10test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab11test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab11test\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lab11test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\lab11test\"/>
+		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab4\"/>
 		</Unit>
@@ -3617,6 +5784,66 @@
 		</Unit>
 		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab6/zipper/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab6\zipper\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/student/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\student\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/student/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\student\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/student/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\student\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\moviesubtitles\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\moviesubtitles\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/moviesubtitles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\moviesubtitles\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\academiaserializer\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\academiaserializer\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9/academiaserializer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\academiaserializer\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\academiascheduler\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\academiascheduler\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab10\academiascheduler\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab11\"/>
+		</Unit>
+		<Unit filename="/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab11\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

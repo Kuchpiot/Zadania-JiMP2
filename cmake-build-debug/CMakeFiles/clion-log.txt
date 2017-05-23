@@ -15,6 +15,19 @@ add_subdirectory_if_exists MEMORYCHUNK EXISTS!
 add_subdirectory_if_exists TEXTPOOL EXISTS!
 add_subdirectory_if_exists WORDCOUNTER EXISTS!
 add_subdirectory_if_exists ZIPPER EXISTS!
+add_subdirectory_if_exists ARRAYFILL EXISTS!
+add_subdirectory_if_exists STUDENT EXISTS!
+add_subdirectory_if_exists MOVIESUBTITLES EXISTS!
+add_subdirectory_if_exists ACADEMIASERIALIZER EXISTS!
+add_subdirectory_if_exists ACADEMIASCHEDULER EXISTS!
+CMake Error at CMakeLists.txt:27 (add_subdirectory):
+  The source directory
+
+    /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab11
+
+  does not contain a CMakeLists.txt file.
+
+
 -- lab1test::HAVE_DIR_PALINDROME:  
 add_gtest_with_memleak target: lab2_array_2d_step1_tests
 add_gtest_with_memleak src: Array2dStep1Test.cpp;
@@ -124,6 +137,93 @@ add_gtest_with_memleak lib: libwordcounter
 add_gtest_with_memleak target: lab6_zipper_tests
 add_gtest_with_memleak src: ZipperTest.cpp;
 add_gtest_with_memleak lib: libzipper
--- Configuring done
--- Generating done
--- Build files have been written to: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug
+add_gtest_with_memleak target: lab7_array_fill_uniform_tests
+add_gtest_with_memleak src: ArrayFillUniformTest.cpp;
+add_gtest_with_memleak lib: libarrayfill
+add_gtest_with_memleak target: lab7_array_fill_incremental_tests
+add_gtest_with_memleak src: ArrayFillIncrementalTest.cpp;
+add_gtest_with_memleak lib: libarrayfill
+add_gtest_with_memleak target: lab7_array_fill_squared_tests
+add_gtest_with_memleak src: ArrayFillSquaredTest.cpp;
+add_gtest_with_memleak lib: libarrayfill
+add_gtest_with_memleak target: lab7_array_fill_random_tests
+add_gtest_with_memleak src: ArrayFillRandomTest.cpp;
+add_gtest_with_memleak lib: libarrayfill
+add_gtest_with_memleak target: lab7_comparable_tests
+add_gtest_with_memleak src: ComparableTest.cpp;
+add_gtest_with_memleak lib: libcomparable
+add_gtest_with_memleak target: lab7_iterable_tests
+add_gtest_with_memleak src: IterableTest.cpp;
+add_gtest_with_memleak lib: libiterable
+add_gtest_with_memleak target: lab7_iterable_zipper_tests
+add_gtest_with_memleak src: IterableZipperTest.cpp;
+add_gtest_with_memleak lib: libiterable
+add_gtest_with_memleak target: lab7_iterable_enumeration_tests
+add_gtest_with_memleak src: IterableEnumerationTest.cpp;
+add_gtest_with_memleak lib: libiterable
+add_gtest_with_memleak target: lab7_iterable_product_tests
+add_gtest_with_memleak src: IterableProductTest.cpp;
+add_gtest_with_memleak lib: libiterable
+add_gtest_with_memleak target: lab7_student_repository_query_tests
+add_gtest_with_memleak src: StudentRepositoryQueryTest.cpp;
+add_gtest_with_memleak lib: libstudentrepositoryqueries
+add_gtest_with_memleak target: lab7_student_repository_query_by_first_name_tests
+add_gtest_with_memleak src: StudentRepositoryQueryByFirstNameTest.cpp;
+add_gtest_with_memleak lib: libstudentrepositoryqueries
+add_gtest_with_memleak target: lab8_pesel_tests
+add_gtest_with_memleak src: PeselTest.cpp;
+add_gtest_with_memleak lib: libpesel
+add_gtest_with_memleak target: lab8_movie_subtitles_tests
+add_gtest_with_memleak src: MovieSubtitlesTest.cpp;
+add_gtest_with_memleak lib: libmoviesubtitles
+add_gtest_with_memleak target: lab8_micro_dvd_correct_cases_tests
+add_gtest_with_memleak src: MicroDvdCorrectCasesTest.cpp;
+add_gtest_with_memleak lib: libmoviesubtitles
+add_gtest_with_memleak target: lab8_micro_dvd_error_cases_tests
+add_gtest_with_memleak src: MicroDvdErrorCasesTest.cpp;
+add_gtest_with_memleak lib: libmoviesubtitles
+add_gtest_with_memleak target: lab8_sub_rip_correct_cases_tests
+add_gtest_with_memleak src: SubRipCorrectCasesTest.cpp;
+add_gtest_with_memleak lib: libmoviesubtitles
+add_gtest_with_memleak target: lab8_sub_rip_error_cases_tests
+add_gtest_with_memleak src: SubRipErrorCasesTest.cpp;
+add_gtest_with_memleak lib: libmoviesubtitles
+add_gtest_with_memleak target: lab9_base_serializer_tests
+add_gtest_with_memleak src: BaseSerializerTest.cpp;
+add_gtest_with_memleak lib: libserialization
+add_gtest_with_memleak target: lab9_xml_serializer_tests
+add_gtest_with_memleak src: XmlSerializerTest.cpp;
+add_gtest_with_memleak lib: libserialization
+add_gtest_with_memleak target: lab9_json_serializer_tests
+add_gtest_with_memleak src: JsonSerializerTest.cpp;
+add_gtest_with_memleak lib: libserialization
+add_gtest_with_memleak target: lab9_building_repository_tests
+add_gtest_with_memleak src: BuildingRepositoryTest.cpp;
+add_gtest_with_memleak lib: libserialization
+add_gtest_with_memleak target: lab10_scheduler_tests
+add_gtest_with_memleak src: SchedulerTest.cpp;
+add_gtest_with_memleak lib: libscheduler
+add_gtest_with_memleak target: lab10_schedule_tests
+add_gtest_with_memleak src: ScheduleTest.cpp;
+add_gtest_with_memleak lib: libscheduler
+add_gtest_with_memleak target: lab10_algo_step1_tests
+add_gtest_with_memleak src: AlgoStep1Test.cpp;
+add_gtest_with_memleak lib: libalgo
+add_gtest_with_memleak target: lab10_algo_step2_tests
+add_gtest_with_memleak src: AlgoStep2Test.cpp;
+add_gtest_with_memleak lib: libalgo
+add_gtest_with_memleak target: lab10_algo_step3_tests
+add_gtest_with_memleak src: AlgoStep3Test.cpp;
+add_gtest_with_memleak lib: libalgo
+add_gtest_with_memleak target: lab10_algo_step4_tests
+add_gtest_with_memleak src: AlgoStep4Test.cpp;
+add_gtest_with_memleak lib: libalgo
+add_gtest_with_memleak target: lab10_algo_step5_tests
+add_gtest_with_memleak src: AlgoStep5Test.cpp;
+add_gtest_with_memleak lib: libalgo
+add_gtest_with_memleak target: lab11_factory_method_tests
+add_gtest_with_memleak src: FactoryMethodTest.cpp;
+add_gtest_with_memleak lib: libfactorymethod
+-- Configuring incomplete, errors occurred!
+See also "/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeError.log".

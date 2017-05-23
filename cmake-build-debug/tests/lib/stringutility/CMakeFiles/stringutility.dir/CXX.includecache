@@ -7,4 +7,22 @@
 #IncludeRegexTransform: 
 
 /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/StringUtility.cpp
+StringUtility.h
+/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/StringUtility.h
+
+/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/tests/lib/stringutility/StringUtility.h
+string
+-
+sstream
+-
+ostream
+-
+algorithm
+-
+vector
+-
+set
+-
+iterator
+-
 

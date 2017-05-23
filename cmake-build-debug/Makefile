@@ -597,6 +597,136 @@ libzipper/fast:
 .PHONY : libzipper/fast
 
 #=============================================================================
+# Target rules for targets named arrayfill
+
+# Build rule for target.
+arrayfill: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrayfill
+.PHONY : arrayfill
+
+# fast build rule for target.
+arrayfill/fast:
+	$(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/build
+.PHONY : arrayfill/fast
+
+#=============================================================================
+# Target rules for targets named libarrayfill
+
+# Build rule for target.
+libarrayfill: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libarrayfill
+.PHONY : libarrayfill
+
+# fast build rule for target.
+libarrayfill/fast:
+	$(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/build
+.PHONY : libarrayfill/fast
+
+#=============================================================================
+# Target rules for targets named student
+
+# Build rule for target.
+student: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 student
+.PHONY : student
+
+# fast build rule for target.
+student/fast:
+	$(MAKE) -f lab8/student/CMakeFiles/student.dir/build.make lab8/student/CMakeFiles/student.dir/build
+.PHONY : student/fast
+
+#=============================================================================
+# Target rules for targets named libstudent
+
+# Build rule for target.
+libstudent: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libstudent
+.PHONY : libstudent
+
+# fast build rule for target.
+libstudent/fast:
+	$(MAKE) -f lab8/student/CMakeFiles/libstudent.dir/build.make lab8/student/CMakeFiles/libstudent.dir/build
+.PHONY : libstudent/fast
+
+#=============================================================================
+# Target rules for targets named moviesubtitles
+
+# Build rule for target.
+moviesubtitles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moviesubtitles
+.PHONY : moviesubtitles
+
+# fast build rule for target.
+moviesubtitles/fast:
+	$(MAKE) -f lab8/moviesubtitles/CMakeFiles/moviesubtitles.dir/build.make lab8/moviesubtitles/CMakeFiles/moviesubtitles.dir/build
+.PHONY : moviesubtitles/fast
+
+#=============================================================================
+# Target rules for targets named libmoviesubtitles
+
+# Build rule for target.
+libmoviesubtitles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libmoviesubtitles
+.PHONY : libmoviesubtitles
+
+# fast build rule for target.
+libmoviesubtitles/fast:
+	$(MAKE) -f lab8/moviesubtitles/CMakeFiles/libmoviesubtitles.dir/build.make lab8/moviesubtitles/CMakeFiles/libmoviesubtitles.dir/build
+.PHONY : libmoviesubtitles/fast
+
+#=============================================================================
+# Target rules for targets named serialization
+
+# Build rule for target.
+serialization: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 serialization
+.PHONY : serialization
+
+# fast build rule for target.
+serialization/fast:
+	$(MAKE) -f lab9/academiaserializer/CMakeFiles/serialization.dir/build.make lab9/academiaserializer/CMakeFiles/serialization.dir/build
+.PHONY : serialization/fast
+
+#=============================================================================
+# Target rules for targets named libserialization
+
+# Build rule for target.
+libserialization: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libserialization
+.PHONY : libserialization
+
+# fast build rule for target.
+libserialization/fast:
+	$(MAKE) -f lab9/academiaserializer/CMakeFiles/libserialization.dir/build.make lab9/academiaserializer/CMakeFiles/libserialization.dir/build
+.PHONY : libserialization/fast
+
+#=============================================================================
+# Target rules for targets named scheduler
+
+# Build rule for target.
+scheduler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scheduler
+.PHONY : scheduler
+
+# fast build rule for target.
+scheduler/fast:
+	$(MAKE) -f lab10/academiascheduler/CMakeFiles/scheduler.dir/build.make lab10/academiascheduler/CMakeFiles/scheduler.dir/build
+.PHONY : scheduler/fast
+
+#=============================================================================
+# Target rules for targets named libscheduler
+
+# Build rule for target.
+libscheduler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libscheduler
+.PHONY : libscheduler
+
+# fast build rule for target.
+libscheduler/fast:
+	$(MAKE) -f lab10/academiascheduler/CMakeFiles/libscheduler.dir/build.make lab10/academiascheduler/CMakeFiles/libscheduler.dir/build
+.PHONY : libscheduler/fast
+
+#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -1285,6 +1415,448 @@ lab6_all_tests/fast:
 	$(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/build
 .PHONY : lab6_all_tests/fast
 
+#=============================================================================
+# Target rules for targets named lab7_all_tests
+
+# Build rule for target.
+lab7_all_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_all_tests
+.PHONY : lab7_all_tests
+
+# fast build rule for target.
+lab7_all_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/build
+.PHONY : lab7_all_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab7_student_repository_query_by_first_name_tests
+
+# Build rule for target.
+lab7_student_repository_query_by_first_name_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_student_repository_query_by_first_name_tests
+.PHONY : lab7_student_repository_query_by_first_name_tests
+
+# fast build rule for target.
+lab7_student_repository_query_by_first_name_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build
+.PHONY : lab7_student_repository_query_by_first_name_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab7_array_fill_incremental_tests
+
+# Build rule for target.
+lab7_array_fill_incremental_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_array_fill_incremental_tests
+.PHONY : lab7_array_fill_incremental_tests
+
+# fast build rule for target.
+lab7_array_fill_incremental_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build
+.PHONY : lab7_array_fill_incremental_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab7_comparable_tests
+
+# Build rule for target.
+lab7_comparable_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_comparable_tests
+.PHONY : lab7_comparable_tests
+
+# fast build rule for target.
+lab7_comparable_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build
+.PHONY : lab7_comparable_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab7_array_fill_squared_tests
+
+# Build rule for target.
+lab7_array_fill_squared_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_array_fill_squared_tests
+.PHONY : lab7_array_fill_squared_tests
+
+# fast build rule for target.
+lab7_array_fill_squared_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build
+.PHONY : lab7_array_fill_squared_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab7_array_fill_uniform_tests
+
+# Build rule for target.
+lab7_array_fill_uniform_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_array_fill_uniform_tests
+.PHONY : lab7_array_fill_uniform_tests
+
+# fast build rule for target.
+lab7_array_fill_uniform_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build
+.PHONY : lab7_array_fill_uniform_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab7_iterable_tests
+
+# Build rule for target.
+lab7_iterable_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_iterable_tests
+.PHONY : lab7_iterable_tests
+
+# fast build rule for target.
+lab7_iterable_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build
+.PHONY : lab7_iterable_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab7_iterable_enumeration_tests
+
+# Build rule for target.
+lab7_iterable_enumeration_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_iterable_enumeration_tests
+.PHONY : lab7_iterable_enumeration_tests
+
+# fast build rule for target.
+lab7_iterable_enumeration_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build
+.PHONY : lab7_iterable_enumeration_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab7_array_fill_random_tests
+
+# Build rule for target.
+lab7_array_fill_random_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_array_fill_random_tests
+.PHONY : lab7_array_fill_random_tests
+
+# fast build rule for target.
+lab7_array_fill_random_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build
+.PHONY : lab7_array_fill_random_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab7_iterable_zipper_tests
+
+# Build rule for target.
+lab7_iterable_zipper_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_iterable_zipper_tests
+.PHONY : lab7_iterable_zipper_tests
+
+# fast build rule for target.
+lab7_iterable_zipper_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build
+.PHONY : lab7_iterable_zipper_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab7_iterable_product_tests
+
+# Build rule for target.
+lab7_iterable_product_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_iterable_product_tests
+.PHONY : lab7_iterable_product_tests
+
+# fast build rule for target.
+lab7_iterable_product_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build
+.PHONY : lab7_iterable_product_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab7_student_repository_query_tests
+
+# Build rule for target.
+lab7_student_repository_query_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab7_student_repository_query_tests
+.PHONY : lab7_student_repository_query_tests
+
+# fast build rule for target.
+lab7_student_repository_query_tests/fast:
+	$(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build
+.PHONY : lab7_student_repository_query_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab8_pesel_tests
+
+# Build rule for target.
+lab8_pesel_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab8_pesel_tests
+.PHONY : lab8_pesel_tests
+
+# fast build rule for target.
+lab8_pesel_tests/fast:
+	$(MAKE) -f tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build
+.PHONY : lab8_pesel_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab8_all_tests
+
+# Build rule for target.
+lab8_all_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab8_all_tests
+.PHONY : lab8_all_tests
+
+# fast build rule for target.
+lab8_all_tests/fast:
+	$(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/build
+.PHONY : lab8_all_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab8_movie_subtitles_tests
+
+# Build rule for target.
+lab8_movie_subtitles_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab8_movie_subtitles_tests
+.PHONY : lab8_movie_subtitles_tests
+
+# fast build rule for target.
+lab8_movie_subtitles_tests/fast:
+	$(MAKE) -f tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build
+.PHONY : lab8_movie_subtitles_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab8_micro_dvd_correct_cases_tests
+
+# Build rule for target.
+lab8_micro_dvd_correct_cases_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab8_micro_dvd_correct_cases_tests
+.PHONY : lab8_micro_dvd_correct_cases_tests
+
+# fast build rule for target.
+lab8_micro_dvd_correct_cases_tests/fast:
+	$(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build
+.PHONY : lab8_micro_dvd_correct_cases_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab8_sub_rip_error_cases_tests
+
+# Build rule for target.
+lab8_sub_rip_error_cases_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab8_sub_rip_error_cases_tests
+.PHONY : lab8_sub_rip_error_cases_tests
+
+# fast build rule for target.
+lab8_sub_rip_error_cases_tests/fast:
+	$(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build
+.PHONY : lab8_sub_rip_error_cases_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab8_micro_dvd_error_cases_tests
+
+# Build rule for target.
+lab8_micro_dvd_error_cases_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab8_micro_dvd_error_cases_tests
+.PHONY : lab8_micro_dvd_error_cases_tests
+
+# fast build rule for target.
+lab8_micro_dvd_error_cases_tests/fast:
+	$(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build
+.PHONY : lab8_micro_dvd_error_cases_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab8_sub_rip_correct_cases_tests
+
+# Build rule for target.
+lab8_sub_rip_correct_cases_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab8_sub_rip_correct_cases_tests
+.PHONY : lab8_sub_rip_correct_cases_tests
+
+# fast build rule for target.
+lab8_sub_rip_correct_cases_tests/fast:
+	$(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build
+.PHONY : lab8_sub_rip_correct_cases_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab9_base_serializer_tests
+
+# Build rule for target.
+lab9_base_serializer_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab9_base_serializer_tests
+.PHONY : lab9_base_serializer_tests
+
+# fast build rule for target.
+lab9_base_serializer_tests/fast:
+	$(MAKE) -f tests/lab9test/CMakeFiles/lab9_base_serializer_tests.dir/build.make tests/lab9test/CMakeFiles/lab9_base_serializer_tests.dir/build
+.PHONY : lab9_base_serializer_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab9_xml_serializer_tests
+
+# Build rule for target.
+lab9_xml_serializer_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab9_xml_serializer_tests
+.PHONY : lab9_xml_serializer_tests
+
+# fast build rule for target.
+lab9_xml_serializer_tests/fast:
+	$(MAKE) -f tests/lab9test/CMakeFiles/lab9_xml_serializer_tests.dir/build.make tests/lab9test/CMakeFiles/lab9_xml_serializer_tests.dir/build
+.PHONY : lab9_xml_serializer_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab9_json_serializer_tests
+
+# Build rule for target.
+lab9_json_serializer_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab9_json_serializer_tests
+.PHONY : lab9_json_serializer_tests
+
+# fast build rule for target.
+lab9_json_serializer_tests/fast:
+	$(MAKE) -f tests/lab9test/CMakeFiles/lab9_json_serializer_tests.dir/build.make tests/lab9test/CMakeFiles/lab9_json_serializer_tests.dir/build
+.PHONY : lab9_json_serializer_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab9_building_repository_tests
+
+# Build rule for target.
+lab9_building_repository_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab9_building_repository_tests
+.PHONY : lab9_building_repository_tests
+
+# fast build rule for target.
+lab9_building_repository_tests/fast:
+	$(MAKE) -f tests/lab9test/CMakeFiles/lab9_building_repository_tests.dir/build.make tests/lab9test/CMakeFiles/lab9_building_repository_tests.dir/build
+.PHONY : lab9_building_repository_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab9_all_tests
+
+# Build rule for target.
+lab9_all_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab9_all_tests
+.PHONY : lab9_all_tests
+
+# fast build rule for target.
+lab9_all_tests/fast:
+	$(MAKE) -f tests/lab9test/CMakeFiles/lab9_all_tests.dir/build.make tests/lab9test/CMakeFiles/lab9_all_tests.dir/build
+.PHONY : lab9_all_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab10_all_tests
+
+# Build rule for target.
+lab10_all_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab10_all_tests
+.PHONY : lab10_all_tests
+
+# fast build rule for target.
+lab10_all_tests/fast:
+	$(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/build
+.PHONY : lab10_all_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab10_schedule_tests
+
+# Build rule for target.
+lab10_schedule_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab10_schedule_tests
+.PHONY : lab10_schedule_tests
+
+# fast build rule for target.
+lab10_schedule_tests/fast:
+	$(MAKE) -f tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build
+.PHONY : lab10_schedule_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab10_scheduler_tests
+
+# Build rule for target.
+lab10_scheduler_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab10_scheduler_tests
+.PHONY : lab10_scheduler_tests
+
+# fast build rule for target.
+lab10_scheduler_tests/fast:
+	$(MAKE) -f tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build
+.PHONY : lab10_scheduler_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab10_algo_step1_tests
+
+# Build rule for target.
+lab10_algo_step1_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab10_algo_step1_tests
+.PHONY : lab10_algo_step1_tests
+
+# fast build rule for target.
+lab10_algo_step1_tests/fast:
+	$(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build
+.PHONY : lab10_algo_step1_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab10_algo_step2_tests
+
+# Build rule for target.
+lab10_algo_step2_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab10_algo_step2_tests
+.PHONY : lab10_algo_step2_tests
+
+# fast build rule for target.
+lab10_algo_step2_tests/fast:
+	$(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build
+.PHONY : lab10_algo_step2_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab10_algo_step3_tests
+
+# Build rule for target.
+lab10_algo_step3_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab10_algo_step3_tests
+.PHONY : lab10_algo_step3_tests
+
+# fast build rule for target.
+lab10_algo_step3_tests/fast:
+	$(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build
+.PHONY : lab10_algo_step3_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab10_algo_step4_tests
+
+# Build rule for target.
+lab10_algo_step4_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab10_algo_step4_tests
+.PHONY : lab10_algo_step4_tests
+
+# fast build rule for target.
+lab10_algo_step4_tests/fast:
+	$(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build
+.PHONY : lab10_algo_step4_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab10_algo_step5_tests
+
+# Build rule for target.
+lab10_algo_step5_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab10_algo_step5_tests
+.PHONY : lab10_algo_step5_tests
+
+# fast build rule for target.
+lab10_algo_step5_tests/fast:
+	$(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build
+.PHONY : lab10_algo_step5_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab11_all_tests
+
+# Build rule for target.
+lab11_all_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab11_all_tests
+.PHONY : lab11_all_tests
+
+# fast build rule for target.
+lab11_all_tests/fast:
+	$(MAKE) -f tests/lab11test/CMakeFiles/lab11_all_tests.dir/build.make tests/lab11test/CMakeFiles/lab11_all_tests.dir/build
+.PHONY : lab11_all_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab11_factory_method_tests
+
+# Build rule for target.
+lab11_factory_method_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab11_factory_method_tests
+.PHONY : lab11_factory_method_tests
+
+# fast build rule for target.
+lab11_factory_method_tests/fast:
+	$(MAKE) -f tests/lab11test/CMakeFiles/lab11_factory_method_tests.dir/build.make tests/lab11test/CMakeFiles/lab11_factory_method_tests.dir/build
+.PHONY : lab11_factory_method_tests/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1331,6 +1903,16 @@ help:
 	@echo "... libwordcounter"
 	@echo "... zipper"
 	@echo "... libzipper"
+	@echo "... arrayfill"
+	@echo "... libarrayfill"
+	@echo "... student"
+	@echo "... libstudent"
+	@echo "... moviesubtitles"
+	@echo "... libmoviesubtitles"
+	@echo "... serialization"
+	@echo "... libserialization"
+	@echo "... scheduler"
+	@echo "... libscheduler"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
@@ -1384,6 +1966,40 @@ help:
 	@echo "... lab6_student_repository_study_year_tests"
 	@echo "... lab6_word_counter_tests"
 	@echo "... lab6_all_tests"
+	@echo "... lab7_all_tests"
+	@echo "... lab7_student_repository_query_by_first_name_tests"
+	@echo "... lab7_array_fill_incremental_tests"
+	@echo "... lab7_comparable_tests"
+	@echo "... lab7_array_fill_squared_tests"
+	@echo "... lab7_array_fill_uniform_tests"
+	@echo "... lab7_iterable_tests"
+	@echo "... lab7_iterable_enumeration_tests"
+	@echo "... lab7_array_fill_random_tests"
+	@echo "... lab7_iterable_zipper_tests"
+	@echo "... lab7_iterable_product_tests"
+	@echo "... lab7_student_repository_query_tests"
+	@echo "... lab8_pesel_tests"
+	@echo "... lab8_all_tests"
+	@echo "... lab8_movie_subtitles_tests"
+	@echo "... lab8_micro_dvd_correct_cases_tests"
+	@echo "... lab8_sub_rip_error_cases_tests"
+	@echo "... lab8_micro_dvd_error_cases_tests"
+	@echo "... lab8_sub_rip_correct_cases_tests"
+	@echo "... lab9_base_serializer_tests"
+	@echo "... lab9_xml_serializer_tests"
+	@echo "... lab9_json_serializer_tests"
+	@echo "... lab9_building_repository_tests"
+	@echo "... lab9_all_tests"
+	@echo "... lab10_all_tests"
+	@echo "... lab10_schedule_tests"
+	@echo "... lab10_scheduler_tests"
+	@echo "... lab10_algo_step1_tests"
+	@echo "... lab10_algo_step2_tests"
+	@echo "... lab10_algo_step3_tests"
+	@echo "... lab10_algo_step4_tests"
+	@echo "... lab10_algo_step5_tests"
+	@echo "... lab11_all_tests"
+	@echo "... lab11_factory_method_tests"
 .PHONY : help
 
 
