@@ -20,7 +20,7 @@ namespace academia
     class SchedulingItem
     {
     public:
-        SchedulingItem(std::vector<int> list);
+        SchedulingItem(std::initializer_list<int> l);
         int TeacherId() const;
         int RoomId() const;
         int Year() const;
@@ -50,10 +50,7 @@ namespace academia
             schedule = s;
         }
 
-        SchedulingItem &operator[] (int i)
-        {
-            return schedule[i];
-        }
+        inline const SchedulingItem& operator[] (unsigned long i) { return schedule.at(i); }
 
     private:
         std::vector < SchedulingItem > schedule;
