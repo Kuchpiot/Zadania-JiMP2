@@ -20,14 +20,8 @@ add_subdirectory_if_exists STUDENT EXISTS!
 add_subdirectory_if_exists MOVIESUBTITLES EXISTS!
 add_subdirectory_if_exists ACADEMIASERIALIZER EXISTS!
 add_subdirectory_if_exists ACADEMIASCHEDULER EXISTS!
-CMake Error at CMakeLists.txt:27 (add_subdirectory):
-  The source directory
-
-    /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab11
-
-  does not contain a CMakeLists.txt file.
-
-
+add_subdirectory_if_exists LOGGER EXISTS!
+add_subdirectory_if_exists MEAN EXISTS!
 -- lab1test::HAVE_DIR_PALINDROME:  
 add_gtest_with_memleak target: lab2_array_2d_step1_tests
 add_gtest_with_memleak src: Array2dStep1Test.cpp;
@@ -224,6 +218,6 @@ add_gtest_with_memleak lib: libalgo
 add_gtest_with_memleak target: lab11_factory_method_tests
 add_gtest_with_memleak src: FactoryMethodTest.cpp;
 add_gtest_with_memleak lib: libfactorymethod
--- Configuring incomplete, errors occurred!
-See also "/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/CMakeFiles/CMakeError.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug

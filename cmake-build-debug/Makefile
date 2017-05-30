@@ -727,6 +727,58 @@ libscheduler/fast:
 .PHONY : libscheduler/fast
 
 #=============================================================================
+# Target rules for targets named logger
+
+# Build rule for target.
+logger: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 logger
+.PHONY : logger
+
+# fast build rule for target.
+logger/fast:
+	$(MAKE) -f lab11/logger/CMakeFiles/logger.dir/build.make lab11/logger/CMakeFiles/logger.dir/build
+.PHONY : logger/fast
+
+#=============================================================================
+# Target rules for targets named liblogger
+
+# Build rule for target.
+liblogger: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 liblogger
+.PHONY : liblogger
+
+# fast build rule for target.
+liblogger/fast:
+	$(MAKE) -f lab11/logger/CMakeFiles/liblogger.dir/build.make lab11/logger/CMakeFiles/liblogger.dir/build
+.PHONY : liblogger/fast
+
+#=============================================================================
+# Target rules for targets named mean
+
+# Build rule for target.
+mean: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mean
+.PHONY : mean
+
+# fast build rule for target.
+mean/fast:
+	$(MAKE) -f lab11/mean/CMakeFiles/mean.dir/build.make lab11/mean/CMakeFiles/mean.dir/build
+.PHONY : mean/fast
+
+#=============================================================================
+# Target rules for targets named libmean
+
+# Build rule for target.
+libmean: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libmean
+.PHONY : libmean
+
+# fast build rule for target.
+libmean/fast:
+	$(MAKE) -f lab11/mean/CMakeFiles/libmean.dir/build.make lab11/mean/CMakeFiles/libmean.dir/build
+.PHONY : libmean/fast
+
+#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -1913,6 +1965,10 @@ help:
 	@echo "... libserialization"
 	@echo "... scheduler"
 	@echo "... libscheduler"
+	@echo "... logger"
+	@echo "... liblogger"
+	@echo "... mean"
+	@echo "... libmean"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
