@@ -1,0 +1,16 @@
+//
+// Created by piotr on 10.06.17.
+//
+
+#ifndef JIMP_EXERCISES_SEQUENTIALGENERATOR_H
+#define JIMP_EXERCISES_SEQUENTIALGENERATOR_H
+
+
+
+class SequentialGenerator {
+
+};
+
+
+
+#endif //JIMP_EXERCISES_SEQUENTIALGENERATOR_H
