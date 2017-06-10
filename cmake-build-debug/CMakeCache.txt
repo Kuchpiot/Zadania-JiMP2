@@ -191,6 +191,12 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
 //Value Computed by CMake
+arabicromanconverter_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab13/arabicroman
+
+//Value Computed by CMake
+arabicromanconverter_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab13/arabicroman
+
+//Value Computed by CMake
 array2d_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab2/array2d
 
 //Value Computed by CMake
@@ -294,6 +300,18 @@ lab11_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-bu
 lab11_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab11
 
 //Value Computed by CMake
+lab12_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab12
+
+//Value Computed by CMake
+lab12_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab12
+
+//Value Computed by CMake
+lab13_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab13
+
+//Value Computed by CMake
+lab13_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab13
+
+//Value Computed by CMake
 lab1_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab1
 
 //Value Computed by CMake
@@ -348,6 +366,9 @@ lab9_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-bui
 lab9_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab9
 
 //Dependencies for target
+libarabicromanconverter_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 libarray2d_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
@@ -393,6 +414,9 @@ libreversestring_LIB_DEPENDS:STATIC=
 libscheduler_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
+libsequentialgenerator_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 libserialization_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
@@ -408,10 +432,22 @@ libsmarttree_LIB_DEPENDS:STATIC=
 libstudent_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
+libteacher_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+libteacherhash_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 libtextpool_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
+libtimerecorder_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 libtinyurl_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+libtreeiterators_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 libwordcounter_LIB_DEPENDS:STATIC=
@@ -492,6 +528,12 @@ scheduler_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmak
 scheduler_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab10/academiascheduler
 
 //Value Computed by CMake
+sequentialgenerator_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab12/academiasequentialgenerator
+
+//Value Computed by CMake
+sequentialgenerator_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab12/academiasequentialgenerator
+
+//Value Computed by CMake
 serialization_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab9/academiaserializer
 
 //Value Computed by CMake
@@ -531,16 +573,34 @@ student_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-
 student_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab8/student
 
 //Value Computed by CMake
+teacher_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab12/academiateacherhash
+
+//Value Computed by CMake
+teacher_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab12/academiateacherhash
+
+//Value Computed by CMake
 textpool_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab5/textpool
 
 //Value Computed by CMake
 textpool_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab5/textpool
 
 //Value Computed by CMake
+timerecorder_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab12/timerecorder
+
+//Value Computed by CMake
+timerecorder_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab12/timerecorder
+
+//Value Computed by CMake
 tinyurl_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab3/tinyurl
 
 //Value Computed by CMake
 tinyurl_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab3/tinyurl
+
+//Value Computed by CMake
+treeiterators_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab12/tree
+
+//Value Computed by CMake
+treeiterators_SOURCE_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/lab12/tree
 
 //Value Computed by CMake
 wordcounter_BINARY_DIR:STATIC=/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/lab6/wordcounter
@@ -667,7 +727,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=53
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=62
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

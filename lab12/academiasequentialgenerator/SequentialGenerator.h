@@ -6,9 +6,21 @@
 #define JIMP_EXERCISES_SEQUENTIALGENERATOR_H
 
 
+template <class T, class R>
+class SequentialIdGenerator
+{
+public:
+    SequentialIdGenerator(R i = 0) : index_{i} {}
 
-class SequentialGenerator {
+    T NextValue()
+    {
+        T obj(index_);
+        ++index_;
+        return obj;
+    }
 
+private:
+    R index_;
 };
 
 
