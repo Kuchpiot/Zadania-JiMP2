@@ -22,6 +22,11 @@ add_subdirectory_if_exists ACADEMIASERIALIZER EXISTS!
 add_subdirectory_if_exists ACADEMIASCHEDULER EXISTS!
 add_subdirectory_if_exists LOGGER EXISTS!
 add_subdirectory_if_exists MEAN EXISTS!
+add_subdirectory_if_exists TREE EXISTS!
+add_subdirectory_if_exists TIMERECORDER EXISTS!
+add_subdirectory_if_exists ACADEMIATEACHERHASH EXISTS!
+add_subdirectory_if_exists ACADEMIASEQUENTIALGENERATOR EXISTS!
+add_subdirectory_if_exists ARABICROMAN EXISTS!
 -- lab1test::HAVE_DIR_PALINDROME:  
 add_gtest_with_memleak target: lab2_array_2d_step1_tests
 add_gtest_with_memleak src: Array2dStep1Test.cpp;
@@ -218,6 +223,33 @@ add_gtest_with_memleak lib: libalgo
 add_gtest_with_memleak target: lab11_factory_method_tests
 add_gtest_with_memleak src: FactoryMethodTest.cpp;
 add_gtest_with_memleak lib: libfactorymethod
+add_gtest_with_memleak target: lab12_time_recorder_tests
+add_gtest_with_memleak src: TimeRecorderTest.cpp;
+add_gtest_with_memleak lib: libtimerecorder
+add_gtest_with_memleak target: lab12_tree_tests
+add_gtest_with_memleak src: TreeTest.cpp;
+add_gtest_with_memleak lib: libtree
+add_gtest_with_memleak target: lab12_teacher_hash_tests
+add_gtest_with_memleak src: TeacherHashTest.cpp;
+add_gtest_with_memleak lib: libteacherhash
+add_gtest_with_memleak target: lab12_sequential_generator_tests
+add_gtest_with_memleak src: SequentialGeneratorTest.cpp;
+add_gtest_with_memleak lib: libsequentialgenerator
+add_gtest_with_memleak target: lab12_tree_inorder_tests
+add_gtest_with_memleak src: TreeInorderTest.cpp;
+add_gtest_with_memleak lib: libtreeiterators
+add_gtest_with_memleak target: lab12_tree_preorder_tests
+add_gtest_with_memleak src: TreePreorderTest.cpp;
+add_gtest_with_memleak lib: libtreeiterators
+add_gtest_with_memleak target: lab12_tree_postorder_tests
+add_gtest_with_memleak src: TreePostorderTest.cpp;
+add_gtest_with_memleak lib: libtreeiterators
+add_gtest_with_memleak target: lab13_arabic_to_roman_tests
+add_gtest_with_memleak src: ArabicToRomanTest.cpp;
+add_gtest_with_memleak lib: libarabicroman
+add_gtest_with_memleak target: lab13_roman_to_arabic_tests
+add_gtest_with_memleak src: RomanToArabicTest.cpp;
+add_gtest_with_memleak lib: libarabicroman
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug

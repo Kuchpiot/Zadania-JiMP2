@@ -48,6 +48,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab9test/cmake_install.cmake")
   include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab10test/cmake_install.cmake")
   include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab11test/cmake_install.cmake")
+  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab12test/cmake_install.cmake")
+  include("/home/piotr/Uczelnia/JiMP2/zadania/ratunku/Lab1/cmake-build-debug/tests/lab13test/cmake_install.cmake")
 
 endif()
 

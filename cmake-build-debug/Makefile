@@ -779,6 +779,136 @@ libmean/fast:
 .PHONY : libmean/fast
 
 #=============================================================================
+# Target rules for targets named treeiterators
+
+# Build rule for target.
+treeiterators: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 treeiterators
+.PHONY : treeiterators
+
+# fast build rule for target.
+treeiterators/fast:
+	$(MAKE) -f lab12/tree/CMakeFiles/treeiterators.dir/build.make lab12/tree/CMakeFiles/treeiterators.dir/build
+.PHONY : treeiterators/fast
+
+#=============================================================================
+# Target rules for targets named libtreeiterators
+
+# Build rule for target.
+libtreeiterators: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libtreeiterators
+.PHONY : libtreeiterators
+
+# fast build rule for target.
+libtreeiterators/fast:
+	$(MAKE) -f lab12/tree/CMakeFiles/libtreeiterators.dir/build.make lab12/tree/CMakeFiles/libtreeiterators.dir/build
+.PHONY : libtreeiterators/fast
+
+#=============================================================================
+# Target rules for targets named timerecorder
+
+# Build rule for target.
+timerecorder: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 timerecorder
+.PHONY : timerecorder
+
+# fast build rule for target.
+timerecorder/fast:
+	$(MAKE) -f lab12/timerecorder/CMakeFiles/timerecorder.dir/build.make lab12/timerecorder/CMakeFiles/timerecorder.dir/build
+.PHONY : timerecorder/fast
+
+#=============================================================================
+# Target rules for targets named libtimerecorder
+
+# Build rule for target.
+libtimerecorder: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libtimerecorder
+.PHONY : libtimerecorder
+
+# fast build rule for target.
+libtimerecorder/fast:
+	$(MAKE) -f lab12/timerecorder/CMakeFiles/libtimerecorder.dir/build.make lab12/timerecorder/CMakeFiles/libtimerecorder.dir/build
+.PHONY : libtimerecorder/fast
+
+#=============================================================================
+# Target rules for targets named teacher
+
+# Build rule for target.
+teacher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teacher
+.PHONY : teacher
+
+# fast build rule for target.
+teacher/fast:
+	$(MAKE) -f lab12/academiateacherhash/CMakeFiles/teacher.dir/build.make lab12/academiateacherhash/CMakeFiles/teacher.dir/build
+.PHONY : teacher/fast
+
+#=============================================================================
+# Target rules for targets named libteacherhash
+
+# Build rule for target.
+libteacherhash: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libteacherhash
+.PHONY : libteacherhash
+
+# fast build rule for target.
+libteacherhash/fast:
+	$(MAKE) -f lab12/academiateacherhash/CMakeFiles/libteacherhash.dir/build.make lab12/academiateacherhash/CMakeFiles/libteacherhash.dir/build
+.PHONY : libteacherhash/fast
+
+#=============================================================================
+# Target rules for targets named sequentialgenerator
+
+# Build rule for target.
+sequentialgenerator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sequentialgenerator
+.PHONY : sequentialgenerator
+
+# fast build rule for target.
+sequentialgenerator/fast:
+	$(MAKE) -f lab12/academiasequentialgenerator/CMakeFiles/sequentialgenerator.dir/build.make lab12/academiasequentialgenerator/CMakeFiles/sequentialgenerator.dir/build
+.PHONY : sequentialgenerator/fast
+
+#=============================================================================
+# Target rules for targets named libsequentialgenerator
+
+# Build rule for target.
+libsequentialgenerator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libsequentialgenerator
+.PHONY : libsequentialgenerator
+
+# fast build rule for target.
+libsequentialgenerator/fast:
+	$(MAKE) -f lab12/academiasequentialgenerator/CMakeFiles/libsequentialgenerator.dir/build.make lab12/academiasequentialgenerator/CMakeFiles/libsequentialgenerator.dir/build
+.PHONY : libsequentialgenerator/fast
+
+#=============================================================================
+# Target rules for targets named arabicromanconverter
+
+# Build rule for target.
+arabicromanconverter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arabicromanconverter
+.PHONY : arabicromanconverter
+
+# fast build rule for target.
+arabicromanconverter/fast:
+	$(MAKE) -f lab13/arabicroman/CMakeFiles/arabicromanconverter.dir/build.make lab13/arabicroman/CMakeFiles/arabicromanconverter.dir/build
+.PHONY : arabicromanconverter/fast
+
+#=============================================================================
+# Target rules for targets named libarabicromanconverter
+
+# Build rule for target.
+libarabicromanconverter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libarabicromanconverter
+.PHONY : libarabicromanconverter
+
+# fast build rule for target.
+libarabicromanconverter/fast:
+	$(MAKE) -f lab13/arabicroman/CMakeFiles/libarabicromanconverter.dir/build.make lab13/arabicroman/CMakeFiles/libarabicromanconverter.dir/build
+.PHONY : libarabicromanconverter/fast
+
+#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -1909,6 +2039,149 @@ lab11_factory_method_tests/fast:
 	$(MAKE) -f tests/lab11test/CMakeFiles/lab11_factory_method_tests.dir/build.make tests/lab11test/CMakeFiles/lab11_factory_method_tests.dir/build
 .PHONY : lab11_factory_method_tests/fast
 
+#=============================================================================
+# Target rules for targets named lab12_time_recorder_tests
+
+# Build rule for target.
+lab12_time_recorder_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab12_time_recorder_tests
+.PHONY : lab12_time_recorder_tests
+
+# fast build rule for target.
+lab12_time_recorder_tests/fast:
+	$(MAKE) -f tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build
+.PHONY : lab12_time_recorder_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab12_tree_tests
+
+# Build rule for target.
+lab12_tree_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab12_tree_tests
+.PHONY : lab12_tree_tests
+
+# fast build rule for target.
+lab12_tree_tests/fast:
+	$(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build
+.PHONY : lab12_tree_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab12_teacher_hash_tests
+
+# Build rule for target.
+lab12_teacher_hash_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab12_teacher_hash_tests
+.PHONY : lab12_teacher_hash_tests
+
+# fast build rule for target.
+lab12_teacher_hash_tests/fast:
+	$(MAKE) -f tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build
+.PHONY : lab12_teacher_hash_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab12_sequential_generator_tests
+
+# Build rule for target.
+lab12_sequential_generator_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab12_sequential_generator_tests
+.PHONY : lab12_sequential_generator_tests
+
+# fast build rule for target.
+lab12_sequential_generator_tests/fast:
+	$(MAKE) -f tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build
+.PHONY : lab12_sequential_generator_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab12_all_tests
+
+# Build rule for target.
+lab12_all_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab12_all_tests
+.PHONY : lab12_all_tests
+
+# fast build rule for target.
+lab12_all_tests/fast:
+	$(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/build
+.PHONY : lab12_all_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab12_tree_inorder_tests
+
+# Build rule for target.
+lab12_tree_inorder_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab12_tree_inorder_tests
+.PHONY : lab12_tree_inorder_tests
+
+# fast build rule for target.
+lab12_tree_inorder_tests/fast:
+	$(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build
+.PHONY : lab12_tree_inorder_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab12_tree_preorder_tests
+
+# Build rule for target.
+lab12_tree_preorder_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab12_tree_preorder_tests
+.PHONY : lab12_tree_preorder_tests
+
+# fast build rule for target.
+lab12_tree_preorder_tests/fast:
+	$(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build
+.PHONY : lab12_tree_preorder_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab12_tree_postorder_tests
+
+# Build rule for target.
+lab12_tree_postorder_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab12_tree_postorder_tests
+.PHONY : lab12_tree_postorder_tests
+
+# fast build rule for target.
+lab12_tree_postorder_tests/fast:
+	$(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build
+.PHONY : lab12_tree_postorder_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab13_all_tests
+
+# Build rule for target.
+lab13_all_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab13_all_tests
+.PHONY : lab13_all_tests
+
+# fast build rule for target.
+lab13_all_tests/fast:
+	$(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/build
+.PHONY : lab13_all_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab13_roman_to_arabic_tests
+
+# Build rule for target.
+lab13_roman_to_arabic_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab13_roman_to_arabic_tests
+.PHONY : lab13_roman_to_arabic_tests
+
+# fast build rule for target.
+lab13_roman_to_arabic_tests/fast:
+	$(MAKE) -f tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build
+.PHONY : lab13_roman_to_arabic_tests/fast
+
+#=============================================================================
+# Target rules for targets named lab13_arabic_to_roman_tests
+
+# Build rule for target.
+lab13_arabic_to_roman_tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab13_arabic_to_roman_tests
+.PHONY : lab13_arabic_to_roman_tests
+
+# fast build rule for target.
+lab13_arabic_to_roman_tests/fast:
+	$(MAKE) -f tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build
+.PHONY : lab13_arabic_to_roman_tests/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1969,6 +2242,16 @@ help:
 	@echo "... liblogger"
 	@echo "... mean"
 	@echo "... libmean"
+	@echo "... treeiterators"
+	@echo "... libtreeiterators"
+	@echo "... timerecorder"
+	@echo "... libtimerecorder"
+	@echo "... teacher"
+	@echo "... libteacherhash"
+	@echo "... sequentialgenerator"
+	@echo "... libsequentialgenerator"
+	@echo "... arabicromanconverter"
+	@echo "... libarabicromanconverter"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
@@ -2056,6 +2339,17 @@ help:
 	@echo "... lab10_algo_step5_tests"
 	@echo "... lab11_all_tests"
 	@echo "... lab11_factory_method_tests"
+	@echo "... lab12_time_recorder_tests"
+	@echo "... lab12_tree_tests"
+	@echo "... lab12_teacher_hash_tests"
+	@echo "... lab12_sequential_generator_tests"
+	@echo "... lab12_all_tests"
+	@echo "... lab12_tree_inorder_tests"
+	@echo "... lab12_tree_preorder_tests"
+	@echo "... lab12_tree_postorder_tests"
+	@echo "... lab13_all_tests"
+	@echo "... lab13_roman_to_arabic_tests"
+	@echo "... lab13_arabic_to_roman_tests"
 .PHONY : help
 
 
